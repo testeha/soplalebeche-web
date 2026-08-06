@@ -1,0 +1,56 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const catColors: Record<string, string> = {
+  'Viajes': 'from-mediterraneo-600 to-mediterraneo-200',
+  'Europa': 'from-mediterraneo-800 to-mediterraneo-400',
+  'Periodismo Social': 'from-oscuro-100 to-terracota-100',
+  'Cuadernos de Viaje': 'from-verde-800 to-verde-400',
+  'Mujeres': 'from-terracota-800 to-terracota-100',
+  'África': 'from-terracota-800 to-terracota-100',
+  'Fotografía': 'from-slate-900 to-slate-700',
+};
+---
+
+<Layout title="Historias" description="Crónicas de viaje, personas y lugares">
+  <section class="mb-14">
+    <p class="text-xs font-bold uppercase tracking-wider text-mediterraneo-600 mb-3">Archivo</p>
+    <h1 class="font-voice text-4xl text-mediterraneo-800 mb-3">Historias</h1>
+    <p class="text-slate-600 max-w-xl">
+      {posts.length} crónicas de viaje, personas y lugares, publicadas desde 2015.
+    </p>
+  </section>
+
+  <section class="grid grid-cols-3 gap-5 mb-16">
+    {posts.map((post) => (
+      <a href={`/historias/${post.data.slug}`} class="bg-white border border-mediterraneo-800/10 rounded-2xl overflow-hidden">
+        {post.data.featuredImage ? (
+          <img
+            src={post.data.featuredImage}
+            alt={post.data.title}
+            class="w-full aspect-[4/3] object-cover"
+            loading="lazy"
+          />
+        ) : (
+          <div class={`aspect-[4/3] bg-gradient-to-br ${catColors[post.data.categories[0]] || 'from-mediterraneo-600 to-mediterraneo-200'}`}></div>
+        )}
+        <div class="p-5">
+          <p class="text-[10.5px] font-bold uppercase tracking-wide text-mediterraneo-600 mb-2">
+            {post.data.categories.join(' · ')}
+          </p>
+          <h2 class="font-voice text-lg mb-2 leading-snug">{post.data.title}</h2>
+          {post.data.excerpt && (
+            <p class="text-sm text-slate-600 mb-3 line-clamp-2">{post.data.excerpt}</p>
+          )}
+          <p class="text-xs text-slate-400">
+            {new Date(post.data.pubDate).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}
+          </p>
+        </div>
+      </a>
+    ))}
+  </section>
+</Layout>

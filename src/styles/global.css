@@ -1,0 +1,178 @@
+@import "tailwindcss";
+
+@theme {
+  --font-voice: "Newsreader", serif;
+  --font-sans: "Inter", sans-serif;
+
+  --color-mediterraneo-50: #E6F1FB;
+  --color-mediterraneo-100: #B5D4F4;
+  --color-mediterraneo-200: #85B7EB;
+  --color-mediterraneo-400: #378ADD;
+  --color-mediterraneo-600: #185FA5;
+  --color-mediterraneo-800: #0C447C;
+  --color-mediterraneo-900: #042C53;
+
+  --color-arena-50: #FAEEDA;
+  --color-arena-100: #FAC775;
+  --color-arena-400: #BA7517;
+
+  --color-crema-50: #FDFBF7;
+
+  /* colores adicionales usados en el bento de categorías del home */
+  --color-verde-400: #97C459;
+  --color-verde-800: #3B6D11;
+  --color-terracota-100: #F0997B;
+  --color-terracota-800: #712B13;
+  --color-oscuro-100: #854F0B;
+}
+
+/* Grid de galería: el Markdown envuelve las imágenes en un <p>,
+   así que el flex se aplica ahí dentro, no en el div exterior */
+.gallery-grid {
+  margin: 1.5rem 0;
+}
+
+.gallery-grid p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0;
+}
+
+.gallery-grid img {
+  display: block;
+  width: calc(33.333% - 0.5rem);
+  border-radius: 12px;
+  object-fit: cover;
+  aspect-ratio: 1;
+  cursor: zoom-in;
+  transition: opacity 0.15s ease;
+}
+
+.gallery-grid img:hover {
+  opacity: 0.85;
+}
+
+/* Lightbox: overlay translúcido con desenfoque, se intuye el fondo */
+#lightbox-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(4, 44, 83, 0.72);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#lightbox-overlay.active {
+  display: flex;
+}
+
+#lightbox-overlay img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  cursor: zoom-out;
+}
+
+#lightbox-overlay .lightbox-close {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  color: #fff;
+  font-size: 32px;
+  font-family: sans-serif;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#lightbox-overlay .lightbox-counter {
+  position: absolute;
+  top: 28px;
+  left: 32px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  opacity: 0.85;
+}
+
+.lightbox-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(4px);
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease;
+  z-index: 2;
+}
+
+.lightbox-arrow:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.lightbox-arrow.prev {
+  left: 20px;
+}
+
+.lightbox-arrow.next {
+  right: 20px;
+}
+
+@media (max-width: 640px) {
+  .lightbox-arrow {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Enlaces dentro del cuerpo de texto: distinguir internos de externos.
+   Internos (empiezan por /) -> azul mediterráneo, subrayado sólido.
+   Externos (empiezan por http) -> icono de flecha diagonal detrás del texto. */
+.article-body a[href^="/"] {
+  color: var(--color-mediterraneo-600);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--color-mediterraneo-200);
+  text-underline-offset: 2px;
+  transition: text-decoration-color 0.15s ease;
+}
+
+.article-body a[href^="/"]:hover {
+  text-decoration-color: transparent;
+}
+
+.article-body a[href^="http"] {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: var(--color-arena-100);
+  text-underline-offset: 2px;
+  transition: text-decoration-color 0.15s ease;
+}
+
+.article-body a[href^="http"]:hover {
+  text-decoration-color: transparent;
+}
+
+.article-body a[href^="http"]::after {
+  content: "↗";
+  display: inline-block;
+  font-size: 0.75em;
+  margin-left: 0.15em;
+  transform: translateY(-0.05em);
+}

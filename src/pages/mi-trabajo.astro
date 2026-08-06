@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const trabajos = [
+  { medio: 'REVISTA LATE', desc: 'Revista latinoamericana centrada en la crónica y el periodismo narrativo. Textos y fotos.' },
+  { medio: 'The Citizen', desc: 'Medio online, colaboración en la sección cultural con un reportaje fotográfico sobre el músico Antonio Lizana.' },
+  { medio: 'Planeta Futuro (EL PAÍS)', desc: 'Colaboración con entrevistas y reportaje sobre la realidad social en el nordeste de Brasil. "De las calles de Recife a los fogones" recibió el 2º premio de periodismo de Manos Unidas (2017).' },
+  { medio: 'Agora RSC', desc: 'Medio centrado en noticias sobre Responsabilidad Social, ODS, consumo responsable e innovación social.' },
+  { medio: 'DIVEM', desc: 'Iniciativa desarrollada por Accem centrada en la diversidad cultural y las empresas.' },
+  { medio: 'El Sol de Lorca', desc: 'Colaboraciones con medios locales.' },
+];
+---
+
+<Layout title="Mi Trabajo">
+  <article class="max-w-2xl mx-auto">
+    <span class="inline-block text-[11px] font-bold uppercase tracking-wide text-arena-400 bg-arena-50 px-3.5 py-1.5 rounded-full mb-5">
+      Borrador — no publicado
+    </span>
+    <h1 class="font-voice text-4xl text-mediterraneo-800 mb-8">Mi Trabajo</h1>
+
+    <p class="font-voice text-lg leading-relaxed text-mediterraneo-800 italic border-l-2 border-mediterraneo-400 pl-6 mb-10">
+      Soplalebeche es la cara amable de mis viajes y de mis inquietudes. Aquí puedes encontrar parte
+      de mi trabajo como periodista.
+    </p>
+
+    <ul class="divide-y divide-mediterraneo-800/10">
+      {trabajos.map((t) => (
+        <li class="py-4">
+          <span class="font-semibold text-mediterraneo-600">{t.medio}</span>
+          <span class="text-slate-700">. {t.desc}</span>
+        </li>
+      ))}
+    </ul>
+  </article>
+</Layout>

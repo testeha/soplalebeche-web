@@ -1,17 +1,117 @@
 ---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
 
+function slugify(str: string) {
+  return str
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/\s+/g, '-');
+}
+
+const allPosts = await getCollection('posts', ({ data }) => !data.draft);
+const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const latest = posts[0];
+const recent = posts.slice(0, 3);
+
+const categoryCounts: Record<string, number> = {};
+const categoryImages: Record<string, string> = {};
+posts.forEach((post) => {
+  post.data.categories.forEach((cat) => {
+    categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
+    if (!categoryImages[cat] && post.data.featuredImage) {
+      categoryImages[cat] = post.data.featuredImage;
+    }
+  });
+});
+const categories = Object.entries(categoryCounts).sort((a, b) => b[1] - a[1]);
+
+const catColors: Record<string, string> = {
+  'Viajes': 'from-mediterraneo-600 to-mediterraneo-200',
+  'Europa': 'from-mediterraneo-800 to-mediterraneo-400',
+  'Periodismo Social': 'from-oscuro-100 to-terracota-100',
+  'Cuadernos de Viaje': 'from-verde-800 to-verde-400',
+  'Mujeres': 'from-terracota-800 to-terracota-100',
+  'África': 'from-terracota-800 to-terracota-100',
+  'Fotografía': 'from-slate-900 to-slate-700',
+};
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout title="Inicio">
+  <div class="relative rounded-3xl overflow-hidden mb-14" style="aspect-ratio: 21/9;">
+    {latest.data.featuredImage ? (
+      <img src={latest.data.featuredImage} alt={latest.data.title} class="absolute inset-0 w-full h-full object-cover" />
+    ) : (
+      <div class="absolute inset-0 bg-gradient-to-br from-mediterraneo-900 via-mediterraneo-600 to-mediterraneo-200"></div>
+    )}
+    <div class="absolute inset-0 bg-gradient-to-t from-mediterraneo-900/85 via-mediterraneo-900/15 to-transparent"></div>
+    <div class="absolute left-0 right-0 bottom-0 p-11 max-w-xl">
+      <p class="text-xs font-bold uppercase tracking-wider text-arena-100 mb-3">
+        Última crónica · {latest.data.categories[0]}
+      </p>
+      <h1 class="font-voice text-4xl text-white mb-3 leading-tight">
+        <a href={`/historias/${latest.data.slug}`}>{latest.data.title}</a>
+      </h1>
+      <p class="text-mediterraneo-100 text-sm">
+        {latest.data.author} · {new Date(latest.data.pubDate).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}
+      </p>
+    </div>
+  </div>
+
+  <section class="mb-14">
+    <h2 class="font-voice text-3xl text-mediterraneo-800 mb-2">Explora por tema</h2>
+    <p class="text-slate-600 text-sm mb-6">Años de crónicas organizadas por lo que de verdad importa: personas, lugares y causas.</p>
+    <div class="grid grid-cols-4 gap-4" style="grid-auto-rows: 150px;">
+      {categories.map(([cat, count], i) => (
+        <a
+          href={`/historias/categoria/${slugify(cat)}`}
+          class={`relative rounded-2xl overflow-hidden flex items-end ${i === 0 ? 'col-span-2 row-span-2' : 'col-span-1'}`}
+        >
+          {categoryImages[cat] ? (
+            <img
+              src={categoryImages[cat]}
+              alt={cat}
+              class="absolute inset-0 w-full h-full object-cover"
+              loading="lazy"
+            />
+          ) : (
+            <div class={`absolute inset-0 bg-gradient-to-br ${catColors[cat] || 'from-mediterraneo-600 to-mediterraneo-200'}`}></div>
+          )}
+          <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+          <span class="relative z-10 p-4 font-voice text-white text-lg">{cat}</span>
+          <span class="absolute top-3.5 right-3.5 z-10 text-[10px] font-bold text-white bg-white/20 px-2.5 py-1 rounded-full backdrop-blur-sm">{count}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="mb-14">
+    <div class="flex justify-between items-end mb-6">
+      <div>
+        <h2 class="font-voice text-3xl text-mediterraneo-800 mb-2">Últimas crónicas</h2>
+        <p class="text-slate-600 text-sm">Lo más reciente del archivo</p>
+      </div>
+      <a href="/historias" class="text-sm font-semibold text-mediterraneo-600">Ver todas →</a>
+    </div>
+    <div class="grid grid-cols-3 gap-5">
+      {recent.map((post) => (
+        <a href={`/historias/${post.data.slug}`} class="bg-white border border-mediterraneo-800/10 rounded-2xl overflow-hidden">
+          {post.data.featuredImage ? (
+            <img src={post.data.featuredImage} alt={post.data.title} class="w-full aspect-[4/3] object-cover" loading="lazy" />
+          ) : (
+            <div class={`aspect-[4/3] bg-gradient-to-br ${catColors[post.data.categories[0]] || 'from-mediterraneo-600 to-mediterraneo-200'}`}></div>
+          )}
+          <div class="p-5">
+            <p class="text-[10.5px] font-bold uppercase tracking-wide text-mediterraneo-600 mb-2">{post.data.categories[0]}</p>
+            <h3 class="font-voice text-lg mb-1.5 leading-snug">{post.data.title}</h3>
+            <p class="text-xs text-slate-400">
+              {new Date(post.data.pubDate).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}
+            </p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+</Layout>

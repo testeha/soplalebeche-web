@@ -1,0 +1,21 @@
+---
+interface Props {
+  variant?: 'light' | 'dark';
+  height?: number;
+}
+const { variant = 'light', height = 34 } = Astro.props;
+
+const isDark = variant === 'dark';
+const strokeColors = isDark
+  ? ['#85B7EB', '#B5D4F4', '#FAC775']
+  : ['#185FA5', '#378ADD', '#FAC775'];
+const textColor = isDark ? '#FFFFFF' : '#0C447C';
+const italicColor = isDark ? '#B5D4F4' : '#185FA5';
+---
+
+<svg width={height * 5.8} height={height} viewBox="0 0 340 60" xmlns="http://www.w3.org/2000/svg">
+  <path d="M4 20 Q22 8 40 20 T74 20" stroke={strokeColors[0]} stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <path d="M4 32 Q18 24 32 32 T58 32" stroke={strokeColors[1]} stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <path d="M4 44 Q14 39 24 44" stroke={strokeColors[2]} stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <text x="90" y="40" font-family="Newsreader, Georgia, serif" font-size="32" fill={textColor}>Sopla<tspan font-style="italic" fill={italicColor}>lebeche</tspan></text>
+</svg>

@@ -1,0 +1,41 @@
+---
+import { destinos } from '../data/destinos';
+---
+
+<div
+  id="mapa-soplalebeche"
+  data-destinos={JSON.stringify(destinos)}
+  style="width: 100%; height: 480px; border-radius: 24px;"
+></div>
+
+<script>
+  import L from 'leaflet';
+  import 'leaflet/dist/leaflet.css';
+
+  const container = document.getElementById('mapa-soplalebeche');
+  if (container) {
+    const destinos = JSON.parse(container.dataset.destinos || '[]');
+
+    const map = L.map(container, { scrollWheelZoom: false }).setView([15, 10], 2);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap',
+      maxZoom: 18,
+    }).addTo(map);
+
+    const icon = L.divIcon({
+      className: 'mapa-pin',
+      html: `<div style="width:16px;height:16px;background:#185FA5;border:2.5px solid white;border-radius:50%;box-shadow:0 1px 4px rgba(0,0,0,.3);"></div>`,
+      iconSize: [16, 16],
+      iconAnchor: [8, 8],
+    });
+
+    destinos.forEach((d: { nombre: string; lat: number; lng: number; slug?: string }) => {
+      const marker = L.marker([d.lat, d.lng], { icon }).addTo(map);
+      const popupContent = d.slug
+        ? `<a href="/historias/${d.slug}" style="font-family: Newsreader, serif; color: #0C447C; font-size: 14px;">${d.nombre}</a>`
+        : `<span style="font-family: Newsreader, serif; color: #0C447C; font-size: 14px;">${d.nombre}</span>`;
+      marker.bindPopup(popupContent);
+    });
+  }
+</script>

@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Contacto">
+  <article class="max-w-2xl mx-auto">
+    <h1 class="font-voice text-4xl text-mediterraneo-800 mb-8">Contacto</h1>
+    <p class="font-voice text-lg leading-relaxed text-slate-800 mb-10">
+      Soplalebeche. Un blog de viajes, periodismo, fotografía, compromiso y responsabilidad social.
+      Buenas historias con nombre de viento del Sur.
+    </p>
+
+    <form class="space-y-4">
+      <input type="text" placeholder="Nombre" class="w-full h-12 px-4 rounded-2xl border border-mediterraneo-800/10 text-sm" />
+      <input type="email" placeholder="Email" class="w-full h-12 px-4 rounded-2xl border border-mediterraneo-800/10 text-sm" />
+      <textarea placeholder="Mensaje" rows="5" class="w-full px-4 py-3 rounded-2xl border border-mediterraneo-800/10 text-sm"></textarea>
+      <button type="submit" class="bg-mediterraneo-600 text-white px-7 py-3.5 rounded-full text-sm font-semibold">
+        Enviar mensaje
+      </button>
+    </form>
+
+    <p class="text-xs text-slate-400 mt-6">
+      Nota técnica: el formulario original usa Contact Form 7 (plugin de WordPress). En este sitio
+      hay que decidir con qué servicio lo sustituimos, ya que no hay backend de WordPress.
+    </p>
+  </article>
+</Layout>

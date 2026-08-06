@@ -1,0 +1,144 @@
+---
+import '../styles/global.css';
+import Logo from '../components/Logo.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Viajes y buenas historias con nombre de viento del sur" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="description" content={description} />
+    <title>{title} · Soplalebeche</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-crema-50 text-slate-800">
+    <div class="max-w-6xl mx-auto px-6">
+      <header class="flex justify-between items-center py-6">
+        <a href="/"><Logo /></a>
+        <nav class="flex items-center gap-8 text-sm font-medium">
+          <a href="/" class="hover:text-mediterraneo-600">Inicio</a>
+          <a href="/historias" class="hover:text-mediterraneo-600">Historias</a>
+          <a href="/mapamundi" class="hover:text-mediterraneo-600">Mapamundi</a>
+          <a href="/sobre-mi" class="hover:text-mediterraneo-600">Sobre mí</a>
+          <a href="/contacto" class="hover:text-mediterraneo-600">Contacto</a>
+        </nav>
+      </header>
+
+      <main>
+        <slot />
+      </main>
+
+      <footer class="bg-mediterraneo-800 rounded-3xl my-16 p-11">
+        <div class="flex justify-between items-start gap-8 flex-wrap mb-6">
+          <div>
+            <Logo variant="dark" height={30} />
+            <p class="text-mediterraneo-100 text-sm max-w-xs mt-3 leading-relaxed">
+              Viajes y buenas historias con nombre de viento del sur. Un archivo personal de Rocío Periago.
+            </p>
+          </div>
+          <div class="flex flex-col gap-2 text-sm">
+            <a href="/" class="text-mediterraneo-50 hover:text-white">Inicio</a>
+            <a href="/historias" class="text-mediterraneo-50 hover:text-white">Historias</a>
+            <a href="/mapamundi" class="text-mediterraneo-50 hover:text-white">Mapamundi</a>
+            <a href="/sobre-mi" class="text-mediterraneo-50 hover:text-white">Sobre mí</a>
+            <a href="/contacto" class="text-mediterraneo-50 hover:text-white">Contacto</a>
+          </div>
+        </div>
+        <div class="border-t border-white/15 pt-4 text-xs text-mediterraneo-200">
+          © 2026 Soplalebeche — Rocío Periago
+        </div>
+      </footer>
+    </div>
+
+    <div id="lightbox-overlay">
+      <span class="lightbox-counter" id="lightbox-counter"></span>
+      <span class="lightbox-close">&times;</span>
+      <button class="lightbox-arrow prev" id="lightbox-prev" aria-label="Anterior">&#8249;</button>
+      <img id="lightbox-image" src="" alt="" />
+      <button class="lightbox-arrow next" id="lightbox-next" aria-label="Siguiente">&#8250;</button>
+    </div>
+
+    <script>
+      const overlay = document.getElementById('lightbox-overlay');
+      const overlayImg = document.getElementById('lightbox-image') as HTMLImageElement;
+      const counter = document.getElementById('lightbox-counter');
+      const btnPrev = document.getElementById('lightbox-prev');
+      const btnNext = document.getElementById('lightbox-next');
+
+      let currentGallery: HTMLImageElement[] = [];
+      let currentIndex = 0;
+
+      function showImage(index: number) {
+        if (currentGallery.length === 0) return;
+        currentIndex = (index + currentGallery.length) % currentGallery.length;
+        const img = currentGallery[currentIndex];
+        overlayImg.src = img.src;
+        overlayImg.alt = img.alt;
+        if (counter) {
+          counter.textContent = currentGallery.length > 1
+            ? `${currentIndex + 1} / ${currentGallery.length}`
+            : '';
+        }
+        const showArrows = currentGallery.length > 1;
+        if (btnPrev) btnPrev.style.display = showArrows ? 'flex' : 'none';
+        if (btnNext) btnNext.style.display = showArrows ? 'flex' : 'none';
+      }
+
+      function openLightbox(clickedImg: HTMLImageElement, gallery: HTMLImageElement[]) {
+        currentGallery = gallery;
+        const index = gallery.indexOf(clickedImg);
+        showImage(index === -1 ? 0 : index);
+        overlay?.classList.add('active');
+      }
+
+      function closeLightbox() {
+        overlay?.classList.remove('active');
+      }
+
+      document.addEventListener('click', (e) => {
+        const target = e.target as HTMLElement;
+
+        const galleryContainer = target.closest('.gallery-grid');
+        if (galleryContainer && target.tagName === 'IMG') {
+          const gallery = Array.from(galleryContainer.querySelectorAll('img')) as HTMLImageElement[];
+          openLightbox(target as HTMLImageElement, gallery);
+          return;
+        }
+
+        if (target.id === 'lightbox-next') {
+          showImage(currentIndex + 1);
+          return;
+        }
+        if (target.id === 'lightbox-prev') {
+          showImage(currentIndex - 1);
+          return;
+        }
+        if (target.id === 'lightbox-overlay' || target.classList.contains('lightbox-close') || target.id === 'lightbox-image') {
+          closeLightbox();
+        }
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (!overlay?.classList.contains('active')) return;
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowRight') showImage(currentIndex + 1);
+        if (e.key === 'ArrowLeft') showImage(currentIndex - 1);
+      });
+    </script>
+  </body>
+</html>

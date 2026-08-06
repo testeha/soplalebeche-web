@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection, render } from 'astro:content';
+import MapaDestinos from '../components/MapaDestinos.astro';
+
+const pages = await getCollection('pages');
+const page = pages.find((p) => p.data.slug === 'viajes-mapamundi-destinos');
+const { Content } = await render(page);
+---
+
+<Layout title="Mapamundi">
+  <article class="max-w-2xl mx-auto">
+    <h1 class="font-voice text-4xl text-mediterraneo-800 mb-8">Mapamundi</h1>
+    <div class="mb-8">
+      <MapaDestinos />
+    </div>
+    <div class="article-body font-voice text-lg leading-relaxed text-slate-800 prose-blockquote:border-l-2 prose-blockquote:border-mediterraneo-400 prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:text-mediterraneo-800 space-y-6">
+      <Content />
+    </div>
+  </article>
+</Layout>
