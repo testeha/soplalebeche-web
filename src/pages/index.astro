@@ -14,7 +14,7 @@ const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const latest = posts[0];
-const recent = posts.slice(0, 3);
+const recent = posts.slice(1, 4);
 
 const categoryCounts: Record<string, number> = {};
 const categoryImages: Record<string, string> = {};
@@ -39,55 +39,53 @@ const catColors: Record<string, string> = {
 };
 ---
 
-<Layout title="Inicio">
-  <div class="relative rounded-3xl overflow-hidden mb-14" style="aspect-ratio: 21/9;">
+<Layout title="Inicio" transparentHeader={true}>
+  <div class="relative left-1/2 -translate-x-1/2 w-screen overflow-hidden mb-14" style="height: 100vh;">
     {latest.data.featuredImage ? (
       <img src={latest.data.featuredImage} alt={latest.data.title} class="absolute inset-0 w-full h-full object-cover" />
     ) : (
       <div class="absolute inset-0 bg-gradient-to-br from-mediterraneo-900 via-mediterraneo-600 to-mediterraneo-200"></div>
     )}
-    <div class="absolute inset-0 bg-gradient-to-t from-mediterraneo-900/85 via-mediterraneo-900/15 to-transparent"></div>
-    <div class="absolute left-0 right-0 bottom-0 p-11 max-w-xl">
-      <p class="text-xs font-bold uppercase tracking-wider text-arena-100 mb-3">
-        Última crónica · {latest.data.categories[0]}
-      </p>
-      <h1 class="font-voice text-4xl text-white mb-3 leading-tight">
-        <a href={`/historias/${latest.data.slug}`}>{latest.data.title}</a>
-      </h1>
-      <p class="text-mediterraneo-100 text-sm">
-        {latest.data.author} · {new Date(latest.data.pubDate).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}
-      </p>
+    <div class="absolute inset-0 bg-gradient-to-t from-mediterraneo-900/90 via-mediterraneo-900/20 to-mediterraneo-900/45"></div>
+    <div class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-black/45 to-transparent"></div>
+
+    <div class="absolute inset-0 flex items-end">
+      <div class="max-w-6xl mx-auto px-6 w-full pb-14">
+        <div class="max-w-xl">
+          <p class="text-xs font-bold uppercase tracking-wider text-arena-100 mb-3">
+            Última crónica · {latest.data.categories[0]}
+          </p>
+          <h1 class="font-voice text-4xl text-white mb-3 leading-tight">
+            {latest.data.title}
+          </h1>
+          {latest.data.excerpt && (
+            <p class="text-mediterraneo-100 text-sm mb-5 leading-relaxed">{latest.data.excerpt}</p>
+          )}
+          <p class="text-mediterraneo-100 text-sm mb-6">
+            {latest.data.author} · {new Date(latest.data.pubDate).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}
+          </p>
+          <a
+            href={`/historias/${latest.data.slug}`}
+            class="inline-block bg-white text-mediterraneo-800 text-sm font-semibold px-6 py-3 rounded-full hover:bg-arena-50"
+          >
+            Leer crónica →
+          </a>
+        </div>
+      </div>
     </div>
+
+    <a
+      href="#ultimas-cronicas"
+      class="absolute bottom-8 left-1/2 -translate-x-1/2 w-11 h-11 rounded-full border border-white/40 backdrop-blur-sm flex items-center justify-center text-white hover:bg-white/10 transition-colors"
+      aria-label="Ir al contenido"
+    >
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 5v14M19 12l-7 7-7-7" />
+      </svg>
+    </a>
   </div>
 
-  <section class="mb-14">
-    <h2 class="font-voice text-3xl text-mediterraneo-800 mb-2">Explora por tema</h2>
-    <p class="text-slate-600 text-sm mb-6">Años de crónicas organizadas por lo que de verdad importa: personas, lugares y causas.</p>
-    <div class="grid grid-cols-4 gap-4" style="grid-auto-rows: 150px;">
-      {categories.map(([cat, count], i) => (
-        <a
-          href={`/historias/categoria/${slugify(cat)}`}
-          class={`relative rounded-2xl overflow-hidden flex items-end ${i === 0 ? 'col-span-2 row-span-2' : 'col-span-1'}`}
-        >
-          {categoryImages[cat] ? (
-            <img
-              src={categoryImages[cat]}
-              alt={cat}
-              class="absolute inset-0 w-full h-full object-cover"
-              loading="lazy"
-            />
-          ) : (
-            <div class={`absolute inset-0 bg-gradient-to-br ${catColors[cat] || 'from-mediterraneo-600 to-mediterraneo-200'}`}></div>
-          )}
-          <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
-          <span class="relative z-10 p-4 font-voice text-white text-lg">{cat}</span>
-          <span class="absolute top-3.5 right-3.5 z-10 text-[10px] font-bold text-white bg-white/20 px-2.5 py-1 rounded-full backdrop-blur-sm">{count}</span>
-        </a>
-      ))}
-    </div>
-  </section>
-
-  <section class="mb-14">
+  <section id="ultimas-cronicas" class="mb-14">
     <div class="flex justify-between items-end mb-6">
       <div>
         <h2 class="font-voice text-3xl text-mediterraneo-800 mb-2">Últimas crónicas</h2>
@@ -112,6 +110,42 @@ const catColors: Record<string, string> = {
           </div>
         </a>
       ))}
+    </div>
+  </section>
+
+  <section class="mb-14">
+    <h2 class="font-voice text-3xl text-mediterraneo-800 mb-2">Explora por tema</h2>
+    <p class="text-slate-600 text-sm mb-6">Años de crónicas organizadas por lo que de verdad importa: personas, lugares y causas.</p>
+    <div class="grid grid-cols-4 grid-flow-dense gap-4" style="grid-auto-rows: 150px;">
+      {categories.map(([cat, count], i) => {
+        const isFeatured = i === 0;
+        const isWide = i === 1;
+        const spanClass = isFeatured
+          ? 'col-span-2 row-span-2'
+          : isWide
+          ? 'col-span-2 row-span-1'
+          : 'col-span-1';
+        return (
+          <a
+            href={`/historias/categoria/${slugify(cat)}`}
+            class={`relative rounded-2xl overflow-hidden flex items-end ${spanClass}`}
+          >
+            {categoryImages[cat] ? (
+              <img
+                src={categoryImages[cat]}
+                alt={cat}
+                class="absolute inset-0 w-full h-full object-cover"
+                loading="lazy"
+              />
+            ) : (
+              <div class={`absolute inset-0 bg-gradient-to-br ${catColors[cat] || 'from-mediterraneo-600 to-mediterraneo-200'}`}></div>
+            )}
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+            <span class="relative z-10 p-4 font-voice text-white text-lg">{cat}</span>
+            <span class="absolute top-3.5 right-3.5 z-10 text-[10px] font-bold text-white bg-white/20 px-2.5 py-1 rounded-full backdrop-blur-sm">{count}</span>
+          </a>
+        );
+      })}
     </div>
   </section>
 </Layout>
