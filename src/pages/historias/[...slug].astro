@@ -31,7 +31,6 @@ const catColors: Record<string, string> = {
   'Fotografía': 'from-slate-900 to-slate-700',
 };
 
-// artículos relacionados: mismo categoría primero, completando con los más recientes si faltan
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const sameCategory = allPosts
   .filter((p) => p.data.slug !== post.data.slug)
@@ -60,7 +59,14 @@ const relatedPosts = related.slice(0, 2);
     )}
 
     <p class="text-xs font-bold uppercase tracking-wider text-mediterraneo-600 mb-3">
-      {post.data.categories.join(' · ')}
+      {post.data.categories.map((cat: string, i: number) => (
+        <>
+          {i > 0 && <span> · </span>}
+          <a href={`/historias/categoria/${slugify(cat)}`} class="hover:text-mediterraneo-800 hover:underline">
+            {cat}
+          </a>
+        </>
+      ))}
     </p>
     <h1 class="font-voice text-4xl text-mediterraneo-800 mb-3 leading-tight">
       {post.data.title}
