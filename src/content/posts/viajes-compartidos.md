@@ -6,6 +6,8 @@ author: Rocío Periago
 categories: []
 draft: true
 featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20151001_portada.jpg
+excerpt: Compartiendo confidencias sobre rincones de ciudades, de conciertos o planes
+  de verano con las vacaciones recién estrenadas, dormitando con ese sol que…
 ---
 
 ### **Este artículo surgió a raíz de todas las historias escuchadas después de kilómetros compartidos en diferentes coches, con personas de muy variados perfiles, recorriendo la península ibérica de punta a punta.**

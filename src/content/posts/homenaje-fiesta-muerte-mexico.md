@@ -17,6 +17,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20151103_
 seoTitle: México. Tradiciones. Homenaje y fiesta a los que se fueron
 seoDescription: En Mexico la muerte no asusta, es más una fiesta compartida por todos.
   Soplalebeche, un blog de viajes y buenas historias con nombre de viento del sur.
+excerpt: El Día de Muertos en México es una de las festividades principales en el
+  país nortearmericano. Llama la atención tanto por la celebración, colorida y…
 ---
 
 ### **En México la muerte no asusta. Aquí, durante dos días conviven la vida y la muerte en una celebración, que con diferentes variantes según regiones debido al sincretismo de diferentes culturas y tradiciones, se celebra en todo el país.**

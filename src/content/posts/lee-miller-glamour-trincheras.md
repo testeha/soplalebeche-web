@@ -18,6 +18,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/02/20160219_
 seoTitle: Del glamour a las trincheras - Rocío Periago
 seoDescription: Soplalebeche, un blog de viajes y buenas historias con nombre de viento
   del sur
+excerpt: 'De la 2º Guerra Mundial se ha escrito, y mucho. Pero merece la pena destacar
+  una perspectiva diferente de la historia: la realidad de muchas mujeres que…'
 ---
 
 ### **Una exposición en Londres hace un recorrido por la obra como fotógrafa de guerra de Lee Miller durante la segunda Guerra Mundial**

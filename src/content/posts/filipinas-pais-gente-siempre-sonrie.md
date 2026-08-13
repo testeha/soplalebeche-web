@@ -15,6 +15,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/01/Tagatay-L
 seoTitle: Filipinas, donde curiosamente la gente siempre sonríe
 seoDescription: Aquí la sonrisa no resulta forzada, es más otra forma de relacionarse
   a la que no estoy acostumbrada, otra manera de contactar que llama la atención.
+excerpt: Sin querer caer en tópicos y estereotipos varios, me he dado cuenta de que
+  en la mayoría de fotos que tengo de Filipinas, sale la gente sonriendo. Risas…
 ---
 
 Sin querer caer en tópicos y estereotipos varios, me he dado cuenta de que en la mayoría de fotos que tengo de Filipinas, sale la gente sonriendo. Risas de mayores y niños, aquí la sonrisa surge con naturalidad, no resulta forzada, es más otra forma de relacionarse a la que no estoy acostumbrada, otra manera de contactar con las personas que llama la atención por lo poco usual que a veces es.

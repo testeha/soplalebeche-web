@@ -13,6 +13,8 @@ tags:
 seoTitle: Cristina López Soriano. Atreverse a salir de la zona de confort
 seoDescription: No es fácil saber qué se quiere ser en la vida. Sobre todo cuando
   terminas de estudiar. ¿Qué se supone que tienes que hacer en ese momento? ¿Trabajar?
+excerpt: No es fácil saber qué se quiere ser en la vida. Sobre todo cuando terminas
+  de estudiar. ¿Qué se supone que tienes que hacer en ese momento? ¿Trabajar? No…
 ---
 
 > ### Al irme, sí que es cierto que echo de menos sobre todo detalles, sensaciones que te daba el día a día. Pero sigo pensando que aunque lo eche de menos, si vuelvo a vivir en Lorca durante una época, necesitaría volver a salir.

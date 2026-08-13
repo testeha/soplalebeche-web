@@ -13,6 +13,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2021/07/Letur_6.j
 seoTitle: Apuntes de viaje por la Sierra del Segura. Letur, el pueblo de agua.
 seoDescription: 'Letur es el pueblo del agua: agua que corre, que salta, que bulle
   con su murmullo incesante. Por todos lados agua, que fluye, viva y sonora'
+excerpt: Agua. Agua que corre, que salta, que bulle con su murmullo incesante. Cantos
+  de pájaros. El cacareo matutino de las gallinas de una casa cercana y el…
 ---
 
 Agua. Agua que corre, que salta, que bulle con su murmullo incesante. Cantos de pájaros. El cacareo matutino de las gallinas de una casa cercana y el rumor del agua.

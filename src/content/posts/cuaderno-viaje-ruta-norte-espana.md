@@ -16,6 +16,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/12/cuaderno-
 seoTitle: Cuaderno de Viaje. Ruta en coche por el norte de España
 seoDescription: Cuaderno de viaje de una ruta en coche por el norte de España (Castilla
   y León, Cantabria, Pais Vasco) realizada en el verano de 2018.
+excerpt: Cuaderno de viaje de una ruta en coche por el norte de España (Castilla y
+  León, Cantabria, Pais Vasco) realizada en el verano de 2018. La técnica…
 ---
 
 Cuaderno de viaje de una ruta en coche por el norte de España (Castilla y León, Cantabria, Pais Vasco) realizada en el verano de 2018. La técnica utilizada es acuarela, collage, fotografías y tinta.

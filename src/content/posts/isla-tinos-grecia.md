@@ -19,6 +19,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20120902_
 seoTitle: Viaje a las Cicladas. Viaje a la Isla de Tinos. Grecia
 seoDescription: Las Cícladas son un grupo de islas en Grecia cercanas a la costa turca.
   La isla de Tinos es la principal, pero a la misma vez la más tranquila de ellas
+excerpt: Esta vez quería conocer la Grecia de las islas, la Grecia blanca y azul de
+  la bandera, la de las tardes de sol y cigarras y mar azul y transparente. La…
 ---
 
 **Grecia es y será la cuna de la civilización occidental, el lugar donde vernos reflejados histórica y políticamente. Y últimamente, un país afectado por una mala situación coyuntural, que no por ello hace que sea menos hermoso y atrayente.**

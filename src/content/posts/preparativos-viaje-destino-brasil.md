@@ -35,6 +35,8 @@ comments:
   date: '2016-08-31'
   content: Muito obrigada Jacqueline, não sabia! Vou fazer mais pesquisas sobre o
     inhame! :)
+excerpt: ¿Cómo preparar un viaje de varias semanas a un destino lejano y exótico como
+  Brasil? ¿Qué llevarse si lo que se pretende es patearse todo lo posible la…
 ---
 
 ¿Cómo preparar un viaje de varias semanas a un destino lejano y exótico como Brasil? ¿Qué llevarse si lo que se pretende es patearse todo lo posible la zona, viajando en transporte público: mochila o maleta? ¿Planificarlo todo o improvisar? ¿Cómo prevenir enfermedades tropicales –entre ellas, el Zika-?

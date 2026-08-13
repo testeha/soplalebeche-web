@@ -14,6 +14,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2020/04/Sardinia-
 seoTitle: Hablar de viajes cuando no se puede salir ni viajar
 seoDescription: Hablar de viajes. Una reflexión para cuando pase todo esto. Porque
   aunque ahora estemos encerrados, en algún momento volveremos a viajar.
+excerpt: Estos días confinados en casa a causa del coronavirus, hablar de viajes y
+  viajar con la situación que estamos viviendo puede sonar ridículo e incluso…
 ---
 
 Estos días [confinados en casa a causa del coronavirus](/historias/cuarentena-madrid), hablar de viajes y viajar con la situación que estamos viviendo puede sonar ridículo e incluso frívolo, pero no quería dejar de plantear aquí una reflexión que me resulta interesante durante este tiempo.

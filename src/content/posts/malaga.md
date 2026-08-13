@@ -16,6 +16,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/12/20161227_
 seoTitle: Málaga. Cuadernos de una escapada al sur de España - Rocío Periago
 seoDescription: Cuaderno de viaje de una breve visita a Málaga (Andalucía, España),
   con un cuaderno y un montón de lápices de colores
+excerpt: Vivir cerca del mar es uno de esos lujos que no se valora hasta que se deja
+  de tenerlo cerca. Después de semanas en Madrid, donde el mar sólo se imagina…
 ---
 
 Vivir cerca del mar es uno de esos lujos que no se valora hasta que se deja de tenerlo cerca. Después de semanas en Madrid, donde el mar sólo se imagina por las fotografías del [último viaje](/historias/tenho-saudade-brasil), poder escaparse a ver el azul del agua, a notar el olor de salitre y si se tiene suerte, a disfrutar de unos rayos de sol es uno de los mayores placeres de la vida.

@@ -18,6 +18,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/05/20170505_
 seoTitle: Demetrius Demetrio, un hombre sin miedo - Rocío Periago
 seoDescription: Educador, gastrónomo social... Demetrius es un hombre polifacético
   y curioso, que coordina y dirige la Comunidade Pequenos Profetas en Recife (Brasil)
+excerpt: Tiene la cara recompuesta con cirugía plástica, pero la sonrisa no se le
+  borra del rostro. Demetrius Demetrio tiene casi 50 años  y lleva los últimos 30…
 ---
 
 Tiene la cara recompuesta con cirugía plástica, pero la sonrisa no se le borra del rostro. [Demetrius Demetrio](https://www.youtube.com/watch?v=HrwlAIxTFrs) tiene casi 50 años  y lleva los últimos 30 coordinando la [*Comunidade dos Pequenos Profetas*](https://www.youtube.com/watch?v=XqQluauuO0o) en Recife (Brasil).  Su historia es muy peculiar, porque aunque nació en una familia que disponía de recursos, tuvo la curiosidad e inquietud por saber cómo se sentían las personas que no tenían un lugar donde vivir, y eso le llevó a desprenderse de todo y voluntariamente irse a vivir por un tiempo con ellos a las calles de Recife. “Quería conocer cómo vivía allí la gente. Fui buscando entender la libertad que la calle ofrece”, se puede leer en el [libro en que narra su experiencia](http://www.casadellibro.com/libro-ra-re-ri-ro-rua-vivir-en-la-calle-no-es-ninguna-broma/9788478843381/1118860) y aprendizaje de vida en las calles de la ciudad nordestina.

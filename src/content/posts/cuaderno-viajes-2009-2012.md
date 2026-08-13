@@ -21,6 +21,8 @@ comments:
 - author: Kaiana
   date: '2018-12-17'
   content: Me encanta el vídeo!!!!!Por favor, hagas más vídeos y publica en Intagram!!!
+excerpt: Cuaderno de viaje realizado durante los años 2009 a 2012 por Bélgica, Holanda,
+  Italia, Malta, Grecia, España, Francia, Cabo Verde, Hungría, Macedonia…
 ---
 
 Cuaderno de viaje realizado durante los años 2009 a 2012 por Bélgica, Holanda, Italia, Malta, Grecia, España, Francia, Cabo Verde, Hungría, Macedonia, Portugal, Alemania, Colombia, Lituania, y Armenia.

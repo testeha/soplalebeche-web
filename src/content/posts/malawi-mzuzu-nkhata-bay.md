@@ -15,6 +15,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2019/09/lake-mala
 seoTitle: Recorriendo Malawi. Mzuzu, Nkhata Bay y el lago Malawi
 seoDescription: El lago Malawi es el tercer lago más grande de África y una fuente
   de pesca y de turismo. Nkhata Bay es uno de sus enclaves turísticos más conocidos.
+excerpt: Malawi tiene fama de ser un país pacífico y estable, aunque los casos de
+  corrupción y abusos de poder son frecuentes. En los últimos años se han repartido…
 ---
 
 Malawi tiene fama de ser un país pacífico y estable, aunque los casos de corrupción y abusos de poder son frecuentes. En los últimos años se han repartido el poder entre Bingu wa Mutharika, que ganó las elecciones en 2004, Joyce Banda, su vicepresidenta, que gobernó el país entre 2012 y 2014 al fallecimiento de este, y Peter Mutharika, hermano del primero y que desde 2014 está en el poder. Cuando llego a Mzuzu me recibe el ejército en la calle. Hay un proceso judicial abierto por una acusación de fraude electoral en las pasadas elecciones y desde hace semanas la gente se está manifestando pidiendo la dimisión de la persona encargada del recuento de votos. Este día hay previstas manifestaciones y huelgas en la ciudad, y para evitar contratiempos el ejército decide hacerse cargo de la situación. Vengo viajando en minibús [desde el norte del país](/historias/malawi-karonga-dinosaurios-bicicletas), y cuando llego el ambiente es tranquilo, las calles están sin vehículos y los militares charlan apaciblemente. La gente vuelve ya para casa porque, aunque en las manifestaciones anteriores sí que ha habido numerosos incidentes, este día se ha desarrollado todo sin problemas. El tráfico sigue cortado, así que no puedo llegar al centro de la ciudad.

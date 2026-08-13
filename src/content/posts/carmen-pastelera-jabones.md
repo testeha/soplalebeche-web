@@ -18,6 +18,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/01/20160102_
 seoTitle: Carmen, pastelera de jabones. Una maestra de la cosmética natural
 seoDescription: Carmen empezó haciendo pasteles para criar a sus hijos en Guatemala...pero
   la vida le llevó a acabar en Madrid haciendo jabones artesanales.
+excerpt: Carmen es de esas personas que te recuerdan a tu abuela o a tu madre. Personas
+  que dan ganas de abrazarlas y estrujarlas porque, aunque las acabas de…
 ---
 
 Carmen es de esas personas que te recuerdan a tu abuela o a tu madre. Personas que dan ganas de abrazarlas y estrujarlas porque, aunque las acabas de conocer, transmiten una dulzura y un amor que te hacen quererlas de manera automática.

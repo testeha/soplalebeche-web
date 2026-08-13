@@ -17,6 +17,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/07/20170715_
 seoTitle: La Sierra de Tramontana.Descubriendo una isla dentro de una isla
 seoDescription: Cuando la observo sobre un mapa, parece una larga cicatriz que recorre
   la isla, siempre mirando a poniente.Una isla real y otra imaginaria comparten mapa
+excerpt: Me han hablado de una zona de frondosos bosques y pozos de agua fresca. De
+  caminos que atraviesan pintorescos pueblecitos y de calas de piedras y agua…
 ---
 
 Me han hablado de una zona de frondosos bosques y pozos de agua fresca. De caminos que atraviesan pintorescos pueblecitos y de calas de piedras y agua transparente. Cuando la observo sobre un mapa, parece una larga cicatriz que recorre la isla, siempre mirando a poniente. La Sierra de Tramontana es, como muchos la definen, una isla dentro de la isla. Bosques de pinos, encinas y carboneros. Cabras salvajes. Eremitas y ermitaños que vivieron hace siglos en sus bosques. Olivos centenarios retorcidos sobre sí mismos. Nieve con frecuencia en los inviernos y picos de casi 1500 metros de altitud. [Patrimonio de la Humanidad](http://www.serradetramuntana.net/es/index.php) por la Unesco.

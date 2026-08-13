@@ -48,6 +48,8 @@ comments:
     y se nota que está hecho con mimo. Esta entrada me recuerda a un microrrelato
     sobre la gran vía, anónimo, que tuve ocasión de leer en un festival de microrrelatos
     alternativo ;-)
+excerpt: Es temprano. Las farolas aún siguen encendidas y las luces de colores de
+  los carteles de neón aturden a los salen de la boca del metro, todavía medio…
 ---
 
 Es temprano. Las farolas aún siguen encendidas y las luces de colores de los carteles de neón aturden a los salen de la boca del metro, todavía medio dormidos y espabilados de golpe por el frío de la mañana. Es tarde. Un joven de andares vacilantes se lanza a la calzada con un brazo levantado. Le sigue una chica con tacones altos y un abrigo de pelo negro. Un taxi frena en seco frente al cine Capitol.

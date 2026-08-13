@@ -10,6 +10,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20151109_
 seoTitle: Mini Biografia. Cuatro párrafos para contarte un poco de mi
 seoDescription: Sintentizar no es lo mío. Me encanta escuchar, hablar y enrollarme
   escribiendo. Aquí intento contarte en unos párrafos un poquito de mi. Una minibiografía
+excerpt: Para mí, vivir y recorrerme estos países que ahora no se ponen de acuerdo
+  y sacan su lado más egoísta ha formado parte de mi rutina. De pequeña, me…
 ---
 
 ### **Vengo de una tierra que tiene dos mares, donde el mayor tesoro es la lluvia, pero siempre en su justa medida. Concretamente, nací en una ciudad que tiembla con vehemencia cada cierto tiempo, allá por el año que empezamos a ser europeos.**

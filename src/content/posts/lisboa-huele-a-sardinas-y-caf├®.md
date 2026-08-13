@@ -5,6 +5,8 @@ pubDate: '2020-01-14'
 author: Rocío Periago
 categories: []
 draft: true
+excerpt: Esta mañana las calles están vacías, demasiado tranquilas para la hora que
+  es. Los azulejos de las fachadas brillan reflejando el sol y el cielo despejado…
 ---
 
 Esta mañana las calles están vacías, demasiado tranquilas para la hora que es. Los azulejos de las fachadas brillan reflejando el sol y el cielo despejado augura por fin el comienzo del verano.

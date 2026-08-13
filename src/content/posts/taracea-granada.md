@@ -39,6 +39,8 @@ comments:
   content: "¡Muy lindo el artículo, Rocío! \nQué pena que estas tradiciones estén\
     \ por perderse... Y menudo trabajazo que lleva, quizás por eso nadie quiera involucrarse\
     \ hoy en día."
+excerpt: A diario recorren sus calles miles de personas venidas de todas las partes
+  del mundo. A veces puede ser más fácil encontrar un vietnamita o surcoreano que…
 ---
 
 A diario recorren sus calles miles de personas venidas de todas las partes del mundo. A veces puede ser más fácil encontrar un vietnamita o surcoreano que a alguien autóctono de la zona. Basta pararse en una esquina para escuchar conversaciones en idiomas lejanos o ver mareas de personas subiendo y bajando sus callejuelas empedradas y llenando sus bares y terrazas. Sobre todo son estudiantes y turistas los que le dan vida a Granada, la ciudad que recibe más de dos millones de visitas al año sólo contando el monumento de La Alhambra.

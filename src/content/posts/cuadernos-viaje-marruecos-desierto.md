@@ -17,6 +17,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/02/20170224_
 seoTitle: 'Cuadernos de viaje por Marruecos: Camino del desierto'
 seoDescription: Salimos de Marrakech, cruzar el Atlas, Ait Ben Addou y las kasbahs,
   las Gargantas del Dades y de Tudra, Ouzarzate... hasta las dunas de Merzouga
+excerpt: Camino del desierto, viniendo desde Marrakech hay que atravesar el Alto Atlas,
+  la cordillera que cruza el país, con sus cumbres nevadas que llegan a tener…
 ---
 
 Camino del desierto, [viniendo desde Marrakech](/historias/cuadernos-viaje-marruecos-marrakech) hay que atravesar el Alto Atlas, la cordillera que cruza el país, con sus cumbres nevadas que llegan a tener más de 4000 m de altitud, con una parada en el puerto de Tizi-N’Tichka, que está a 2000 m para descansar un poco del mareo de la curvas.

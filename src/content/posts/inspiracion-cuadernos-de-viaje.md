@@ -17,6 +17,8 @@ seoTitle: Inspiración para hacer cuadernos de viaje
 seoDescription: Los cuadernos de viaje son pequeños guiños para evitar el olvido,
   herramientas de trabajo para intentar compartir el momento vivido y luego poder
   contarlo.
+excerpt: A veces para viajar a países y culturas lejanas no hace falta irse muy lejos.
+  Un sitio cómodo, luz y tranquilidad bastan para disfrutar. Hay quien le…
 ---
 
 A veces para viajar a países y culturas lejanas no hace falta irse muy lejos. Un sitio cómodo, luz y tranquilidad bastan para disfrutar. Hay quien le gusta viajar, salir, vivirlo en primera persona… pero también hay quienes por diferentes razones no pueden o no quieren hacerlo. **Los relatos y crónicas de viajes son los que nos permiten viajar sin necesidad de movernos de casa, trasladándonos a esos lugares o momentos donde te gustaría estar.**

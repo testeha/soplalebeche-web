@@ -27,6 +27,8 @@ comments:
   date: '2018-09-27'
   content: Hay un trabajo de investigación previo,jejeje pero cuenta tener parte de
     la familia originaria de esa zona ;)
+excerpt: En esta tierra de campos, las espadañas de las iglesias funcionan como faros
+  en la oscuridad, porque son lo único que destaca en el horizonte y sirven de…
 ---
 
 > **Tierra de campos es esa parte de Castilla y León donde se suceden uno tras otro, kilómetros de campos sembrados de cereales hasta donde se pierde la vista. No hay montañas, solo pequeñas colinas y campos de trigo dorado, girasoles y otros cultivos. A veces también algún pastor con sus ovejas. Esta zona abarca parte de las provincias de Valladolid, Palencia, Zamora o León, y durante el verano, que es tiempo de cosechar, se ven las máquinas segadoras que van cortando las espigas y haciendo pacas de paja.**

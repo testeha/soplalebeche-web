@@ -18,6 +18,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/04/lanzarote
 seoTitle: Recorriendo la isla de los conejos por carreteras secundarias (2)
 seoDescription: Descubrir Lanzarote es también descubrir a Cesar Manrique, un hombre
   clave sin el que no se puede entender la isla actual.
+excerpt: Descubrir Lanzarote es también conocer a Cesar Manrique, un hombre con una
+  mente brillante que se fue demasiado pronto, y que tiene la casa más bonita que…
 ---
 
 > Recorrer con el coche la isla de norte a sur se hace en poco más de una hora, pero es mucho más entretenido hacerlo tranquilamente, sin prisas. [Ya lo hizo con el interior de España Alfonso Armada](http://malpasoed.com/es/libro/por-carreteras-secundarias/), uno de los grandes periodistas españoles, y esa es la idea latente. Pararse en un pueblo a hacer una foto o tomar un café, cambiar de planes sobre la marcha porque en la radio avisan de un [campeonato de lucha canaria](https://www.instagram.com/p/BeeF25sh1Fi/?taken-by=rocioperiago), detenerse a charlar con el cura del pueblo o ir en la búsqueda de la señora que tiene las llaves de una iglesia y quiere enseñártela.

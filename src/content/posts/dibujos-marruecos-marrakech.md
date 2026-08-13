@@ -39,6 +39,8 @@ comments:
     que me cogía, indignadísima con eso...lo normal era ver a las señoras cargadas
     con bolsas y varios niños alrededor (los más pequeños a la espalda), y el marido
     mirando con cara de "esto no va conmigo.."
+excerpt: Viajar con un cuaderno y algo para hacer dibujos hace mucho más entretenido
+  el rato, ¡y no hace falta saber dibujar! Basta con sacarlo en un café, en una…
 ---
 
 Viajar con un cuaderno y algo para hacer dibujos hace mucho más entretenido el rato, ¡y no hace falta saber dibujar! Basta con sacarlo en un café, en una parada de autobús o en un banco de una plaza para que se acerque alguien a preguntar, algún niño curioso a ver qué estás haciendo... y puede ser la mejor manera de romper el hielo.

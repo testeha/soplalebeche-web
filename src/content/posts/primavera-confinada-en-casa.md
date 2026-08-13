@@ -14,6 +14,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2020/05/famara-la
 seoTitle: Primavera confinada en casa. Libros y lecturas que me acompañan
 seoDescription: Recordaremos esta primavera confinada en casa como un paréntesis desde
   el que recordar qué es lo importante en la vida. ¿Los viajes? volverán, sin duda.
+excerpt: No estoy pasando la cuarentena sola. Aparte de mi pareja, esta primavera
+  confinada en casa me acompañan Alexandra David-Neel en su viaje hacia Lhasa…
 ---
 
 [No estoy pasando la cuarentena sola](/historias/cuarentena-madrid). Aparte de mi pareja, esta primavera confinada en casa me acompañan **Alexandra David-Neel** en su viaje hacia Lhasa disfrazada de mendiga, **Alfonso Armada** recorriendo las carreteras secundarias de la España vacía, **Pepe Naranjo** dándole voz a los invisibles de Kolda, **Irene Vallejo** por los pasillos de la antigua biblioteca de Alejandría y un sinfín de revistas en sus formatos online y podcasts.

@@ -15,6 +15,8 @@ tags:
 seoTitle: Hacia donde corren los vivos. Presentación en papel de la revista 5W
 seoDescription: La presentación en papel de la revista 5W llenó el aforo previsto
   en Madrid. Crónicas de larga distancia que apuestan por un periodismo de calidad
+excerpt: Que un nuevo medio quiera apostar por el reportaje de largo aliento y que,
+  además, en la era de internet se atreva a publicar un número en papel, genera…
 ---
 
 Que un nuevo medio quiera apostar por el reportaje de largo aliento y que, además, en la era de internet se atreva a publicar un número en papel, genera, cuanto menos, curiosidad. La presentación de la revista/libro 5W —la web funciona desde septiembre— llenó el aforo previsto en Madrid. Asientos ocupados por periodistas y público en general, interesados en conocer de primera mano el trabajo que hay detrás de este primer número, “Después de la guerra”.

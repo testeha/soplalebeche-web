@@ -16,6 +16,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20150415_
 seoTitle: Bicicletas con mensaje en los muros de las calles de Lorca
 seoDescription: En las calles de Lorca hay graffitis con las siluetas de unas bicicletas.
   La historia se remonta a la dictadura argentina en la ciudad de Rosario
+excerpt: Es cierto que incentivar el uso de las bicicletas y atreverse a usar la bicicleta
+  en las ciudades hoy en día es todo un reto. Da miedo muchas veces…
 ---
 
 **Hace unos días descubrí paseando por mi ciudad, unos graffitis que representaban unas bicicletas apoyadas en una pared. La verdad es que además de bonitos, son originales, y preguntando, descibrí que era una iniciativa surgida desde [Lorca Biciudad](http://www.lorcabiciudad.es/), una asociación que quiere fomentar el uso de las bicicletas en los espacios urbanos.**

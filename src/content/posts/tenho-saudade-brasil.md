@@ -28,6 +28,7 @@ comments:
 - author: Rocío Periago
   date: '2016-11-25'
   content: Viniendo de ti, todo un piropo!! muito obrigada!! :) beijos!!
+excerpt: '[embed]https://youtu.be/QaVYGvXAQcw[/embed]'
 ---
 
 [embed]https://youtu.be/QaVYGvXAQcw[/embed]

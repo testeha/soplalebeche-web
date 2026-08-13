@@ -19,6 +19,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/02/soplalebe
 seoTitle: 'Cuadernos de Viaje por Marruecos: Conociendo Marrakech'
 seoDescription: Marrakech es una ciudad para vivirla con los sentidos, ¿te apuntas?
   Pasea por la Plaza Jemaa El Fna,las callejuelas del zoco y disfruta de su mapa sonoro
+excerpt: Marruecos es ese país al otro lado del estrecho, ese lugar desde donde la
+  gente se mete en pateras para cruzar a Europa, lugar cargado de prejuicios y…
 ---
 
 Marruecos es ese país al otro lado del estrecho, ese lugar desde donde la gente se mete en pateras para cruzar a Europa, lugar cargado de prejuicios y estereotipos y que miramos recelosos desde esta orilla del Mediterráneo. La frontera [más desigual del mundo](http://www.eldiario.es/desigualdadblog/Mediterraneo-frontera-desigual-mortifera-mundo_6_379772039.html), con conflictos enquistados y donde la sociedad musulmana convive con la apertura occidental que trae el turismo.

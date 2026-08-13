@@ -17,6 +17,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/12/Istanbul_
 seoTitle: La ciudad de las tres vidas. Estambul y el fotógrafo Ara Guler
 seoDescription: Nadie como el fotógrafo turco Ara Guler supo captar la nostalgia y
   ambiente de Estambul en los años 50 y 60 del pasado siglo
+excerpt: Hay ciudades nuevas, casi recientes, cuya historia se cuenta por años. Hay
+  ciudades que arrastran siglos de historia, y luego hay ciudades con tres vidas…
 ---
 
 > **Las ciudades están vivas. Como cualquier ser vivo nacen, crecen, se reproducen y –algunas veces– mueren.**

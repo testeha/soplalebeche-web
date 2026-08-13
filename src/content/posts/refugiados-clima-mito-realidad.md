@@ -19,6 +19,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2015/12/20151208_
 seoTitle: Refugiados por el cambio climático, ¿mito o realidad?
 seoDescription: Aunque aún hay voces que lo discuten; el aumento de refugiados o agravamiento
   de las crisis humanitarias en la última década tiene un factor medioambiental
+excerpt: Nos dicen que cambiar el modo de producir y bajar la temperatura del planeta
+  uno grados es el gran reto…. pero realmente, ¿cómo nos afecta?
 ---
 
 ### **En París esta última semana se están tratando cuestiones fundamentales acerca del cambio climático. En la Cumbre del Clima se están debatiendo las acciones que se deben tomar por parte de los Estados o de la responsabilidad de las grandes empresas a la hora de producir. Ha habido marchas en muchos puntos del planeta pidiendo un cambio. Hemos visto y oído a políticos, actores, periodistas y científicos hablar de los desastres que puede ocasionar el -inevitable- calentamiento global.**

@@ -25,6 +25,8 @@ comments:
     buenos precios para comer y muy tranquilo
 
     si hay conocer playa este es el lugar'
+excerpt: “Porto Galinhas (Puerto de Gallinas) ha sido considerada la mejor playa de
+  Brasil”, “Es como la Ibiza brasileña, ¡una pasada!”, “Tienes que visitarla, es…
 ---
 
 “*Porto Galinhas (*Puerto de Gallinas*) ha sido considerada la mejor playa de Brasil*”, “*Es como la Ibiza brasileña, ¡una pasada!*”, “*Tienes que visitarla, es impresionante*”… Estos y otros comentarios similares es lo que dicen las guías turísticas y la gente cuando se le pregunta por alguna playa que esté bien por la zona del [nordeste brasileño](/historias/joao-pessoa-ciudad-donde-nace-sol).

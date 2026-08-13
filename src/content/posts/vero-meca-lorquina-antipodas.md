@@ -5,6 +5,8 @@ pubDate: '2016-10-08'
 author: Rocío Periago
 categories: []
 draft: true
+excerpt: Charlar con Verónica Meca hace que te den unas ganas tremendas de cogerte
+  un avión y que te enseñe todos los rincones que está descubriendo en el otro…
 ---
 
 > ### **Charlar con esta lorquina hace que te den unas ganas tremendas de cogerte un avión y que te enseñe todos los rincones que está descubriendo en el otro extremo del mundo.**

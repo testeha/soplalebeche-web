@@ -16,6 +16,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2019/09/lake-mala
 seoTitle: Malawi, el corazón cálido de África
 seoDescription: Malawi es un país africano desconocido para la mayoría, pero que tiene
   mucho que ofrecer a nivel humano, cultural y de recursos naturales.
+excerpt: Hasta hace no mucho tiempo, desconocía por completo este país africano, que
+  solo salía en los medios por ser el lugar de origen de las hijas de Madonna o…
 ---
 
 Hasta hace no mucho tiempo, desconocía por completo este país africano, que solo salía en los medios por ser el lugar de origen de las hijas de Madonna o por las visitas oficiales de Harry y Meghan Markle. Pequeño y alargado, Malawi pasa por completo inadvertido en el mapa y mucho más en el panorama internacional, al que se está abriendo tímidamente en los últimos años. Durante [julio y agosto de 2019](/historias/preparando-un-viaje-a-tanzania-y-malawi) he estado recorriéndolo sin prisa y siempre en transporte público, entrando por el norte en la frontera con Tanzania y parando, entre otros lugares, en **[Karonga](/historias/malawi-karonga-dinosaurios-bicicletas), Mzuzu, Nkhata Bay, Lilongwe y Dedza**. Estas son algunas pinceladas para aproximarnos a este país. 

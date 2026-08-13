@@ -35,6 +35,8 @@ comments:
   date: '2017-02-15'
   content: Muy cierto, Carlos. El problema es la educación, la falta de conciencia
     social a medio o largo plazo tanto del que va "de visita" como del que vive allí.
+excerpt: Marruecos, hasta hace nada país exótico y en vías de desarrollo, se está
+  convirtiendo en un actor importante en el norte del continente africano. En los…
 ---
 
 Marruecos, hasta hace nada país exótico y en vías de desarrollo, se está convirtiendo en un actor importante en el norte del continente africano. En los últimos años ha desarrollado un [crecimiento en diferentes aspectos](http://data.worldbank.org/country/morocco), que lo hacen ser uno de los nuevos destinos favoritos para inversores extranjeros en [África](http://blog.africavive.es/2017/02/siete-acciones-clave-industrializacion-ecologica-africa/), a la vez que para los turistas. Del mismo modo, a finales de 2016 se celebraba en Marrakech una [conferencia a nivel mundial por el Cambio Climático](http://www.cop22-morocco.com/) que reunía a grandes personalidades y proyectos centrados en este fenómeno global, donde también se aprovechaba para firmar la [Carta de Turismo Sostenible y Responsable](http://www.turismoceuta.es/articulo/politica-turistica/cop22-marrakech-firma-carta-africana-turismo-sostenible-responsable/20161227092323002823.html) por Marruecos y una veintena de países africanos. ¿Pero hay realmente una conciencia social por el turismo sostenible, o es solo una moda pasajera?

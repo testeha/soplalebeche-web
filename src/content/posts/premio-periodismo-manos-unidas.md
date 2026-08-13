@@ -20,6 +20,8 @@ comments:
 - author: kaiana
   date: '2018-01-11'
   content: ES un orgullo tenerte como amiga!
+excerpt: Mi trabajo "De las calles de Recife a los fogones" fue premiado hace un mes con
+  el segundo premio de periodismo de Manos Unidas. Es el primer premio de…
 ---
 
 Mi trabajo "De las calles de Recife a los fogones" fue premiado hace un mes con el segundo [premio de periodismo de Manos Unidas](http://www.manosunidas.org/noticia/ganadores-premios-manos-unidas). Es el primer premio de periodismo que recibo y la verdad es que hace mucha ilusión, sobre todo porque me lo han dado junto con grandes profesionales y eso es todo un orgullo, pero también porque es un aliciente a seguir haciendo lo que más me gusta.

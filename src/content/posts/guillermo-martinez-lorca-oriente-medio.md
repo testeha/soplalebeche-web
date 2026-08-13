@@ -15,6 +15,8 @@ seoTitle: Guillermo Martínez. De Lorca a Oriente Medio
 seoDescription: Se llama Guillermo Martínez, es un lorquino que acaba de cumplir 30
   años y se conoce todo Oriente Medio como la palma de su mano. De Lorca a Oriente
   Medio
+excerpt: Se llama Guillermo Martínez, es un lorquino que acaba de cumplir 30 años
+  y se conoce todo Oriente Mediocomo la palma de su mano. Dubai, Arabia…
 ---
 
 > ### **Dubai, Arabia Saudi, Líbano, Jordania, Irán, Omán, Kuwait, Emiratos Árabes, Doha, Qatar… y muchos más lugares donde el sol y las altas temperaturas abundan, pasando por Japón, Tailandia, Malasia o Australia, además de los conocidos destinos europeos.**

@@ -22,6 +22,8 @@ comments:
   date: '2020-02-01'
   content: Ágil descripción con pinceladas sugerentes  de Coimbra. Tengo ganas de
     ir.
+excerpt: Quien me conoce bien, sabe que siempre me han gustado los trenes. Desde muy
+  pequeña el pitido del tren llegando a la estación lo asocio con llegar a casa…
 ---
 
 Quien me conoce bien, sabe que siempre me han gustado los trenes. Desde muy pequeña el pitido del tren llegando a la estación lo asocio con llegar a casa. Es más, todos los viajes siempre comenzaban subiéndome al cercanías, ese tren lento y escacharrado que une Lorca con Murcia, y de ahí a cualquier parte del mundo. Esta vez, la visita era a Coimbra, esa ciudad lusa de ambiente universitario a la que se puede llegar desde Madrid en el tren-hotel nocturno que une la capital española con la portuguesa.

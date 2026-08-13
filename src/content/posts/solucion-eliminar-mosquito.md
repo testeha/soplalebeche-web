@@ -14,6 +14,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/03/adrianame
 seoTitle: '"La solución pasa por el eliminar al mosquito", cuenta Adriana Melo'
 seoDescription: Entrevista a Adriana Melo, la médico brasileña que descubrió la relación
   entre el virus zika y la microcefalia en los bebés.
+excerpt: Adriana Melo, doctora en medicina fetal, tenía su clínica privada donde pasaba
+  consulta en el municipio de Campina Grande, una de las mayores ciudades del…
 ---
 
 **Campina Grande, Brasil**. El Hospital Municipal Pedro I es un conjunto de edificios espaciosos, más oscuro y caluroso de lo que se puede esperar de un centro sanitario, pero lo suficientemente céntrico y bien dotado para la sanidad pública brasileña. En uno de sus ambulatorios, la doctora Adriana Melo y su equipo han creado una pequeña trinchera para hacer frente al virus del zika, y sobre todo para plantear respuestas y alternativas a las cientos de madres, bebés y mujeres embarazadas que están compartiendo su vida con los [efectos del virus](http://internacional.elpais.com/internacional/2016/01/19/actualidad/1453158453_113257.html) en esta región.

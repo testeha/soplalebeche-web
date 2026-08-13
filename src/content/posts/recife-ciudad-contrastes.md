@@ -20,6 +20,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/09/20160925_
 seoTitle: Recife, ciudad del nordeste brasileño llena de contrastes
 seoDescription: Recife es la ciudad más grande de todo el nordeste brasileño, con
   una población de casi 4 millones de personas en su región metropolitana
+excerpt: Recife es la ciudad más grande de todo el nordeste brasileño, con una población
+  de casi 4 millones de personas en su región metropolitana. Capital del…
 ---
 
 Recife es la ciudad más grande de todo el nordeste brasileño, con una población de casi 4 millones de personas en su región metropolitana. Capital del estado de Pernambuco, para llegar a ella por carretera es necesario armarse de paciencia: siempre hay atascos interminables que ralentizan el tráfico a la entrada y salida de la ciudad.

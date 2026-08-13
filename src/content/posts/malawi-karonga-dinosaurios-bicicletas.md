@@ -17,6 +17,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2019/09/2019-07-1
 seoTitle: Norte de Malawi. Karonga, dinosaurios y bicicletas
 seoDescription: Karonga es la sexta ciudad más grande de Malawi y se encuentra al
   norte del país. Tiene un curioso museo donde se pueden ver los restos de un dinosaurio.
+excerpt: Malawi es un pequeño país africano, sin salida al mar y que se encuentra
+  en la parte suroriental del continente. Rodeado por Tanzania, Zambia y…
 ---
 
 [Malawi es un pequeño país africano](/historias/malawi-africa), sin salida al mar y que se encuentra en la parte suroriental del continente. Rodeado por Tanzania, Zambia y Mozambique, pasa desapercibido en el mapa, donde apenas se ve como una delgada línea junto a una alargada mancha azul. Sin embargo, aquí viven aproximadamente 19 millones de personas, y esa mancha que se ve en los mapas es el Lago Malawi, el tercero más grande de África y la principal fuente de alimentación y economía del país.

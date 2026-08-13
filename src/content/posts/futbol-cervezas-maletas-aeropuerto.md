@@ -16,6 +16,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/08/foto3.jpg
 seoTitle: Entre fútbol, cervezas y maletas en el aeropuerto
 seoDescription: Todos los aeropuertos me parecen igual de impersonales y asépticos,
   con muy pocas diferencias entre países y siempre bastante caros...salvo este
+excerpt: Estoy esperando en el aeropuerto de Lisboa mi vuelo de vuelta. La T2 parece
+  una nave industrial que acaban de apañar como aeropuerto y bromeamos con que…
 ---
 
 Estoy esperando en el aeropuerto de [Lisboa](/historias/santo-antonio-fiestas-lisboa) mi vuelo de vuelta. La T2 parece una nave industrial que acaban de apañar como aeropuerto y bromeamos con que hace nada esto era un descampado y han tenido que montarlo sobre la marcha. Es un espacio diáfano, con los techos altos donde se ven las tuberías y canalizaciones del aire acondicionado y los cables de la luz. El suelo es liso y brillante y las paredes grises, y por megafonía se oyen los típicos mensajes de aviso de los vuelos. Aséptico y totalmente vacío de personalidad.

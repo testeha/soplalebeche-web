@@ -7,6 +7,8 @@ categories: []
 draft: true
 seoDescription: Zineb. Mujer, musulmana y emprendedora. Soplalebeche. Viajes, buenas
   historias y periodismo social
+excerpt: Tiene una sonrisa permanente en la cara, le gusta teñirse el pelo aunque
+  use hiyab, este verano se fue a la playa y a la piscina en burkini, y es un…
 ---
 
 Tiene una sonrisa permanente en la cara, le gusta teñirse el pelo aunque use hiyab, este verano se fue a la playa y a la piscina en burkini, y es un ejemplo de emprendedora que acaba de abrir su propio negocio. Aunque sigue siendo minoritario, representa un perfil de mujer que viene a romper los prejuicios existentes respecto a la mujer marroquí y musulmana.

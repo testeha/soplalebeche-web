@@ -15,6 +15,8 @@ tags:
 - Viajar
 featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/10/20171026_Rutinas-de-viaje.jpg
 seoTitle: Rutinas de viaje - Rocío Periago
+excerpt: Agosto 2017. Las calles están vacías, alumbradas tenuamente por la luz amarilla
+  de las farolas. La ciudad aún duerme, pero yo hace rato que me desvelé. Me…
 ---
 
 Agosto 2017. Las calles están vacías, alumbradas tenuamente por la luz amarilla de las farolas. La ciudad aún duerme, pero yo hace rato que me desvelé. Me pasa siempre que tengo que coger un tren, un avión, un barco… da igual la hora que sea, el miedo a perderlo por no llegar a tiempo hacen que mi cerebro se despierte y me esté mandando señales de alerta con varias horas de antelación.

@@ -17,6 +17,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/05/lanzarote
 seoTitle: Recorriendo la isla de los conejos por carreteras secundarias (3)
 seoDescription: En la isla de Lanzarote el pueblo de Haría es silencio y humedad por
   las noches. Solo el ruido de los pájaros que duermen en las palmeras
+excerpt: Pedro tiene dos hijos y una casa con muchas habitaciones en Haría. En realidad,
+  los niños viven con su madre en Teguise y no es una sola casa, sino muchos…
 ---
 
 Pedro tiene dos hijos y una casa con muchas habitaciones en Haría. En realidad, los niños viven con su madre en Teguise y no es una sola casa, sino muchos espacios adosados que se han ido acoplando sobre una primera estructura. La compró en la época buena y ahora está intentando sacarle el mayor provecho posible. Ha visto en el turismo rural una forma hacer negocio, y también de poder pagar la hipoteca y la manutención que tiene que pasar todos los meses.

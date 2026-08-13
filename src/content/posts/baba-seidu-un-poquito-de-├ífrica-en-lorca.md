@@ -5,6 +5,8 @@ pubDate: '2016-10-29'
 author: Rocío Periago
 categories: []
 draft: true
+excerpt: Tiene solo 31 años, pero cuenta con más experiencias vitales que muchas personas
+  de su edad. Pequeño y sonriente, va desgranando su historia sin perder la…
 ---
 
 Tiene solo 31 años, pero cuenta con más experiencias vitales que muchas personas de su edad. Pequeño y sonriente, va desgranando su historia sin perder la sonrisa, incluso cuando recuerda sus momentos más duros. Como cuando después de terminar sus estudios de secundaria, falleció su madre y al él le tocó buscarse la vida, abandonando su Ghana natal y trabajando como pescador en Gambia, Mali, Liberia, Sierra Leona o Senegal.

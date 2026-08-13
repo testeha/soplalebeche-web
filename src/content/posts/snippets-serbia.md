@@ -18,6 +18,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/02/Snippets-
 seoTitle: Cuadernos de viaje. Reseña de Snippets of Serbia
 seoDescription: “Snippets of Serbia” es un libro de ilustraciones sobre un viaje a
   Serbia hechas por Emma Fick, una ilustradora americana
+excerpt: Que me gusta hacer cuadernos de mis viajes es algo conocido, y si aún no
+  lo sabías puedes ver algunos ejemplos de cómo pasar el tiempo entre aeropuertos…
 ---
 
 Que me gusta hacer cuadernos de mis viajes es algo conocido, y si aún no lo sabías puedes ver algunos ejemplos de cómo pasar el tiempo entre aeropuertos, estaciones varias y cafés [aquí](/historias/dibujos-marruecos-marrakech) o [aquí](/historias/cuadernos-viaje). Pero hay otras cosas que también me gustan y están relacionadas con los cuadernos: Una –y aunque parezca de otra época me encanta– es mandar postales. La otra es buscar alguna librería en la ciudad de turno.

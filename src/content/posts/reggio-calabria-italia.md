@@ -20,6 +20,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20100416_
 seoTitle: Erasmus en Reggio Calabria, hay vida en el sur de Italia
 seoDescription: Reggio Calabria es una ciudad del sur de Italia. Localizada en la
   región de Calabria, es conocida por su embutido, por sus playas y por el Aspromonte
+excerpt: Millones de personas viajan a Italia cada año, pero ¿quién visita Reggio
+  Calabria? ¿por qué ir hasta allí? La región de Calabria es uno de los rincones…
 ---
 
 > **En el sur del sur, en la "punta de la bota" calabresa, se encuentra Reggio Calabria.**

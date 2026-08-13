@@ -26,6 +26,8 @@ comments:
 - author: Fran
   date: '2016-09-10'
   content: '"Es el océano atlántico el que baña estas playas" Me gusta :)'
+excerpt: João Pessoa es la capital del estado nordestino de Paraíba. Tiene un clima
+  que oscila entre los 25 y 30 grados de temperatura, y ahora que estamos en…
 ---
 
 > **João Pessoa, Campina Grande, Fortaleza, Natal, [Recife](/historias/recife-ciudad-contrastes), Salvador de Bahía... El nordeste de Brasil es tradicionalmente una zona de agricultores y ganaderos, con las grandes plantaciones de caña de azúcar o cacao en el litoral y el *sertão* en el interior. Tierra de hombres y mujeres duros, de violencia y quilombos, [de aquí son muchos de los grandes personajes de Brasil](/historias/jurandy-hombre-del-saxo). Mestiza de indios, portugueses y esclavos africanos, y proveedora de mano de obra en las grandes ciudades del sur, está llena de historia y exuberante naturaleza.**

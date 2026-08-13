@@ -18,6 +18,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/01/DSC4298.j
 seoTitle: Recorriendo la isla de los conejos por carreteras secundarias (1)
 seoDescription: Lanzarote es la isla canaria más al norte y más cerca del continente
   africano.Su ritmo es tranquilo y calmado, aunque tiene más de 300 volcanes
+excerpt: Son las 19h y el pueblo está en silencio. Estamos en invierno, y aunque aquí
+  el clima es cálido todo el año, sopla un aire fresco que invita a subirse la…
 ---
 
 > *La isla de los conejos dicen que tiene forma de caballito de mar invertido. En realidad está llena de volcanes, de pequeños cangrejos blancos y de enormes murallas de lava donde se estrellan las olas. Es una isla que mira a África y donde de noche el cielo se llena de estrellas. Una isla para saborearla sin prisas por las carreteras secundarias.*

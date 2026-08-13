@@ -5,6 +5,8 @@ pubDate: '2015-10-20'
 author: Rocío Periago
 categories: []
 draft: true
+excerpt: Esta historia me gusta porque demuestra que nunca sabes dónde vas a terminar,
+  y sobre todo porque conocer a gente que te trasmite tanta energía positiva…
 ---
 
 ### **A veces la vida te lleva por caminos insospechados, te dirige hacia lugares que en un principio no te habías planteado pero que una vez que los conoces, te enganchan, y ya no puedes prescindir de ellos porque forman parte de ti.**

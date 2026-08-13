@@ -20,6 +20,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/09/20160913_
 seoTitle: Jurandy do sax. El hombre del saxo del río Paraíba
 seoDescription: Jurandy es un hombre que ininterrumpidamente, desde el año 2000 todos
   los días toca el Bolero de Ravel a la puesta del sol con su saxofón.
+excerpt: Jacaré es una zona del nordeste de Brasil, entre João Pessoa y Cabedelos
+  por donde pasa el río Paraíba. En los alrededores hay un pequeño poblado humilde…
 ---
 
 > **Jurandy do sax, día tras día de manera ininterrumpida repite el ritual de la puesta del sol para todo aquel que quiera acercarse a verlo. Ha revalorizado la zona y poco a poco se ha ido creando una industria alrededor de su figura.**

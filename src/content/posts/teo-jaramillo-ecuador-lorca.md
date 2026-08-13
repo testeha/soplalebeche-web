@@ -12,6 +12,8 @@ tags:
 - Lorca
 seoDescription: Soplalebeche, un blog de viajes y buenas historias con nombre de viento
   del sur
+excerpt: Desde que llegó a España hace unos 15 años, Teo Jaramillo ha establecido
+  su residencia en esta zona del sureste español. Nació en Machala (Ecuador), en…
 ---
 
 ### **Vive en Lorca, donde también está su hermana con su marido y sus dos hijos. “Es curioso, cuando estábamos en Ecuador mi hermana y yo no nos llevábamos bien, pero el estar aquí nos ha unido mucho, ahora nos llevamos de maravilla".**

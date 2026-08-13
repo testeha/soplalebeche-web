@@ -5,6 +5,8 @@ pubDate: '2020-04-26'
 author: Rocío Periago
 categories: []
 draft: true
+excerpt: Colombia. Colombia es un país enorme, pero la que yo conocí fue Barranquilla,
+  Cartagena y el Tayrona, es decir, toda la zona del Caribe.
 ---
 
 > **Colombia.** Colombia es un país enorme, pero la que yo conocí fue [Barranquilla, Cartagena y el Tayrona](/historias/colombia), es decir, toda la zona del Caribe.

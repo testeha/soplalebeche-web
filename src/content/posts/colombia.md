@@ -18,6 +18,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20111112_
 seoTitle: Viaje a Colombia. El riesgo es que te quieras quedar - Rocío Periago
 seoDescription: Colombia es un país sudamericano que tiene desde zonas de playas paradisíacas,
   a desiertos, montañas continentales o bosques amazónicos
+excerpt: Colombia, un país donde en pocas horas puedes pasar de las playas del Caribe,
+  con su arena blanca y sus vestigios coloniales, a la densa vegetación del…
 ---
 
 > **Colombia, un país de extremos. Un país donde puedes encontrar desde la más tórrida y húmeda jungla tropical a un desierto inhóspito de arena anaranjada, o también cumbres de pinos cubiertas por la niebla y el frío.**

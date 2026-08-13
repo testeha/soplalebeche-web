@@ -22,6 +22,8 @@ seoTitle: Buscando historias en el nordeste de Brasil
 seoDescription: 'Historias de Brasil: Adriana Melo, que descubrió la relación entre
   el zika y la microcefalia o un proyecto social que enseña a cocinar a los niños
   de Recife'
+excerpt: “Pues a mi hermana la atendió ella en el parto, ¿sabes? Antes tenía una clínica
+  privada y vivía muy bien, pero ahora está dedicándose a la investigación y…
 ---
 
 “Pues a mi hermana la atendió ella en el parto, ¿sabes? Antes tenía una clínica privada y vivía muy bien, pero ahora está dedicándose a la investigación y es una referencia en Brasil…” Con estas palabras, Kaiana contaba que conocía a Adriana Melo, la médico que descubrió la relación entre el virus zika y la microcefalia en bebés cuyas madres habían sufrido la picadura del mosquito *Aedes Aegypti*. Para mayor satisfacción, esta médico brasileña especializada en medicina prenatal es de la misma ciudad que mi amiga, lo que hacía que Kaiana se sintiera doblemente orgullosa de su “vecina”. Gracias a ella conocí a Adriana Melo y a su equipo, pude entrevistarla y ver dónde trabajaban en el Hospital Pedro I de Campina Grande (Paraíba) Es toda una experiencia recorrer los pasillos de ese hospital de la sanidad pública brasileña y escuchar a las familias con niños que han nacido con microcefalia o a mujeres embarazadas que recorren miles de kilómetros para ser atendidas en ese ambulatorio.

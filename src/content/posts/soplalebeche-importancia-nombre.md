@@ -59,6 +59,8 @@ comments:
     \ tuve que viajar bastante y, como a ti, me ha gustado muchísimo... realmente\
     \ es fantástico y una gran suerte.\nViajes, Fotos, buena pluma...! MARAVILLOSO!!!!!\n\
     El Barquero del Viento"
+excerpt: La pregunta más frecuente que me hacen cuando le cuento a alguien que tengo
+  un blog llamado Soplalebeche es ¿cómo? ¿soplaqué? Invariablemente, la segunda…
 ---
 
 La pregunta más frecuente que me hacen cuando le cuento a alguien que tengo un blog llamado Soplalebeche es ¿cómo? ¿soplaqué? Invariablemente, la segunda pregunta viene seguida: ¿y eso qué significa?

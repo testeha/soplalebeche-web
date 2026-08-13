@@ -15,6 +15,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/06/20170603_
 seoTitle: Relato de un viaje en tren atravesando Castilla la Mancha
 seoDescription: Estoy sentada en el tren. Los kilómetros interminables de La Mancha
   se suceden por la ventanilla. Campos de cultivo, alguna casa, árboles...
+excerpt: Estoy sentada en mi asiento. Los kilómetros interminables de La Mancha se
+  suceden en una tierra donde no hay montañas. Solo una llanura de campos de…
 ---
 
 Estoy sentada en mi asiento. Los kilómetros interminables de La Mancha se suceden en una tierra donde no hay montañas. Solo una llanura de campos de cereal, alguna casa, árboles, más campos de cereal, nubes. Y un horizonte que parece no tener fin.

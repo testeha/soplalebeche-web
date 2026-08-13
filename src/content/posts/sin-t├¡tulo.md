@@ -5,6 +5,8 @@ pubDate: '2017-11-10'
 author: Rocío Periago
 categories: []
 draft: true
+excerpt: Me apetece aprovechar esta oportunidad para felicitar a Cazalla por estos
+  10 años.
 ---
 
 Me apetece aprovechar esta oportunidad para felicitar a Cazalla por estos 10 años.

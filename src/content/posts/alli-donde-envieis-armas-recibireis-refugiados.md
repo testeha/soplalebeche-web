@@ -6,6 +6,8 @@ author: Rocío Periago
 categories: []
 draft: true
 featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20151117_portada.jpg
+excerpt: Continuaba añadiendo la respuesta que le había propuesto uno de los comentarios
+  y que, brillantemente representa una metáfora con la realidad en que…
 ---
 
 ### **Esta reflexión es de [Felix Picazo](https://www.facebook.com/felix.picazo.9?fref=nf&pnref=story), un amigo al que se la leí en su facebook y no me he resistido a citarla aquí por acertada**:

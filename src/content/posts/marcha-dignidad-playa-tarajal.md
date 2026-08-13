@@ -19,6 +19,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20150211_
 seoTitle: Marcha por la dignidad en la playa del Tarajal (Ceuta)
 seoDescription: En Febrero de 2014, 15 inmigrantes murieron intentando llegar a nado
   a territorio español desde Marruecos a la playa del Tarajal en Ceuta
+excerpt: Cientos de personas venidas de diferentes partes de España se daban cita
+  el sábado 7 de febrero en la II Marcha por la dignidad. En memoria de los 15…
 ---
 
 ### **Amanecía en Granada. Un grupo de gente somnolienta bostezábamos mientras subíamos al autobús que nos llevaría a Algeciras. Y de ahí, cruzando en ferry el Estrecho de Gibraltar, a la ciudad de Ceuta y la playa del Tarajal.**

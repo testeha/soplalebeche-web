@@ -14,6 +14,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2021/01/WhatsApp-
 seoTitle: La excepcionalidad de lo cotidiano. Filomena y la nieve en Madrid
 seoDescription: 'La nieve ha supuesto descubrir algo obvio: que Madrid existe más
   allá de la Gran Vía, Cibeles o la Puerta del Sol. Huir de los lugares comunes.'
+excerpt: Amanece blanco, todo cubierto por una luz plomiza que le da un aspecto irreal
+  a las calles. Por todos lados, mire donde mire, ese color lechoso cubre…
 ---
 
 Amanece blanco, todo cubierto por una luz plomiza que le da un aspecto irreal a las calles. Por todos lados, mire donde mire, ese color lechoso cubre hasta donde la vista abarca. Filomena ha cumplido las expectativas y después de 3 días y unas 36 horas seguidas sin parar de nevar, la nieve cubre todo Madrid.

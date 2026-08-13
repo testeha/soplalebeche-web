@@ -15,6 +15,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2013/12/portada_b
 seoTitle: Cine social y viajero en Soplalebeche. Recomendaciones inspiradoras
 seoDescription: Una recomendación de cine social y viajero. Películas/cortos de temática
   social, pero también de inspiración viajera. Un poco la esencia de este blog.
+excerpt: Hace no mucho, después de salir de un ciclo de cine intercultural, se me
+  ocurrió utilizar este espacio para una pequeña recomendación de películas/cortos…
 ---
 
 Hace no mucho, después de salir de un ciclo de cine intercultural, se me ocurrió utilizar este espacio para una pequeña recomendación de películas/cortos de temática social y relacionados con los viajes. Películas que me gustan especialmente y que me apetece compartir.

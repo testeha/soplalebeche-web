@@ -14,6 +14,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2014/04/colaborac
 seoTitle: Colaboración con el Sol de Lorca. "Una ciudad, muchas realidades"
 seoDescription: Contenta por este nuevo proyecto que acaba de empezar... "Una ciudad,
   muchas realidades" colaborando con el periódico digital El Sol de Lorca
+excerpt: Es un pequeño espacio donde contar las historias de diferentes personas vinculadas
+  a la ciudad de Lorca. Personas que con sus experiencias irán…
 ---
 
 ### **Contenta por este nuevo proyecto que acaba de empezar... ["Una ciudad, muchas realidades"](http://www.diarioelsol.info/presentacion/) colaborando con El Sol de Lorca**

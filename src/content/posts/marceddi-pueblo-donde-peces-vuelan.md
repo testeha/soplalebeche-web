@@ -17,6 +17,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/02/Marceddi_
 seoTitle: Marceddi, el pueblo donde los peces vuelan
 seoDescription: Marceddi es una pequeña aldea de pescadores situada en la costa oeste
   de Cerdeña,  una mancha italiana, verde y montañosa enmedio del Mediterráneo.
+excerpt: Para poder llegar al pueblo –si sus cuatro calles alcanzan esa consideración–
+  hay que atravesar un puente largo y estrecho, donde los coches esperan para…
 ---
 
 Para poder llegar al pueblo –si sus cuatro calles alcanzan esa consideración– hay que atravesar un puente largo y estrecho, donde los coches esperan para pasar de uno en uno. Me reciben barquitas de colores apoyadas en la arena y casas bajas con fachadas de colores claros. Por la noche, un par de tenues farolas alumbran sus calles sin asfaltar y solo rompen el silencio el canto de los grillos y las ranas croando.

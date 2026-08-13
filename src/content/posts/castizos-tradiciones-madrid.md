@@ -25,6 +25,8 @@ comments:
 - author: Rocío Periago
   date: '2016-08-18'
   content: Un placer, gracias a vosotros por compartir conmigo vuestra historia!
+excerpt: No hay fiesta popular en Madrid que se precie que no estén ellos, vestidos
+  con su traje de chulapo, su parpusa y clavel, bailando un chotis sobre un…
 ---
 
 No hay fiesta popular en Madrid que se precie que no estén ellos, vestidos con su traje de chulapo, su parpusa y clavel, bailando un chotis sobre un ladrillo o luciendo galas goyescas.

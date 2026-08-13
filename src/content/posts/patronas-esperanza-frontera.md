@@ -20,6 +20,8 @@ seoTitle: En la frontera. Las Patronas. La esperanza de los que nada tienen
 seoDescription: Las patronas. Un grupo de mujeres que alimentan a los inmigrantes
   que cruzan la frontera de Mexico con Estados Unidos a bordo de un tren llamado "La
   Bestia"
+excerpt: Las fronteras pueden ser líneas dibujadas sobre un mapa, verjas y alambradas
+  que separan dos realidades, muros de cemento o barreras naturales. Hay…
 ---
 
 Las fronteras pueden ser líneas dibujadas sobre un mapa, verjas y alambradas que separan dos realidades, muros de cemento o barreras naturales. Hay algunas que nunca se abren y otras por donde transitan a diario miles de personas. Hay tantas como países limítrofes, y siempre, el intentar cerrarlas y limitar su paso conlleva crear situaciones de desigualdad. 

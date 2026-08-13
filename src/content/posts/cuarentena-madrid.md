@@ -19,6 +19,8 @@ comments:
 - author: Chani
   date: '2020-03-13'
   content: '#yo me quedo en casa#??'
+excerpt: 30m² que incluso para los que teletrabajamos delante del ordenador a diario,
+  se nos hacen mucho más pequeños de lo que ya son. Podría empezar a hablar del…
 ---
 
 **Tercer día de cuarentena y ya nos tiramos de los pelos. Estar  recluidos en 30 m² es lo que tiene, sobre todo cuando en la calle hace buen tiempo y aún se ve a gente paseando o en las terrazas sentados. Eso sí, parece que [el mensaje de responsabilidad](https://www.rtve.es/noticias/20200312/importante-quedarse-casa/2009042.shtml) ha calado porque cada vez son menos quienes se saltan las recomendaciones oficiales.**

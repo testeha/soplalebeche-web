@@ -18,6 +18,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2014/12/lorca_caz
 seoTitle: Cazalla Intercultural. ¿Quién dijo que en Lorca no hay nada? - Rocío Periago
 seoDescription: 'Cazalla Intercultural: 10 años en Lorca que han dado para muchos
   proyectos, ayudando a derribar prejuicios, fronteras, abriendo mentes.'
+excerpt: 'Diez años ya...que pasan volando y que cuando te paras a pensar están llenos
+  de anécdotas y momentos inolvidables: Manolo, Tea, Aga, Katia, Sibi, Carmen…'
 ---
 
 Diez años ya...que pasan volando y que cuando te paras a pensar están llenos de anécdotas y momentos inolvidables: Manolo, Tea, Aga, Katia, Sibi, Carmen, Bea... Y todas las voluntarias (y algún que otro voluntario) que estáis detrás de todo esto.

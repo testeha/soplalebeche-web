@@ -15,6 +15,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/07/bibliotec
 seoTitle: Preparativos para un viaje. Libros y lecturas que me han gustado
 seoDescription: Para preparar un viaje, me gusta leer qué han escrito otras personas
   sobre ese lugar. Estas son algunas de mis recomendaciones para quienes busquen lecturas
+excerpt: Pueden ser novelas o historias de ficción ambientadas en el lugar, artículos
+  y libros de no ficción que me pongan en situación del contexto social…
 ---
 
 **Una de las cosas que más disfruto cuando tengo un destino decidido, es la preparación del viaje.** Empieza como un juego porque me encanta, y así comienzo a investigar cosas sobre el lugar, si voy con la idea de trabajar en algún reportaje o proyecto comienzo a preparármelo bien, a trabajar los contactos, buscar alojamientos y planificar una posible ruta a seguir... aunque luego dejo muchas cosas abiertas a la improvisación. En esa labor de investigación, hay una cosa que me gusta mucho hacer y que considero fundamental: buscar libros que hablen de ese destino. 

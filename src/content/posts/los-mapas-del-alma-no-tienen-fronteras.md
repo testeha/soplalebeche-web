@@ -7,6 +7,7 @@ categories: []
 draft: true
 tags:
 - Eduardo Galeano
+excerpt: Más información sobre la visita que hice a la Playa del Tarajal y a Ceuta aquí
 ---
 
 > ### **“Los mapas del alma no tienen fronteras y yo soy patriota de varias patrias” Eduardo Galeano**

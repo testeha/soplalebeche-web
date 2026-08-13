@@ -17,6 +17,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20100409_
 seoTitle: Viaje a Castelo de Vide, un pequeño pueblo de Portugal
 seoDescription: Castelo de Vide es un pequeño pueblo de Portugal situado en la región
   del Alto Alenteho, en el Conselho de Portalegre, cerca de la frontera con España.
+excerpt: He encontrado un rincón donde perderme gustosamente por una temporada: Castelo
+  de Vide, un pequeño pueblo de Portugal, situado en el Alto Alenteho, cerca…
 ---
 
 He encontrado un rincón donde perderme gustosamente por una temporada: Castelo de Vide, un pequeño pueblo de Portugal, situado en el [***Alto Alenteho***](https://es.wikipedia.org/wiki/Alto_Alentejo), cerca de la frontera española con Extremadura. 

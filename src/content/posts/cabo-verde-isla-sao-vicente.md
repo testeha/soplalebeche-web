@@ -18,6 +18,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20100215_
 seoTitle: Viaje a Cabo Verde. Isla de Sao Vicente y Cesaria Évora
 seoDescription: Cabo Verde es un país africano formado por un archipiélago de islas
   en el Océano Atlántico. Antigua colonia portuguesa tiene aún vestigios de esa cultura
+excerpt: Cabo Verde está formado por 8 islas grandes y otras muchas más pequeñitas.
+  Sin embargo, no todas las islas están habitadas. Al ser de origen volcánico y…
 ---
 
 > **Cabo Verde es un país africano formado por un archipiélago de islas en mitad del Océano Atlántico, aproximadamente a la altura de Senegal.**

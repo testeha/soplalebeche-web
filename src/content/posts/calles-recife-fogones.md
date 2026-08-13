@@ -9,6 +9,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/03/PequenosP
 seoTitle: De las calles de Recife (Pernambuco, Brasil) a los fogones
 seoDescription: La historia de un proyecto de gastronomía social que cultiva sus propios
   alimentos y crea con ellos platos de alta cocina para los meninos da rúa.
+excerpt: La realidad social del nordeste de Brasil es compleja y diversa, con una
+  amplia mayoría de población afro-brasileña. La región metropolitana de Recife…
 ---
 
 **Recife, Brasil.** Se acaban de cumplir 30 años desde su creación, aunque la media de edad de los que asisten a los talleres ronda los 11 o 12 años. La [*Comunidade dos Pequenos Profetas*](http://pequenosprofetasrecife.blogspot.com.es/p/teste-1.html) es un proyecto social que nació en la brasileña ciudad de Recife como denuncia frente a la violencia que se cebaba en los niños y niñas que vivían en la calle. Maltratados y abusados tanto física como sexualmente, con la eterna amenaza de los grupos de exterminio y muchos de ellos con diferentes adicciones y sin ningún recurso, este proyecto ha supuesto una vía de escape, una alternativa a la vida en las calles para muchos jóvenes brasileños. A día de hoy, con un equipo formado por 24 personas, entre trabajadores y voluntarios, el centro ofrece una alternativa de ocio y aprendizaje a cientos de niños de la calle y de las barriadas más desfavorecidas de Recife. Entre otros premios, su trabajo fue reconocido por Naciones Unidas con el premio ODM en el año 2008.

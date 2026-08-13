@@ -25,6 +25,8 @@ comments:
     todavía hay una parte menos turística donde encontrar panaderías y un mercado
     de verduras y frutas. Ahí se rodo serie Çukur, una serie mítica en Turquía, la
     recomiendo(se puede ver en YouTube)
+excerpt: La zona turística de Sultanhamed, la parte más conservadora y musulmana de
+  las mezquitas de Eyup, donde la mayoría de mujeres visten el chador o el jiyab…
 ---
 
 > Una ciudad, dos continentes, tres nombres y cientos de gatos y perros. Estambul es una urbe de 10 millones de habitantes donde cada barrio muestra una cara de la múltiple diversidad que llena sus calles.

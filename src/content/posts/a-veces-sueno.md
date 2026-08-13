@@ -19,6 +19,8 @@ comments:
 - author: Chani
   date: '2020-06-10'
   content: Ya queda poco para darse un baño.
+excerpt: Tengo un sueño que se repite muchas veces, que me sorprende algunas noches
+  casi al alba y que me deja con un buen sabor de boca justo cuando suena el…
 ---
 
 Tengo un sueño que se repite muchas veces, que me sorprende algunas noches casi al alba y que me deja con un buen sabor de boca justo cuando suena el pitido del despertador.

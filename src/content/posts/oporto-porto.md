@@ -18,6 +18,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20130423_
 seoTitle: Descubriendo Oporto, una ciudad a los pies del río Douro
 seoDescription: Oporto es una ciudad portuguesa situada al norte del país, donde desemboca
   el río Duero. Es conocida por sus vinos y por su arquitectura
+excerpt: Tenía muchas ganas de conocer el norte de Portugal y esta ha sido una oportunidad
+  para hacerlo. La forma más económica de llegar a Oporto desde España es…
 ---
 
 > **Oporto es humedad, lluvia, callejuelas, rio Douro, bacalhau, vinho y buena compañía.**

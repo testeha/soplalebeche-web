@@ -83,6 +83,8 @@ comments:
     Ya cada uno lo hace como puede o le guste más, pintarrajeando, escribiendo, con
     fotografías...yo también tengo libretas con anotaciones que luego me cuesta siglos
     traducir,así que tranquila!
+excerpt: Siempre me ha gustado escribir cuando viajo. Un resumen del día, nombres
+  o palabras en otros idiomas, lugares que recomiendan visitar, un plato típico que…
 ---
 
 Siempre me ha gustado escribir cuando viajo. Un resumen del día, nombres o palabras en otros idiomas, lugares que recomiendan visitar, un plato típico que hay que probar, teléfonos de contactos en una ciudad o indicaciones sobre el transporte público. [**Mis propios cuadernos o guías de viaje.**](/historias/categoria/cuadernos-de-viaje)

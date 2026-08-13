@@ -22,6 +22,8 @@ comments:
   date: '2016-08-11'
   content: Me encanta la gente con las ideas claras, y esta chica es un ejemplo de
     que si tienes una idea en mente, tienes que ir a por ella!
+excerpt: Todos hemos soñado alguna vez dejar las cosas e irnos una temporada al otro
+  extremo del mundo, a una isla paradisíaca o a un destino lejano y exótico. Hay…
 ---
 
 > ### **Mi madre siempre lleva dos relojes. Uno con la hora de Lorca y otro con la hora del lugar donde yo esté. Nunca se los quita porque dice que está a la espera de que me vaya a algún sitio. Es la persona que más me ha apoyado cada vez que he decido salir fuera.**

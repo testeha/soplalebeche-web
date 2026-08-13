@@ -15,6 +15,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2019/05/11mapa-ge
 seoTitle: Preparando un viaje a Tanzania y Malawi. África en el horizonte
 seoDescription: ¿Cómo preparar un viaje fuera de los mapas y recorridos habituales?
   ¿Cómo llegar a un lugar al que poca gente sabe ubicar en un mapa?
+excerpt: Información de Tanzania hay mucha, sobre todo referida al Kilimanjaro, los
+  numerosos parques naturales donde se realizan safaris para ver de cerca a los…
 ---
 
 > **¿Cómo preparar un viaje fuera de los mapas y recorridos habituales? ¿Cómo llegar a un lugar al que poca gente sabe ubicar en un mapa? ¿Cómo enfrentarte al continente africano sin una mirada llena de prejuicios y estereotipos, si prácticamente todas las noticias que se publican son sobre pobreza, subdesarrollo y enfermedades?**

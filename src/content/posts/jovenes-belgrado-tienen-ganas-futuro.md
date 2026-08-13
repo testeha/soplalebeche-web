@@ -18,6 +18,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/01/Ejercicio
 seoTitle: Los jóvenes en Belgrado tienen ganas de futuro
 seoDescription: En Serbia hay jóvenes escépticos que no acaban de creerse que Europa
   les va a beneficiar, pero también hay muchos involucrados en iniciativas sociales
+excerpt: De todas las peculiaridades que tiene, una de ellas es que utiliza un doble
+  alfabeto, el cirílico (el oficial) y el latino (el que se ha ido extendiendo…
 ---
 
 De todas las peculiaridades que tiene, una de ellas es que utiliza un doble alfabeto, el cirílico (el oficial) y el latino (el que se ha ido extendiendo en los últimos años), lo que parece llenar de orgullo a su gente, además de hacer incomprensibles los rótulos de las calles. Mezcla de las diferentes culturas y civilizaciones que han ido pasando desde hace siglos por esta región, Serbia es un país enclaustrado en los Balcanes, lejos del mar y donde aún se nota que no hace tantos años estaba en guerras fraticidas con sus vecinos de alrededor.

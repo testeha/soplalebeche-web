@@ -16,6 +16,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/05/20160526_
 seoTitle: Enrique Martinez Reguera. Un niño entre niños - Rocío Periago
 seoDescription: Soplalebeche, un blog de viajes y buenas historias con nombre de viento
   del sur
+excerpt: Es un hombre entrañable, que parece mucho más joven que los años que tiene.
+  Pelo blanco y sonriente, me lo encuentro sentado a la sombra de un árbol…
 ---
 
 ### **Una vida entera dedicada a la educación de niños y jóvenes, y sobre todo centrada en aquellos más débiles, más desprotegidos y vulnerables de la sociedad, hacen de Enrique Martínez Reguera una referencia en el ámbito educativo.**

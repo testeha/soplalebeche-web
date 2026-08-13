@@ -35,6 +35,8 @@ comments:
   content: Hola Paco, ¡muchas gracias por tu comentario! La verdad es que la ciudad
     cambia por completo esa semana, sobre todo la víspera del santo (la noche de 12
     de junio). Yo espero volver pronto a Lisboa, es una ciudad que me encanta.
+excerpt: A los arraiais se va a comer y a beber. Y si hay escenario con música en
+  directo, a bailar lo que echen hasta que el cuerpo aguante. También hay…
 ---
 
 > **Santo Antonio son las fiestas de Lisboa. Duran prácticamente todo el mes de junio, aunque el momento grande es la víspera del santo, la noche del 12 al 13 de junio. La ciudad se llena de *arraiais*, que son chiringuitos de comida callejera que montan en las plazas y calles, decoradas con guirnaldas de colores y luces.**

@@ -17,6 +17,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/07/Intendent
 seoTitle: Un rincón para perderse en la ciudad de Lisboa. Largo do Intendente
 seoDescription: Largo do Intendente es una plaza en Lisboa junto a la Rua do Benfermoso,
   donde está todos los indios y bangladesíes con sus negocios.
+excerpt: En Intendente hay un par de cafés con sus terrazas y la tienda A Vida Portuguesa,
+  preciosa pero cara, de esas a las que ir sobre todo a mirar. Todo muy…
 ---
 
 **Uno de los lugares que más me gustan de Lisboa es Largo do Intendente. Es una plaza que siempre suele tener gente, junto a la Rua do Benfermoso, donde está todos los indios y bangladesíes con sus negocios. Estos días coincide con [Santo Antonio](/historias/santo-antonio-fiestas-lisboa) y es el final del Ramadán, así que durante el día todo es bastante tranquilo, y por la noche la calle se llena de gente y el ambiente se transforma.**

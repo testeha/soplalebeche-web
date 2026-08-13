@@ -8,6 +8,8 @@ draft: true
 tags:
 - Cine social
 featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20151120_portada.jpg
+excerpt: No lo he hecho a posta, pero me he dado cuenta que la temática mayoritaria son
+  las fronteras y migraciones. ¡Espero que os gusten!
 ---
 
 ### **Aquí va una nueva tanda de películas y cortos de temática social (si quieres más, puedes ver [CINE SOCIAL 1](https://soplalebeche.wordpress.com/2015/10/05/cine-social-en-soplalebeche-1/)). En algunos casos al no encontrar las películas he puesto el enlace al trailer, pero si alguien está interesado, seguro que puede encontrarla o alquilarla en algún sitio (sí, todavía existen algunos videoclubs!)**

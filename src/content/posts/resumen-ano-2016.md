@@ -18,6 +18,8 @@ featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/12/20161231_
 seoTitle: De todo un poco. Un resumen del año 2016 y deseos para el 2017
 seoDescription: Ahora que acaba el año es cuando se hacen esas listas, balances y
   propósitos para el año próximo... este es mi resumen de las cosas buenas del 2016
+excerpt: Ahora que el 2016 está casi terminado, puedo decir que ha sido un año completo,
+  intenso y bonito. Como en todos hay momentos buenos y malos, pero como…
 ---
 
 Ahora que el 2016 está casi terminado, puedo decir que ha sido un año completo, intenso y bonito. Como en todos hay momentos buenos y malos, pero como siempre soy partidaria de hacer balance positivo, me quedo con lo mejor.
