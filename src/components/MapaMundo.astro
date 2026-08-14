@@ -1,0 +1,40 @@
+---
+import worldMapSvg from '../data/world-map.svg?raw';
+import { paises } from '../data/paises';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('posts');
+
+const pines = paises
+  .map((pais) => {
+    let matches = posts.filter((p) => (p.data.tags || []).includes(pais.nombre));
+    matches = matches.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+    let representative = matches[0];
+    let count = matches.length;
+
+    if (!representative && pais.fallbackSlug) {
+      representative = posts.find((p) => p.data.slug === pais.fallbackSlug);
+      count = representative ? 1 : 0;
+    }
+
+    return { ...pais, post: representative, count };
+  })
+  .filter((p) => p.post);
+---
+
+<div class="map-wrap">
+  <Fragment set:html={worldMapSvg} />
+  {pines.map((p) => (
+    <div class="pin" style={`left:${p.left}%; top:${p.top}%;`}>
+      <div class="pin-pulse"></div>
+      <div class="pin-dot"></div>
+      <div class="tooltip">
+        {p.post!.data.draft && <span class="draft-tag">Borrador</span>}
+        <p class="cat">{p.post!.data.categories[0]} · {p.nombre}</p>
+        <p class="titulo">{p.post!.data.title}</p>
+        <a class="cta" href={`/historias/${p.post!.data.slug}`}>Leer crónica →</a>
+      </div>
+    </div>
+  ))}
+</div>
