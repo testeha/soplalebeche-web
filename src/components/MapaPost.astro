@@ -1,0 +1,37 @@
+---
+import worldMapBase from '../data/world-map-base.svg?raw';
+import { paises } from '../data/paises';
+
+interface Props {
+  tags?: string[];
+  slug: string;
+}
+
+const { tags = [], slug } = Astro.props;
+
+// Buscamos qué país corresponde a esta crónica: primero por etiqueta de país,
+// y si no hay ninguna coincidencia, por el enlace directo (fallbackSlug, caso Tanzania).
+const pais =
+  paises.find((p) => tags.includes(p.nombre)) ||
+  paises.find((p) => p.fallbackSlug === slug);
+
+let svgConCrónica = '';
+if (pais) {
+  // inyectamos class="highlight" solo en el país de esta crónica, no en los otros 13
+  const re1 = new RegExp(`(<path id="${pais.code}")`, 'g');
+  const re2 = new RegExp(`(<g id="${pais.code}")>`, 'g');
+  svgConCrónica = worldMapBase
+    .replace(re1, '$1 class="highlight"')
+    .replace(re2, '$1 class="highlight">');
+}
+---
+
+{pais && (
+  <a href="/mapamundi" class="mapa-mini-block">
+    <div class="mapa-mini-wrap">
+      <Fragment set:html={svgConCrónica} />
+      <div class="mapa-mini-pin" style={`left:${pais.left}%; top:${pais.top}%;`}></div>
+    </div>
+    <p class="mapa-mini-caption">Esta crónica ocurre en <strong>{pais.nombre}</strong> · Ver en el mapamundi →</p>
+  </a>
+)}

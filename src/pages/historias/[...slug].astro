@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { getCollection, render } from 'astro:content';
+import MapaPost from '../../components/MapaPost.astro';
 
 function slugify(str: string) {
   return str
@@ -51,11 +52,13 @@ const relatedPosts = related.slice(0, 2);
 <Layout title={post.data.title} description={post.data.excerpt}>
   <article class="max-w-2xl mx-auto">
     {post.data.featuredImage && (
-      <img
-        src={post.data.featuredImage}
-        alt={post.data.title}
-        class="w-full aspect-[16/8] object-cover rounded-3xl mb-8"
-      />
+      <div class="relative left-1/2 -translate-x-1/2 w-screen overflow-hidden mb-8" style="aspect-ratio: 16/8;">
+        <img
+          src={post.data.featuredImage}
+          alt={post.data.title}
+          class="absolute inset-0 w-full h-full object-cover"
+        />
+      </div>
     )}
 
     <p class="text-xs font-bold uppercase tracking-wider text-mediterraneo-600 mb-3">
@@ -74,6 +77,8 @@ const relatedPosts = related.slice(0, 2);
     <p class="text-sm text-slate-400 mb-10">
       {post.data.author} · {new Date(post.data.pubDate).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}
     </p>
+
+    <MapaPost tags={post.data.tags} slug={post.data.slug} />
 
     <div class="article-body font-voice text-lg leading-relaxed text-slate-800 prose-blockquote:border-l-2 prose-blockquote:border-mediterraneo-400 prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:text-mediterraneo-800 space-y-6">
       <Content />
