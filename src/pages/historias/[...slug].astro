@@ -49,7 +49,7 @@ if (related.length < 2) {
 const relatedPosts = related.slice(0, 2);
 ---
 
-<Layout title={post.data.title} description={post.data.excerpt}>
+<Layout title={post.data.title} description={post.data.excerpt} transparentHeader={!!post.data.featuredImage}>
   <article class="max-w-2xl mx-auto">
     {post.data.featuredImage && (
       <div class="relative left-1/2 -translate-x-1/2 w-screen overflow-hidden mb-10" style="height: 100vh;">
