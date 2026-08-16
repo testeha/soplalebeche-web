@@ -52,31 +52,43 @@ const relatedPosts = related.slice(0, 2);
 <Layout title={post.data.title} description={post.data.excerpt}>
   <article class="max-w-2xl mx-auto">
     {post.data.featuredImage && (
-      <div class="relative left-1/2 -translate-x-1/2 w-screen overflow-hidden mb-8" style="aspect-ratio: 16/8;">
+      <div class="relative left-1/2 -translate-x-1/2 w-screen overflow-hidden mb-10" style="height: 100vh;">
         <img
           src={post.data.featuredImage}
           alt={post.data.title}
-          class="absolute inset-0 w-full h-full object-cover"
+          class="parallax-img"
         />
+        <div class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-black/45 to-transparent"></div>
+        <a
+          href="#cronica-contenido"
+          class="absolute bottom-8 left-1/2 -translate-x-1/2 w-11 h-11 rounded-full border border-white/40 backdrop-blur-sm flex items-center justify-center text-white hover:bg-white/10 transition-colors"
+          aria-label="Ir al contenido"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 5v14M19 12l-7 7-7-7" />
+          </svg>
+        </a>
       </div>
     )}
 
-    <p class="text-xs font-bold uppercase tracking-wider text-mediterraneo-600 mb-3">
-      {post.data.categories.map((cat: string, i: number) => (
-        <>
-          {i > 0 && <span> · </span>}
-          <a href={`/historias/categoria/${slugify(cat)}`} class="hover:text-mediterraneo-800 hover:underline">
-            {cat}
-          </a>
-        </>
-      ))}
-    </p>
-    <h1 class="font-voice text-4xl text-mediterraneo-800 mb-3 leading-tight">
-      {post.data.title}
-    </h1>
-    <p class="text-sm text-slate-400 mb-10">
-      {post.data.author} · {new Date(post.data.pubDate).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}
-    </p>
+    <div id="cronica-contenido">
+      <p class="text-xs font-bold uppercase tracking-wider text-mediterraneo-600 mb-3">
+        {post.data.categories.map((cat: string, i: number) => (
+          <>
+            {i > 0 && <span> · </span>}
+            <a href={`/historias/categoria/${slugify(cat)}`} class="hover:text-mediterraneo-800 hover:underline">
+              {cat}
+            </a>
+          </>
+        ))}
+      </p>
+      <h1 class="font-voice text-4xl text-mediterraneo-800 mb-3 leading-tight">
+        {post.data.title}
+      </h1>
+      <p class="text-sm text-slate-400 mb-10">
+        {post.data.author} · {new Date(post.data.pubDate).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}
+      </p>
+    </div>
 
     <MapaPost tags={post.data.tags} slug={post.data.slug} />
 

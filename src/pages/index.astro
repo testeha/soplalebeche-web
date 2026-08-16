@@ -42,7 +42,7 @@ const catColors: Record<string, string> = {
 <Layout title="Inicio" transparentHeader={true}>
   <div class="relative left-1/2 -translate-x-1/2 w-screen overflow-hidden mb-14" style="height: 100vh;">
     {latest.data.featuredImage ? (
-      <img src={latest.data.featuredImage} alt={latest.data.title} class="absolute inset-0 w-full h-full object-cover" />
+      <img src={latest.data.featuredImage} alt={latest.data.title} class="parallax-img" />
     ) : (
       <div class="absolute inset-0 bg-gradient-to-br from-mediterraneo-900 via-mediterraneo-600 to-mediterraneo-200"></div>
     )}

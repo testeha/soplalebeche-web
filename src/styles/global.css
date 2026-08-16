@@ -384,3 +384,15 @@ html {
   .mapa-mini-block{ flex-direction:column; max-width:100%; }
   .mapa-mini-wrap{ width:100%; }
 }
+
+/* Parallax de imágenes destacadas: la imagen se sale un poco por arriba y por
+   abajo del contenedor para que el JS pueda moverla sin dejar huecos en blanco */
+.parallax-img{
+  position:absolute;
+  top:-8%;
+  left:0;
+  width:100%;
+  height:116%;
+  object-fit:cover;
+  will-change:transform;
+}

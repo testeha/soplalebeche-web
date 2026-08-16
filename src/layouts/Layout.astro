@@ -136,6 +136,7 @@ const navLinks = [
     </div>
 
     <script>
+      // ---- Lightbox de galería ----
       const overlay = document.getElementById('lightbox-overlay');
       const overlayImg = document.getElementById('lightbox-image') as HTMLImageElement;
       const counter = document.getElementById('lightbox-counter');
@@ -201,6 +202,26 @@ const navLinks = [
         if (e.key === 'ArrowRight') showImage(currentIndex + 1);
         if (e.key === 'ArrowLeft') showImage(currentIndex - 1);
       });
+
+      // ---- Parallax de imágenes destacadas (hero de Home y portada de cada crónica) ----
+      function updateParallax() {
+        const imgs = document.querySelectorAll<HTMLElement>('.parallax-img');
+        const vh = window.innerHeight;
+        imgs.forEach((img) => {
+          const container = img.parentElement;
+          if (!container) return;
+          const rect = container.getBoundingClientRect();
+          const center = rect.top + rect.height / 2 - vh / 2;
+          const progress = center / (vh / 2 + rect.height / 2);
+          const clamped = Math.max(-1, Math.min(1, progress));
+          const maxShift = rect.height * 0.08;
+          const shift = -clamped * maxShift;
+          img.style.transform = `translateY(${shift}px)`;
+        });
+      }
+      window.addEventListener('scroll', updateParallax, { passive: true });
+      window.addEventListener('resize', updateParallax);
+      updateParallax();
     </script>
   </body>
 </html>
