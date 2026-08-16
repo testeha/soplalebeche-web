@@ -40,7 +40,7 @@ const catColors: Record<string, string> = {
 ---
 
 <Layout title="Inicio" transparentHeader={true}>
-  <div class="relative left-1/2 -translate-x-1/2 w-screen overflow-hidden mb-14" style="height: 100vh;">
+  <div class="relative left-1/2 -translate-x-1/2 w-screen overflow-hidden" style="height: 100vh;">
     {latest.data.featuredImage ? (
       <img src={latest.data.featuredImage} alt={latest.data.title} class="parallax-img" />
     ) : (
@@ -85,7 +85,7 @@ const catColors: Record<string, string> = {
     </a>
   </div>
 
-  <section id="ultimas-cronicas" class="mb-14">
+  <section id="ultimas-cronicas" class="pt-10 mb-14">
     <div class="flex justify-between items-end mb-6">
       <div>
         <h2 class="font-voice text-3xl text-mediterraneo-800 mb-2">Últimas crónicas</h2>

@@ -59,13 +59,13 @@ const fechaFormateada = new Date(post.data.pubDate).toLocaleDateString('es-ES', 
 <Layout title={post.data.title} description={post.data.excerpt} transparentHeader={tieneFoto}>
   <article class="max-w-2xl mx-auto">
     {tieneFoto ? (
-      <div class="relative left-1/2 -translate-x-1/2 w-screen overflow-hidden mb-10" style="height: 100vh;">
+      <div class="relative left-1/2 -translate-x-1/2 w-screen overflow-hidden" style="height: 100vh;">
         <img src={post.data.featuredImage} alt={post.data.title} class="parallax-img" />
         <div class="absolute inset-0 bg-gradient-to-t from-mediterraneo-900/90 via-mediterraneo-900/20 to-mediterraneo-900/45"></div>
         <div class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-black/45 to-transparent"></div>
 
         <div class="absolute inset-0 flex items-end">
-          <div class="max-w-6xl mx-auto px-6 w-full pb-14">
+          <div class="max-w-6xl mx-auto px-6 w-full pb-24">
             <div class="max-w-2xl">
               <p class="text-xs font-bold uppercase tracking-wider text-arena-100 mb-3">
                 {post.data.categories.map((cat: string, i: number) => (
@@ -106,7 +106,7 @@ const fechaFormateada = new Date(post.data.pubDate).toLocaleDateString('es-ES', 
       </div>
     )}
 
-    <div id="cronica-contenido">
+    <div id="cronica-contenido" class="pt-10">
       <MapaPost tags={post.data.tags} slug={post.data.slug} />
 
       <div class="article-body font-voice text-lg leading-relaxed text-slate-800 prose-blockquote:border-l-2 prose-blockquote:border-mediterraneo-400 prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:text-mediterraneo-800 space-y-6">

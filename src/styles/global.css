@@ -305,7 +305,7 @@ html {
   gap:16px;
   align-items:stretch;
   margin-bottom:32px;
-  max-width:480px;
+  max-width:540px;
   background:var(--color-mediterraneo-50);
   border-radius:16px;
   padding:12px;
@@ -313,7 +313,7 @@ html {
 .mapa-mini-wrap{
   position:relative;
   display:block;
-  width:150px;
+  width:200px;
   flex-shrink:0;
   aspect-ratio: 784 / 459;
   border-radius:10px;
