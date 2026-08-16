@@ -31,7 +31,7 @@ const pines = paises
       <div class="pin-dot"></div>
       <div class="tooltip">
         {p.post!.data.draft && <span class="draft-tag">Borrador</span>}
-        <p class="cat">{p.post!.data.categories[0]} · {p.nombre}</p>
+        <p class="cat">{p.post!.data.categories[0]} · {p.nombre}{p.ciudad ? ` · ${p.ciudad}` : ''}</p>
         <p class="titulo">{p.post!.data.title}</p>
         <a class="cta" href={`/historias/${p.post!.data.slug}`}>Leer crónica →</a>
       </div>

@@ -1,6 +1,7 @@
 ---
 import worldMapBase from '../data/world-map-base.svg?raw';
 import { paises } from '../data/paises';
+import { getCollection } from 'astro:content';
 
 interface Props {
   tags?: string[];
@@ -9,29 +10,58 @@ interface Props {
 
 const { tags = [], slug } = Astro.props;
 
-// Buscamos qué país corresponde a esta crónica: primero por etiqueta de país,
-// y si no hay ninguna coincidencia, por el enlace directo (fallbackSlug, caso Tanzania).
 const pais =
   paises.find((p) => tags.includes(p.nombre)) ||
   paises.find((p) => p.fallbackSlug === slug);
 
 let svgConCrónica = '';
+let categoriaPrincipal = '';
+let count = 0;
+
 if (pais) {
-  // inyectamos class="highlight" solo en el país de esta crónica, no en los otros 13
   const re1 = new RegExp(`(<path id="${pais.code}")`, 'g');
   const re2 = new RegExp(`(<g id="${pais.code}")>`, 'g');
   svgConCrónica = worldMapBase
     .replace(re1, '$1 class="highlight"')
     .replace(re2, '$1 class="highlight">');
+
+  const posts = await getCollection('posts', ({ data }) => !data.draft);
+  const matches = posts.filter((p) => (p.data.tags || []).includes(pais.nombre));
+
+  if (matches.length > 0) {
+    count = matches.length;
+    const catCounts: Record<string, number> = {};
+    matches.forEach((p) => {
+      p.data.categories.forEach((c) => {
+        catCounts[c] = (catCounts[c] || 0) + 1;
+      });
+    });
+    categoriaPrincipal = Object.entries(catCounts).sort((a, b) => b[1] - a[1])[0]?.[0] || '';
+  } else {
+    // caso Tanzania: sin match por etiqueta, contamos al menos la crónica del fallback
+    count = 1;
+  }
 }
 ---
 
 {pais && (
-  <a href="/mapamundi" class="mapa-mini-block">
-    <div class="mapa-mini-wrap">
+  <div class="mapa-mini-block">
+    <a href="/mapamundi" class="mapa-mini-wrap">
       <Fragment set:html={svgConCrónica} />
       <div class="mapa-mini-pin" style={`left:${pais.left}%; top:${pais.top}%;`}></div>
+    </a>
+    <div class="mapa-mini-info">
+      <p class="mapa-mini-pais">{pais.nombre}</p>
+      <div class="mapa-mini-datos">
+        {categoriaPrincipal && (
+          <span><strong>Categoría:</strong> {categoriaPrincipal}</span>
+        )}
+        {pais.ciudad && (
+          <span><strong>Ciudad:</strong> {pais.ciudad}</span>
+        )}
+        <span><strong>{count === 1 ? 'Crónica' : 'Crónicas'}:</strong> {count}</span>
+      </div>
+      <a href="/mapamundi" class="mapa-mini-caption">Ver en el mapamundi →</a>
     </div>
-    <p class="mapa-mini-caption">Esta crónica ocurre en <strong>{pais.nombre}</strong> · Ver en el mapamundi →</p>
-  </a>
+  </div>
 )}
