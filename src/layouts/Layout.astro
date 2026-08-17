@@ -196,6 +196,12 @@ const navLinks = [
       <button class="lightbox-arrow next" id="lightbox-next" aria-label="Siguiente">&#8250;</button>
     </div>
 
+    <button id="scroll-top-btn" class="scroll-top-btn" aria-label="Volver arriba">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 19V5M5 12l7-7 7 7" />
+      </svg>
+    </button>
+
     <script>
       // ---- Lightbox de galería ----
       const overlay = document.getElementById('lightbox-overlay');
@@ -283,6 +289,22 @@ const navLinks = [
       window.addEventListener('scroll', updateParallax, { passive: true });
       window.addEventListener('resize', updateParallax);
       updateParallax();
+
+      // ---- Botón "volver arriba" ----
+      const scrollTopBtn = document.getElementById('scroll-top-btn');
+      function updateScrollTopBtn() {
+        if (!scrollTopBtn) return;
+        if (window.scrollY > window.innerHeight * 0.6) {
+          scrollTopBtn.classList.add('visible');
+        } else {
+          scrollTopBtn.classList.remove('visible');
+        }
+      }
+      scrollTopBtn?.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+      window.addEventListener('scroll', updateScrollTopBtn, { passive: true });
+      updateScrollTopBtn();
     </script>
   </body>
 </html>
