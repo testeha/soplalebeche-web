@@ -106,7 +106,7 @@ const navLinks = [
       </div>
     </header>
 
-    <div class={`max-w-6xl mx-auto px-6 ${transparentHeader ? '' : 'pt-[88px]'}`}>
+    <div id="page-content" class="max-w-6xl mx-auto px-6" style={transparentHeader ? '' : 'padding-top: 88px;'}>
       <main>
         <slot />
       </main>
@@ -325,6 +325,22 @@ const navLinks = [
       }
       window.addEventListener('scroll', updateHeaderBg, { passive: true });
       updateHeaderBg();
+
+      // ---- Ajuste EXACTO del espacio bajo el header fijo ----
+      // En vez de un número fijo a ojo, medimos la altura real del header
+      // (puede variar ligeramente según fuente cargada o ancho de pantalla)
+      // y se lo aplicamos como padding-top al contenido, solo en páginas sin
+      // foto de portada (las de foto ya reservan su propio espacio con el hero).
+      const pageContent = document.getElementById('page-content');
+      function adjustContentPadding() {
+        if (!siteHeader || !pageContent) return;
+        if (siteHeader.dataset.transparent === 'true') return;
+        const headerHeight = siteHeader.offsetHeight;
+        pageContent.style.paddingTop = `${headerHeight}px`;
+      }
+      window.addEventListener('resize', adjustContentPadding);
+      document.addEventListener('DOMContentLoaded', adjustContentPadding);
+      adjustContentPadding();
     </script>
   </body>
 </html>
