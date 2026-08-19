@@ -46,61 +46,67 @@ const navLinks = [
     />
   </head>
   <body class="bg-crema-50 text-slate-800">
-    {transparentHeader ? (
-      <header class="absolute top-0 inset-x-0 z-20">
-        <div class="max-w-6xl mx-auto px-6 py-6 grid items-center gap-4" style="grid-template-columns: 1fr auto 1fr;">
-          <a href="/" class="justify-self-start"><Logo variant="white" /></a>
-          <nav class="justify-self-center flex items-center gap-1 text-sm font-medium text-white border border-white/30 rounded-full px-2 py-2 backdrop-blur-sm">
-            {navLinks.map((link) => (
-              <a
-                href={link.href}
-                class={`px-4 py-2 rounded-full whitespace-nowrap transition-colors ${
-                  isActive(link.href) ? 'bg-white text-mediterraneo-800' : 'hover:text-arena-100'
-                }`}
-              >
-                {link.label}
-              </a>
-            ))}
-          </nav>
-          <a
-            href="#"
-            class="justify-self-end flex items-center gap-2 text-xs font-medium text-white border border-white/30 rounded-full px-4 py-2.5 hover:bg-white/10 whitespace-nowrap"
-          >
-            <span class="w-1.5 h-1.5 rounded-full bg-white inline-block"></span>
-            Un proyecto de Testeha Estudio
-          </a>
-        </div>
-      </header>
-    ) : (
-      <div class="max-w-6xl mx-auto px-6">
-        <header class="grid items-center gap-4 py-6" style="grid-template-columns: 1fr auto 1fr;">
-          <a href="/" class="justify-self-start"><Logo /></a>
-          <nav class="justify-self-center flex items-center gap-1 text-sm font-medium text-slate-700 border border-mediterraneo-800/15 rounded-full px-2 py-2">
-            {navLinks.map((link) => (
-              <a
-                href={link.href}
-                class={`px-4 py-2 rounded-full whitespace-nowrap transition-colors ${
-                  isActive(link.href)
-                    ? 'bg-mediterraneo-600 text-white'
-                    : 'hover:text-mediterraneo-600'
-                }`}
-              >
-                {link.label}
-              </a>
-            ))}
-          </nav>
-          <a
-            href="#"
-            class="justify-self-end flex items-center gap-2 text-xs font-medium text-mediterraneo-800 border border-mediterraneo-800/15 rounded-full px-4 py-2.5 hover:bg-mediterraneo-50 whitespace-nowrap"
-          >
-            <span class="w-1.5 h-1.5 rounded-full bg-mediterraneo-800 inline-block"></span>
-            Un proyecto de Testeha Estudio
-          </a>
-        </header>
+    <header
+      id="site-header"
+      data-transparent={transparentHeader ? 'true' : 'false'}
+      class={`fixed top-0 inset-x-0 z-50 transition-colors duration-300 ${
+        transparentHeader ? '' : 'bg-crema-50/95 backdrop-blur-sm border-b border-mediterraneo-800/10'
+      }`}
+    >
+      <div class="max-w-6xl mx-auto px-6 py-5 grid items-center gap-4" style="grid-template-columns: 1fr auto 1fr;">
+        {transparentHeader ? (
+          <>
+            <a href="/" class="justify-self-start"><Logo variant="white" /></a>
+            <nav class="justify-self-center flex items-center gap-1 text-sm font-medium text-white border border-white/30 rounded-full px-2 py-2 backdrop-blur-sm">
+              {navLinks.map((link) => (
+                <a
+                  href={link.href}
+                  class={`px-4 py-2 rounded-full whitespace-nowrap transition-colors ${
+                    isActive(link.href) ? 'bg-white text-mediterraneo-800' : 'hover:text-arena-100'
+                  }`}
+                >
+                  {link.label}
+                </a>
+              ))}
+            </nav>
+            <a
+              href="#"
+              class="justify-self-end flex items-center gap-2 text-xs font-medium text-white border border-white/30 rounded-full px-4 py-2.5 hover:bg-white/10 whitespace-nowrap"
+            >
+              <span class="w-1.5 h-1.5 rounded-full bg-white inline-block"></span>
+              Un proyecto de Testeha Estudio
+            </a>
+          </>
+        ) : (
+          <>
+            <a href="/" class="justify-self-start"><Logo /></a>
+            <nav class="justify-self-center flex items-center gap-1 text-sm font-medium text-slate-700 border border-mediterraneo-800/15 rounded-full px-2 py-2">
+              {navLinks.map((link) => (
+                <a
+                  href={link.href}
+                  class={`px-4 py-2 rounded-full whitespace-nowrap transition-colors ${
+                    isActive(link.href)
+                      ? 'bg-mediterraneo-600 text-white'
+                      : 'hover:text-mediterraneo-600'
+                  }`}
+                >
+                  {link.label}
+                </a>
+              ))}
+            </nav>
+            <a
+              href="#"
+              class="justify-self-end flex items-center gap-2 text-xs font-medium text-mediterraneo-800 border border-mediterraneo-800/15 rounded-full px-4 py-2.5 hover:bg-mediterraneo-50 whitespace-nowrap"
+            >
+              <span class="w-1.5 h-1.5 rounded-full bg-mediterraneo-800 inline-block"></span>
+              Un proyecto de Testeha Estudio
+            </a>
+          </>
+        )}
       </div>
-    )}
+    </header>
 
-    <div class="max-w-6xl mx-auto px-6">
+    <div class={`max-w-6xl mx-auto px-6 ${transparentHeader ? '' : 'pt-[88px]'}`}>
       <main>
         <slot />
       </main>
@@ -305,6 +311,20 @@ const navLinks = [
       });
       window.addEventListener('scroll', updateScrollTopBtn, { passive: true });
       updateScrollTopBtn();
+
+      // ---- Header fijo: en páginas con foto de portada, empieza transparente
+      // sobre la imagen y se vuelve sólido en cuanto se avanza el scroll ----
+      const siteHeader = document.getElementById('site-header');
+      function updateHeaderBg() {
+        if (!siteHeader || siteHeader.dataset.transparent !== 'true') return;
+        if (window.scrollY > window.innerHeight * 0.55) {
+          siteHeader.classList.add('bg-mediterraneo-800/95', 'backdrop-blur-sm', 'shadow-lg');
+        } else {
+          siteHeader.classList.remove('bg-mediterraneo-800/95', 'backdrop-blur-sm', 'shadow-lg');
+        }
+      }
+      window.addEventListener('scroll', updateHeaderBg, { passive: true });
+      updateHeaderBg();
     </script>
   </body>
 </html>
