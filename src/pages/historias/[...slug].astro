@@ -23,6 +23,11 @@ const { post } = Astro.props;
 const { Content } = await render(post);
 const tieneFoto = !!post.data.featuredImage;
 
+// SEO real: usamos seoTitle/seoDescription (migrados de Yoast) cuando existen,
+// y solo si el post no lo tiene relleno caemos al título/extracto normales.
+const seoTitle = post.data.seoTitle || post.data.title;
+const seoDescription = post.data.seoDescription || post.data.excerpt;
+
 const catColors: Record<string, string> = {
   'Viajes': 'from-mediterraneo-600 to-mediterraneo-200',
   'Europa': 'from-mediterraneo-800 to-mediterraneo-400',
@@ -56,7 +61,7 @@ const fechaFormateada = new Date(post.data.pubDate).toLocaleDateString('es-ES', 
 });
 ---
 
-<Layout title={post.data.title} description={post.data.excerpt} transparentHeader={tieneFoto}>
+<Layout title={seoTitle} description={seoDescription} transparentHeader={tieneFoto}>
   <article class="max-w-2xl mx-auto">
     {tieneFoto ? (
       <div class="relative left-1/2 -translate-x-1/2 w-screen overflow-hidden" style="height: 100vh;">
