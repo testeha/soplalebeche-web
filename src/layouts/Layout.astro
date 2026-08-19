@@ -106,7 +106,7 @@ const navLinks = [
       </div>
     </header>
 
-    <div id="page-content" class="max-w-6xl mx-auto px-6" style={transparentHeader ? '' : 'padding-top: 88px;'}>
+    <div id="page-content" class="max-w-6xl mx-auto px-6" style={transparentHeader ? '' : 'padding-top: 120px;'}>
       <main>
         <slot />
       </main>
@@ -336,7 +336,7 @@ const navLinks = [
         if (!siteHeader || !pageContent) return;
         if (siteHeader.dataset.transparent === 'true') return;
         const headerHeight = siteHeader.offsetHeight;
-        pageContent.style.paddingTop = `${headerHeight}px`;
+        pageContent.style.paddingTop = `${headerHeight + 32}px`;
       }
       window.addEventListener('resize', adjustContentPadding);
       document.addEventListener('DOMContentLoaded', adjustContentPadding);
