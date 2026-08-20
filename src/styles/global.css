@@ -22,7 +22,6 @@ html {
 
   --color-crema-50: #FDFBF7;
 
-  /* colores adicionales usados en el bento de categorías del home */
   --color-verde-400: #97C459;
   --color-verde-800: #3B6D11;
   --color-terracota-100: #F0997B;
@@ -30,19 +29,16 @@ html {
   --color-oscuro-100: #854F0B;
 }
 
-/* Grid de galería: el Markdown envuelve las imágenes en un <p>,
-   así que el flex se aplica ahí dentro, no en el div exterior */
+/* Grid de galería */
 .gallery-grid {
   margin: 1.5rem 0;
 }
-
 .gallery-grid p {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
   margin: 0;
 }
-
 .gallery-grid img {
   display: block;
   width: calc(33.333% - 0.5rem);
@@ -52,12 +48,11 @@ html {
   cursor: zoom-in;
   transition: opacity 0.15s ease;
 }
-
 .gallery-grid img:hover {
   opacity: 0.85;
 }
 
-/* Lightbox: overlay translúcido con desenfoque, carrusel navegable */
+/* Lightbox */
 #lightbox-overlay {
   display: none;
   position: fixed;
@@ -70,11 +65,9 @@ html {
   justify-content: center;
   padding: 2rem;
 }
-
 #lightbox-overlay.active {
   display: flex;
 }
-
 #lightbox-overlay img {
   max-width: 100%;
   max-height: 100%;
@@ -82,7 +75,6 @@ html {
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
   cursor: zoom-out;
 }
-
 #lightbox-overlay .lightbox-close {
   position: absolute;
   top: 24px;
@@ -93,7 +85,6 @@ html {
   cursor: pointer;
   z-index: 2;
 }
-
 #lightbox-overlay .lightbox-counter {
   position: absolute;
   top: 28px;
@@ -104,7 +95,6 @@ html {
   letter-spacing: 0.04em;
   opacity: 0.85;
 }
-
 .lightbox-arrow {
   position: absolute;
   top: 50%;
@@ -124,29 +114,16 @@ html {
   transition: background 0.15s ease;
   z-index: 2;
 }
-
 .lightbox-arrow:hover {
   background: rgba(255, 255, 255, 0.25);
 }
-
-.lightbox-arrow.prev {
-  left: 20px;
-}
-
-.lightbox-arrow.next {
-  right: 20px;
-}
-
+.lightbox-arrow.prev { left: 20px; }
+.lightbox-arrow.next { right: 20px; }
 @media (max-width: 640px) {
-  .lightbox-arrow {
-    width: 40px;
-    height: 40px;
-  }
+  .lightbox-arrow { width: 40px; height: 40px; }
 }
 
-/* Enlaces dentro del cuerpo de texto: distinguir internos de externos.
-   Internos (empiezan por /) -> azul mediterráneo, subrayado sólido.
-   Externos (empiezan por http) -> icono de flecha diagonal detrás del texto. */
+/* Enlaces internos/externos dentro del cuerpo de texto */
 .article-body a[href^="/"] {
   color: var(--color-mediterraneo-600);
   font-weight: 600;
@@ -155,11 +132,7 @@ html {
   text-underline-offset: 2px;
   transition: text-decoration-color 0.15s ease;
 }
-
-.article-body a[href^="/"]:hover {
-  text-decoration-color: transparent;
-}
-
+.article-body a[href^="/"]:hover { text-decoration-color: transparent; }
 .article-body a[href^="http"] {
   color: inherit;
   font-weight: 600;
@@ -168,11 +141,7 @@ html {
   text-underline-offset: 2px;
   transition: text-decoration-color 0.15s ease;
 }
-
-.article-body a[href^="http"]:hover {
-  text-decoration-color: transparent;
-}
-
+.article-body a[href^="http"]:hover { text-decoration-color: transparent; }
 .article-body a[href^="http"]::after {
   content: "↗";
   display: inline-block;
@@ -181,7 +150,7 @@ html {
   transform: translateY(-0.05em);
 }
 
-/* Mapa grande de Mapamundi: mundo SVG con países resaltados y pines animados */
+/* Mapa grande de Mapamundi */
 .map-wrap{
   position:relative;
   width:100%;
@@ -191,12 +160,7 @@ html {
   overflow:hidden;
   padding:24px;
 }
-
-.map-wrap svg{
-  width:100%;
-  height:100%;
-  display:block;
-}
+.map-wrap svg{ width:100%; height:100%; display:block; }
 .map-wrap svg path{
   fill:#D7E3F0;
   stroke:var(--color-crema-50);
@@ -204,9 +168,7 @@ html {
   transition:fill .2s ease;
 }
 .map-wrap svg .highlight,
-.map-wrap svg .highlight path{
-  fill:var(--color-mediterraneo-600) !important;
-}
+.map-wrap svg .highlight path{ fill:var(--color-mediterraneo-600) !important; }
 
 .pin{
   position:absolute;
@@ -299,7 +261,7 @@ html {
   margin-bottom:6px;
 }
 
-/* Mini-mapa + panel de datos del país específico dentro de cada crónica */
+/* Mini-mapa + panel de datos del país dentro de cada crónica */
 .mapa-mini-block{
   display:flex;
   gap:16px;
@@ -320,20 +282,14 @@ html {
   overflow:hidden;
   background:var(--color-crema-50);
 }
-.mapa-mini-wrap svg{
-  width:100%;
-  height:100%;
-  display:block;
-}
+.mapa-mini-wrap svg{ width:100%; height:100%; display:block; }
 .mapa-mini-wrap svg path{
   fill:#D7E3F0;
   stroke:var(--color-crema-50);
   stroke-width:0.6px;
 }
 .mapa-mini-wrap svg .highlight,
-.mapa-mini-wrap svg .highlight path{
-  fill:var(--color-mediterraneo-600) !important;
-}
+.mapa-mini-wrap svg .highlight path{ fill:var(--color-mediterraneo-600) !important; }
 .mapa-mini-pin{
   position:absolute;
   width:8px;
@@ -376,17 +332,14 @@ html {
   color:var(--color-mediterraneo-600);
   text-decoration:none;
 }
-.mapa-mini-caption:hover{
-  text-decoration:underline;
-}
+.mapa-mini-caption:hover{ text-decoration:underline; }
 
 @media (max-width:520px){
   .mapa-mini-block{ flex-direction:column; max-width:100%; }
   .mapa-mini-wrap{ width:100%; }
 }
 
-/* Parallax de imágenes destacadas: la imagen se sale un poco por arriba y por
-   abajo del contenedor para que el JS pueda moverla sin dejar huecos en blanco */
+/* Parallax de imágenes destacadas */
 .parallax-img{
   position:absolute;
   top:-8%;
@@ -397,7 +350,7 @@ html {
   will-change:transform;
 }
 
-/* Botón "volver arriba": aparece al hacer scroll, fijo abajo a la derecha */
+/* Botón "volver arriba" */
 .scroll-top-btn{
   position:fixed;
   right:24px;
@@ -424,14 +377,44 @@ html {
   visibility:visible;
   transform:translateY(0);
 }
-.scroll-top-btn:hover{
-  background:var(--color-mediterraneo-600);
-}
+.scroll-top-btn:hover{ background:var(--color-mediterraneo-600); }
 @media (max-width:640px){
-  .scroll-top-btn{
-    right:16px;
-    bottom:16px;
-    width:40px;
-    height:40px;
-  }
+  .scroll-top-btn{ right:16px; bottom:16px; width:40px; height:40px; }
 }
+
+/* Letra capital: primer párrafo real de cualquier texto largo (Sobre mí, crónicas...) */
+.article-body > p:first-of-type::first-letter{
+  font-family: 'Newsreader', serif;
+  font-weight: 600;
+  font-size: 4.4rem;
+  line-height: 0.75;
+  float: left;
+  margin: 0.05em 0.1em 0 0;
+  color: var(--color-mediterraneo-600);
+}
+
+/* Cita destacada: fondo suave + comillas grandes, en vez del simple borde lateral */
+.article-body blockquote{
+  position: relative;
+  background: var(--color-mediterraneo-50);
+  border-radius: 20px;
+  padding: 44px 40px 32px;
+  margin: 40px 0;
+  font-style: italic;
+  font-size: 1.25em;
+  line-height: 1.55;
+  color: var(--color-mediterraneo-800);
+}
+.article-body blockquote::before{
+  content: "\201C";
+  position: absolute;
+  top: 8px;
+  left: 32px;
+  font-family: 'Newsreader', serif;
+  font-style: normal;
+  font-size: 4.5rem;
+  line-height: 1;
+  color: var(--color-slate-800);
+  opacity: 0.85;
+}
+.article-body blockquote p{ margin: 0; }
