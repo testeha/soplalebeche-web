@@ -333,9 +333,14 @@ const navLinks = [
       // foto de portada (las de foto ya reservan su propio espacio con el hero).
       const pageContent = document.getElementById('page-content');
       function adjustContentPadding() {
-        if (!siteHeader || !pageContent) return;
-        if (siteHeader.dataset.transparent === 'true') return;
+        if (!siteHeader) return;
         const headerHeight = siteHeader.offsetHeight;
+        // el margen de scroll para saltos de ancla hace falta en TODAS las páginas,
+        // ya que el header fijo se vuelve sólido en cuanto avanzas el scroll
+        document.documentElement.style.scrollPaddingTop = `${headerHeight + 16}px`;
+        // el espacio inicial del contenido solo hace falta si el header no es
+        // transparente (las páginas con foto ya reservan su propio espacio con el hero)
+        if (!pageContent || siteHeader.dataset.transparent === 'true') return;
         pageContent.style.paddingTop = `${headerHeight + 32}px`;
       }
       window.addEventListener('resize', adjustContentPadding);
