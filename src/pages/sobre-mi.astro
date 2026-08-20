@@ -20,14 +20,10 @@ const { Content } = await render(page);
     <figcaption class="text-xs text-slate-400 mt-2">Terreros (Almería) © Rocío Periago</figcaption>
   </figure>
 
-  <div class="grid md:grid-cols-[1fr_220px] gap-12">
-    <div class="article-body font-voice text-lg leading-relaxed text-slate-800 space-y-6 max-w-2xl">
-      <Content />
-    </div>
-
-    <aside class="md:sticky md:top-32 self-start flex flex-col items-center md:items-start text-center md:text-left">
+  <div class="grid md:grid-cols-[220px_1fr] gap-12">
+    <aside class="md:sticky md:top-32 self-start flex flex-col items-center md:items-start text-center md:text-left order-1">
       <img
-        src="https://www.soplalebeche.com/wp-content/uploads/2017/02/mini-rocio.jpg"
+        src="/images/mini-rocio.jpg"
         alt="Rocío Periago"
         class="w-[160px] h-[160px] rounded-2xl object-contain bg-mediterraneo-50 mb-4"
       />
@@ -60,5 +56,9 @@ const { Content } = await render(page);
         </a>
       </div>
     </aside>
+
+    <div class="article-body font-voice text-lg leading-relaxed text-slate-800 space-y-6 max-w-2xl order-2">
+      <Content />
+    </div>
   </div>
 </Layout>
