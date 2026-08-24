@@ -34,7 +34,8 @@ const PRIMER_LOTE = 3; // nº de bloques visibles al cargar (3 bloques ≈ 15 cr
 <Layout title="Historias" description={`${posts.length} crónicas de viaje, personas y lugares, publicadas desde 2015.`}>
   <p class="text-xs font-bold uppercase tracking-wider text-arena-400 mb-3">Archivo</p>
   <h1 class="font-voice text-4xl text-mediterraneo-800 mb-3">Historias</h1>
-  <p class="text-slate-600 mb-10">{posts.length} crónicas de viaje, personas y lugares, publicadas desde 2015.</p>
+  <p class="text-slate-600 max-w-sm mb-4">{posts.length} crónicas de viaje, personas y lugares, publicadas desde 2015.</p>
+  <div class="w-10 h-0.5 bg-arena-100 mb-10"></div>
 
   <div class="space-y-5">
     {bloques.map((bloque, i) => (
@@ -48,7 +49,7 @@ const PRIMER_LOTE = 3; // nº de bloques visibles al cargar (3 bloques ≈ 15 cr
                 ) : (
                   <div class={`absolute inset-0 bg-gradient-to-br ${catColors[post.data.categories[0]] || 'from-mediterraneo-600 to-mediterraneo-200'}`}></div>
                 )}
-                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent"></div>
+                <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(0,0,0,.75) 0%, rgba(0,0,0,.4) 42%, rgba(0,0,0,0) 75%);"></div>
                 <div class="relative z-10 p-5">
                   <p class="text-[10.5px] font-bold uppercase tracking-wide text-arena-100 mb-1.5">{post.data.categories[0]}</p>
                   <h3 class="font-voice text-[1.4rem] font-medium text-white mb-1.5 leading-snug">{post.data.title}</h3>
@@ -58,19 +59,18 @@ const PRIMER_LOTE = 3; // nº de bloques visibles al cargar (3 bloques ≈ 15 cr
             ))}
           </div>
         ) : (
-          <div class="grid grid-cols-3 gap-5">
+          <div class="grid grid-cols-3 gap-5" style="height: 420px;">
             {bloque.items.map((post, idx) => (
               <a
                 href={`/historias/${post.data.slug}`}
                 class={`relative rounded-2xl overflow-hidden flex items-end ${idx === 0 ? 'col-span-2' : 'col-span-1'}`}
-                style="aspect-ratio: 4/3.1;"
               >
                 {post.data.featuredImage ? (
                   <img src={post.data.featuredImage} alt={post.data.title} class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
                 ) : (
                   <div class={`absolute inset-0 bg-gradient-to-br ${catColors[post.data.categories[0]] || 'from-mediterraneo-600 to-mediterraneo-200'}`}></div>
                 )}
-                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent"></div>
+                <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(0,0,0,.75) 0%, rgba(0,0,0,.4) 42%, rgba(0,0,0,0) 75%);"></div>
                 <div class="relative z-10 p-6">
                   <p class="text-[10.5px] font-bold uppercase tracking-wide text-arena-100 mb-2">{post.data.categories[0]}</p>
                   <h3 class={`font-voice font-medium text-white mb-2 leading-snug ${idx === 0 ? 'text-[1.9rem]' : 'text-[1.4rem]'}`}>{post.data.title}</h3>
