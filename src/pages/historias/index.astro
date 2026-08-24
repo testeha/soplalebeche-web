@@ -2,6 +2,14 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
+function slugify(str: string) {
+  return str
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/\s+/g, '-');
+}
+
 const allPosts = await getCollection('posts', ({ data }) => !data.draft);
 const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
@@ -18,8 +26,7 @@ const catColors: Record<string, string> = {
 const fecha = (d: Date) =>
   new Date(d).toLocaleDateString('es-ES', { day: 'numeric', month: 'short', year: 'numeric' });
 
-// Agrupamos los posts en ciclos de 5: los 3 primeros van en una fila de
-// columnas iguales, los 2 siguientes en una fila destacada (2/3 + 1/3).
+// --- Vista "Todas": filas alternas (3 iguales / 2+1 destacada) ---
 type Bloque = { tipo: 'iguales' | 'destacada'; items: typeof posts };
 const bloques: Bloque[] = [];
 for (let i = 0; i < posts.length; i += 5) {
@@ -27,93 +34,184 @@ for (let i = 0; i < posts.length; i += 5) {
   if (grupo.length > 0) bloques.push({ tipo: 'iguales', items: grupo.slice(0, 3) });
   if (grupo.length > 3) bloques.push({ tipo: 'destacada', items: grupo.slice(3, 5) });
 }
+const PRIMER_LOTE = 4;
 
-const PRIMER_LOTE = 3; // nº de bloques visibles al cargar (3 bloques ≈ 15 crónicas)
+// --- Categorías reales, para las pestañas del filtro ---
+const categoryCounts: Record<string, number> = {};
+posts.forEach((post) => {
+  post.data.categories.forEach((cat) => {
+    categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
+  });
+});
+const categorias = Object.entries(categoryCounts).sort((a, b) => b[1] - a[1]);
+
+// --- Vistas filtradas: rejilla simple de 3 columnas, en bloques de 6 (2 filas) ---
+const postsPorCategoria = categorias.map(([cat]) => {
+  const catPosts = posts.filter((p) => p.data.categories.includes(cat));
+  const catBloques: (typeof posts)[] = [];
+  for (let i = 0; i < catPosts.length; i += 6) catBloques.push(catPosts.slice(i, i + 6));
+  return { cat, slug: slugify(cat), bloques: catBloques };
+});
+const PRIMER_LOTE_CAT = 2;
 ---
 
 <Layout title="Historias" description={`${posts.length} crónicas de viaje, personas y lugares, publicadas desde 2015.`}>
   <p class="text-xs font-bold uppercase tracking-wider text-arena-400 mb-3">Archivo</p>
   <h1 class="font-voice text-4xl text-mediterraneo-800 mb-3">Historias</h1>
   <p class="text-slate-600 max-w-sm mb-4">{posts.length} crónicas de viaje, personas y lugares, publicadas desde 2015.</p>
-  <div class="w-10 h-0.5 bg-arena-100 mb-10"></div>
+  <div class="w-10 h-0.5 bg-arena-100 mb-8"></div>
 
-  <div class="space-y-5">
-    {bloques.map((bloque, i) => (
-      <div class:list={['bloque-historias', i >= PRIMER_LOTE && 'hidden']} data-bloque={i}>
-        {bloque.tipo === 'iguales' ? (
-          <div class="grid grid-cols-3 gap-5">
-            {bloque.items.map((post) => (
-              <a href={`/historias/${post.data.slug}`} class="relative rounded-2xl overflow-hidden flex items-end" style="aspect-ratio: 4/3.1;">
-                {post.data.featuredImage ? (
-                  <img src={post.data.featuredImage} alt={post.data.title} class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
-                ) : (
-                  <div class={`absolute inset-0 bg-gradient-to-br ${catColors[post.data.categories[0]] || 'from-mediterraneo-600 to-mediterraneo-200'}`}></div>
-                )}
-                <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(0,0,0,.75) 0%, rgba(0,0,0,.4) 42%, rgba(0,0,0,0) 75%);"></div>
-                <div class="relative z-10 p-5">
-                  <p class="text-[10.5px] font-bold uppercase tracking-wide text-arena-100 mb-1.5">{post.data.categories[0]}</p>
-                  <h3 class="font-voice text-[1.4rem] font-medium text-white mb-1.5 leading-snug">{post.data.title}</h3>
-                  <p class="text-xs text-white/80">{fecha(post.data.pubDate)}</p>
-                </div>
-              </a>
-            ))}
-          </div>
-        ) : (
-          <div class="grid grid-cols-3 gap-5" style="height: 420px;">
-            {bloque.items.map((post, idx) => (
-              <a
-                href={`/historias/${post.data.slug}`}
-                class={`relative rounded-2xl overflow-hidden flex items-end ${idx === 0 ? 'col-span-2' : 'col-span-1'}`}
-              >
-                {post.data.featuredImage ? (
-                  <img src={post.data.featuredImage} alt={post.data.title} class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
-                ) : (
-                  <div class={`absolute inset-0 bg-gradient-to-br ${catColors[post.data.categories[0]] || 'from-mediterraneo-600 to-mediterraneo-200'}`}></div>
-                )}
-                <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(0,0,0,.75) 0%, rgba(0,0,0,.4) 42%, rgba(0,0,0,0) 75%);"></div>
-                <div class="relative z-10 p-6">
-                  <p class="text-[10.5px] font-bold uppercase tracking-wide text-arena-100 mb-2">{post.data.categories[0]}</p>
-                  <h3 class={`font-voice font-medium text-white mb-2 leading-snug ${idx === 0 ? 'text-[1.9rem]' : 'text-[1.4rem]'}`}>{post.data.title}</h3>
-                  <p class="text-xs text-white/80">{fecha(post.data.pubDate)}</p>
-                </div>
-              </a>
-            ))}
-          </div>
-        )}
-      </div>
+  <div class="flex flex-wrap gap-2 mb-10">
+    <button class="tab-btn active" data-panel="todas">Todas</button>
+    {categorias.map(([cat]) => (
+      <button class="tab-btn" data-panel={slugify(cat)}>{cat}</button>
     ))}
   </div>
 
-  {bloques.length > PRIMER_LOTE && (
-    <div class="text-center mt-10">
-      <button
-        id="cargar-mas"
-        class="inline-flex items-center gap-2 border border-mediterraneo-800/20 text-mediterraneo-800 text-sm font-semibold px-6 py-3 rounded-full hover:bg-mediterraneo-50 transition-colors"
-        data-total-bloques={bloques.length}
-        data-visibles={PRIMER_LOTE}
-      >
-        Cargar más historias
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M12 5v14M19 12l-7 7-7-7" />
-        </svg>
-      </button>
+  <div id="panel-todas" class="panel">
+    <div class="space-y-5">
+      {bloques.map((bloque, i) => (
+        <div class:list={['bloque-reveal', i >= PRIMER_LOTE && 'hidden']} data-bloque={i}>
+          {bloque.tipo === 'iguales' ? (
+            <div class="grid grid-cols-3 gap-5">
+              {bloque.items.map((post) => (
+                <a href={`/historias/${post.data.slug}`} class="relative rounded-2xl overflow-hidden flex items-end" style="aspect-ratio: 4/3.1;">
+                  {post.data.featuredImage ? (
+                    <img src={post.data.featuredImage} alt={post.data.title} class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+                  ) : (
+                    <div class={`absolute inset-0 bg-gradient-to-br ${catColors[post.data.categories[0]] || 'from-mediterraneo-600 to-mediterraneo-200'}`}></div>
+                  )}
+                  <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(0,0,0,.75) 0%, rgba(0,0,0,.4) 42%, rgba(0,0,0,0) 75%);"></div>
+                  <div class="relative z-10 p-5">
+                    <p class="text-[10.5px] font-bold uppercase tracking-wide text-arena-100 mb-1.5">{post.data.categories[0]}</p>
+                    <h3 class="font-voice text-[1.4rem] font-medium text-white mb-1.5 leading-snug">{post.data.title}</h3>
+                    <p class="text-xs text-white/80">{fecha(post.data.pubDate)}</p>
+                  </div>
+                </a>
+              ))}
+            </div>
+          ) : (
+            <div class="grid grid-cols-3 gap-5" style="height: 420px;">
+              {bloque.items.map((post, idx) => (
+                <a
+                  href={`/historias/${post.data.slug}`}
+                  class={`relative rounded-2xl overflow-hidden flex items-end ${idx === 0 ? 'col-span-2' : 'col-span-1'}`}
+                >
+                  {post.data.featuredImage ? (
+                    <img src={post.data.featuredImage} alt={post.data.title} class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+                  ) : (
+                    <div class={`absolute inset-0 bg-gradient-to-br ${catColors[post.data.categories[0]] || 'from-mediterraneo-600 to-mediterraneo-200'}`}></div>
+                  )}
+                  <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(0,0,0,.75) 0%, rgba(0,0,0,.4) 42%, rgba(0,0,0,0) 75%);"></div>
+                  <div class="relative z-10 p-6">
+                    <p class="text-[10.5px] font-bold uppercase tracking-wide text-arena-100 mb-2">{post.data.categories[0]}</p>
+                    <h3 class={`font-voice font-medium text-white mb-2 leading-snug ${idx === 0 ? 'text-[1.9rem]' : 'text-[1.4rem]'}`}>{post.data.title}</h3>
+                    <p class="text-xs text-white/80">{fecha(post.data.pubDate)}</p>
+                  </div>
+                </a>
+              ))}
+            </div>
+          )}
+        </div>
+      ))}
     </div>
-  )}
+
+    {bloques.length > PRIMER_LOTE && (
+      <div class="text-center mt-10">
+        <button class="cargar-mas-btn inline-flex items-center gap-2 border border-mediterraneo-800/20 text-mediterraneo-800 text-sm font-semibold px-6 py-3 rounded-full hover:bg-mediterraneo-50 transition-colors" data-total={bloques.length} data-visibles={PRIMER_LOTE}>
+          Cargar más historias
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7" /></svg>
+        </button>
+      </div>
+    )}
+  </div>
+
+  {postsPorCategoria.map(({ cat, slug, bloques: catBloques }) => (
+    <div id={`panel-${slug}`} class="panel hidden">
+      <div class="space-y-5">
+        {catBloques.map((grupo, gi) => (
+          <div class:list={['bloque-reveal', gi >= PRIMER_LOTE_CAT && 'hidden']} data-bloque={gi}>
+            <div class="grid grid-cols-3 gap-5">
+              {grupo.map((post) => (
+                <a href={`/historias/${post.data.slug}`} class="relative rounded-2xl overflow-hidden flex items-end" style="aspect-ratio: 4/3.1;">
+                  {post.data.featuredImage ? (
+                    <img src={post.data.featuredImage} alt={post.data.title} class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
+                  ) : (
+                    <div class={`absolute inset-0 bg-gradient-to-br ${catColors[post.data.categories[0]] || 'from-mediterraneo-600 to-mediterraneo-200'}`}></div>
+                  )}
+                  <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(0,0,0,.75) 0%, rgba(0,0,0,.4) 42%, rgba(0,0,0,0) 75%);"></div>
+                  <div class="relative z-10 p-5">
+                    <p class="text-[10.5px] font-bold uppercase tracking-wide text-arena-100 mb-1.5">{post.data.categories[0]}</p>
+                    <h3 class="font-voice text-[1.4rem] font-medium text-white mb-1.5 leading-snug">{post.data.title}</h3>
+                    <p class="text-xs text-white/80">{fecha(post.data.pubDate)}</p>
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {catBloques.length > PRIMER_LOTE_CAT && (
+        <div class="text-center mt-10">
+          <button class="cargar-mas-btn inline-flex items-center gap-2 border border-mediterraneo-800/20 text-mediterraneo-800 text-sm font-semibold px-6 py-3 rounded-full hover:bg-mediterraneo-50 transition-colors" data-total={catBloques.length} data-visibles={PRIMER_LOTE_CAT}>
+            Cargar más historias
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7" /></svg>
+          </button>
+        </div>
+      )}
+    </div>
+  ))}
+
+  <style>
+    .tab-btn {
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--color-slate-600);
+      background: transparent;
+      border: none;
+      padding: 8px 4px;
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      transition: color .15s ease, border-color .15s ease;
+    }
+    .tab-btn:hover { color: var(--color-mediterraneo-600); }
+    .tab-btn.active {
+      color: var(--color-arena-400);
+      border-bottom-color: var(--color-arena-100);
+    }
+    .panel.hidden { display: none; }
+  </style>
 
   <script>
-    const btn = document.getElementById('cargar-mas');
-    btn?.addEventListener('click', () => {
-      const total = parseInt(btn.dataset.totalBloques || '0', 10);
-      let visibles = parseInt(btn.dataset.visibles || '0', 10);
-      const siguienteLote = visibles + 3;
-      for (let i = visibles; i < Math.min(siguienteLote, total); i++) {
-        document.querySelector(`[data-bloque="${i}"]`)?.classList.remove('hidden');
-      }
-      visibles = Math.min(siguienteLote, total);
-      btn.dataset.visibles = String(visibles);
-      if (visibles >= total) {
-        btn.style.display = 'none';
-      }
+    // ---- Pestañas de filtro por categoría ----
+    const tabs = document.querySelectorAll<HTMLButtonElement>('.tab-btn');
+    tabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        const target = tab.dataset.panel;
+        tabs.forEach((t) => t.classList.toggle('active', t === tab));
+        document.querySelectorAll<HTMLElement>('.panel').forEach((panel) => {
+          panel.classList.toggle('hidden', panel.id !== `panel-${target}`);
+        });
+      });
+    });
+
+    // ---- Botones "Cargar más historias" (uno por cada panel) ----
+    document.querySelectorAll<HTMLButtonElement>('.cargar-mas-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const panel = btn.closest('.panel');
+        if (!panel) return;
+        const total = parseInt(btn.dataset.total || '0', 10);
+        let visibles = parseInt(btn.dataset.visibles || '0', 10);
+        const siguienteLote = visibles + 4;
+        for (let i = visibles; i < Math.min(siguienteLote, total); i++) {
+          panel.querySelector(`[data-bloque="${i}"]`)?.classList.remove('hidden');
+        }
+        visibles = Math.min(siguienteLote, total);
+        btn.dataset.visibles = String(visibles);
+        if (visibles >= total) btn.style.display = 'none';
+      });
     });
   </script>
 </Layout>
