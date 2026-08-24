@@ -69,7 +69,7 @@ const catColors: Record<string, string> = {
           {latest.data.excerpt && (
             <p class="text-white text-sm mb-5 leading-relaxed">{latest.data.excerpt}</p>
           )}
-          <p class="text-mediterraneo-100 text-sm mb-6">
+          <p class="text-white text-sm mb-6">
             {latest.data.author} · {new Date(latest.data.pubDate).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}
           </p>
           <a
@@ -118,7 +118,7 @@ const catColors: Record<string, string> = {
           )}
           <div class="p-5">
             <p class="text-[10.5px] font-bold uppercase tracking-wide text-mediterraneo-600 mb-2">{post.data.categories[0]}</p>
-            <h3 class="font-voice text-[1.6rem] font-medium mb-3 leading-snug">{post.data.title}</h3>
+            <h3 class="font-voice text-[1.4rem] font-medium mb-3 leading-snug">{post.data.title}</h3>
             <div class="w-8 h-0.5 bg-arena-100 mb-3"></div>
             <p class="text-xs text-[#1d293d]">
               {new Date(post.data.pubDate).toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' })}
