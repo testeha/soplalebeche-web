@@ -70,7 +70,9 @@ const navLinks = [
               ))}
             </nav>
             <a
-              href="#"
+              href="https://testeha.com"
+              target="_blank"
+              rel="noopener noreferrer"
               class="justify-self-end flex items-center gap-2 text-xs font-medium text-white border border-white/30 rounded-full px-4 py-2.5 hover:bg-white/10 whitespace-nowrap"
             >
               <span class="w-1.5 h-1.5 rounded-full bg-white inline-block"></span>
@@ -95,7 +97,9 @@ const navLinks = [
               ))}
             </nav>
             <a
-              href="#"
+              href="https://testeha.com"
+              target="_blank"
+              rel="noopener noreferrer"
               class="justify-self-end flex items-center gap-2 text-xs font-medium text-mediterraneo-800 border border-mediterraneo-800/15 rounded-full px-4 py-2.5 hover:bg-mediterraneo-50 whitespace-nowrap"
             >
               <span class="w-1.5 h-1.5 rounded-full bg-mediterraneo-800 inline-block"></span>
@@ -116,8 +120,11 @@ const navLinks = [
           <div>
             <Logo variant="dark" height={30} />
             <p class="text-white text-sm max-w-xs mt-3 leading-relaxed">
-              2015-2021. Viajes y buenas historias con nombre de viento del sur. Un archivo personal de Rocío Periago. <a href="#" class="underline text-white hover:text-arena-100">Un proyecto de Testeha Estudio</a>.
+              2015-2021. Viajes y buenas historias con nombre de viento del sur. Un archivo personal de Rocío Periago.
             </p>
+            <a href="https://rocioperiago.com" target="_blank" rel="noopener noreferrer" class="text-mediterraneo-100 text-sm underline hover:text-white block mt-2">
+              rocioperiago.com
+            </a>
             <div class="flex items-center gap-3 mt-4">
               <a
                 href="https://www.linkedin.com/in/rocioperiago"
@@ -184,7 +191,7 @@ const navLinks = [
           </div>
         </div>
         <div class="border-t border-white/15 pt-4 flex flex-wrap justify-between items-center gap-3 text-xs text-mediterraneo-200">
-          <span>© 2026 Soplalebeche — Diseño y desarrollo web Testeha Estudio</span>
+          <span>© 2026 Soplalebeche — Diseño y desarrollo web <a href="https://testeha.com" target="_blank" rel="noopener noreferrer" class="hover:text-white underline">Testeha Estudio</a></span>
           <div class="flex gap-4">
             <a href="/aviso-legal" class="hover:text-white">Aviso Legal</a>
             <a href="/politica-privacidad" class="hover:text-white">Política de Privacidad</a>
@@ -211,7 +218,7 @@ const navLinks = [
     <div id="cookie-banner" class="cookie-banner">
       <p class="cookie-banner-text">
         Usamos cookies de análisis para entender cómo se usa esta web.
-        Puedes aceptarlas o rechazarlas — no afecta a la navegación normal.
+        Puedes aceptarlas o rechazarlas — no afecta a la navegación normal.{' '}
         <a href="/politica-cookies">Más información</a>.
       </p>
       <div class="cookie-banner-buttons">
@@ -312,11 +319,17 @@ const navLinks = [
       const scrollTopBtn = document.getElementById('scroll-top-btn');
       function updateScrollTopBtn() {
         if (!scrollTopBtn) return;
-        const cookieVisible = document.getElementById('cookie-banner')?.classList.contains('visible');
-        if (window.scrollY > window.innerHeight * 0.6 && !cookieVisible) {
+        const cookieBannerEl = document.getElementById('cookie-banner');
+        const cookieVisible = cookieBannerEl?.classList.contains('visible');
+        if (window.scrollY > window.innerHeight * 0.6) {
           scrollTopBtn.classList.add('visible');
         } else {
           scrollTopBtn.classList.remove('visible');
+        }
+        if (cookieVisible && cookieBannerEl) {
+          scrollTopBtn.style.bottom = `${cookieBannerEl.offsetHeight + 40}px`;
+        } else {
+          scrollTopBtn.style.bottom = '';
         }
       }
       scrollTopBtn?.addEventListener('click', () => {
