@@ -490,9 +490,9 @@ html {
   font-size: 1.55rem;
   color: var(--color-mediterraneo-800);
   margin-top: 2.2em;
-  margin-bottom: 0.15em;
+  margin-bottom: 0.9em;
   position: relative;
-  padding-bottom: 10px;
+  padding-bottom: 4px;
 }
 .article-body h2::after{
   content: "";
