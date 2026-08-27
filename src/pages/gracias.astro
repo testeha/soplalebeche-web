@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="¡Gracias!" description="Tu mensaje se ha enviado correctamente.">
+  <div class="max-w-lg mx-auto text-center py-16">
+    <div class="w-16 h-16 rounded-full bg-mediterraneo-50 flex items-center justify-center mx-auto mb-6">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-mediterraneo-600">
+        <path d="M22 2 11 13"/>
+        <path d="M22 2 15 22l-4-9-9-4 20-7z"/>
+      </svg>
+    </div>
+    <h1 class="font-voice text-4xl text-mediterraneo-800 mb-4">¡Gracias por escribir!</h1>
+    <p class="text-slate-600 mb-10 leading-relaxed">
+      Tu mensaje ya está en camino. Leo todos los correos y te contestaré en cuanto pueda.
+    </p>
+    <a
+      href="/"
+      class="inline-block bg-mediterraneo-800 text-white font-semibold px-7 py-3.5 rounded-xl hover:bg-mediterraneo-600 transition-colors"
+    >
+      Volver al inicio
+    </a>
+  </div>
+</Layout>
