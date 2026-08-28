@@ -104,7 +104,7 @@ const PRIMER_LOTE_CAT = 2;
               {bloque.items.map((post, idx) => (
                 <a
                   href={`/historias/${post.data.slug}`}
-                  class={`relative rounded-2xl overflow-hidden flex items-end h-[300px] md:h-full ${idx === 0 ? 'col-span-2' : 'col-span-1'}`}
+                  class={`relative rounded-2xl overflow-hidden flex items-end h-[300px] md:h-full ${idx === 0 ? 'md:col-span-2' : 'md:col-span-1'}`}
                 >
                   {post.data.featuredImage ? (
                     <img src={post.data.featuredImage} alt={post.data.title} class="absolute inset-0 w-full h-full object-cover" loading="lazy" />
