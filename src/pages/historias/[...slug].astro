@@ -12,7 +12,7 @@ function slugify(str: string) {
 }
 
 export async function getStaticPaths() {
-  const posts = await getCollection('posts');
+  const posts = await getCollection('posts', ({ data }) => !data.draft);
   return posts.map((post) => ({
     params: { slug: post.data.slug },
     props: { post },
