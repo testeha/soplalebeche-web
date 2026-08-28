@@ -134,7 +134,7 @@ const catColors: Record<string, string> = {
     <p class="text-slate-600 text-sm mb-6">Años de crónicas organizadas por lo que de verdad importa: personas, lugares y causas.</p>
 
     <div class="space-y-4">
-      <div class="grid grid-cols-2 gap-4 h-[180px] md:h-[260px]">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:h-[260px]">
         {fila1.map(([cat, count]) => (
           <a href={`/historias/categoria/${slugify(cat)}`} class="relative rounded-2xl overflow-hidden flex items-end h-[180px] md:h-full">
             {categoryImages[cat] ? (
