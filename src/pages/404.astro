@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Página no encontrada" description="Esta página no existe o se ha movido.">
+  <div class="max-w-lg mx-auto text-center py-20">
+    <p class="font-voice text-8xl text-mediterraneo-200 mb-2 leading-none">404</p>
+    <h1 class="font-voice text-3xl text-mediterraneo-800 mb-4">
+      Parece que aquí no sopla el lebeche
+    </h1>
+    <p class="text-slate-600 mb-10 leading-relaxed">
+      Esta página no existe, o el viento se la ha llevado a otro sitio. Prueba a volver al inicio o a explorar las crónicas.
+    </p>
+    <div class="flex items-center justify-center gap-3 flex-wrap">
+      <a
+        href="/"
+        class="inline-block bg-mediterraneo-800 text-white font-semibold px-7 py-3.5 rounded-xl hover:bg-mediterraneo-600 transition-colors"
+      >
+        Volver al inicio
+      </a>
+      <a
+        href="/historias"
+        class="inline-block border border-mediterraneo-800/20 text-mediterraneo-800 font-semibold px-7 py-3.5 rounded-xl hover:bg-mediterraneo-50 transition-colors"
+      >
+        Ver historias
+      </a>
+    </div>
+  </div>
+</Layout>
