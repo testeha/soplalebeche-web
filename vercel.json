@@ -1,0 +1,359 @@
+{
+  "redirects": [
+    {
+      "source": "/a-veces-sueno",
+      "destination": "/historias/a-veces-sueno",
+      "permanent": true
+    },
+    {
+      "source": "/africa-xavier-aldekoa",
+      "destination": "/historias/africa-xavier-aldekoa",
+      "permanent": true
+    },
+    {
+      "source": "/balat-barrio-judio-ortodoxo-estambul",
+      "destination": "/historias/balat-barrio-judio-ortodoxo-estambul",
+      "permanent": true
+    },
+    {
+      "source": "/bicicletas-mensaje",
+      "destination": "/historias/bicicletas-mensaje",
+      "permanent": true
+    },
+    {
+      "source": "/cabo-verde-isla-sao-vicente",
+      "destination": "/historias/cabo-verde-isla-sao-vicente",
+      "permanent": true
+    },
+    {
+      "source": "/carmen-pastelera-jabones",
+      "destination": "/historias/carmen-pastelera-jabones",
+      "permanent": true
+    },
+    {
+      "source": "/castizos-tradiciones-madrid",
+      "destination": "/historias/castizos-tradiciones-madrid",
+      "permanent": true
+    },
+    {
+      "source": "/catedrales-tierra-campos",
+      "destination": "/historias/catedrales-tierra-campos",
+      "permanent": true
+    },
+    {
+      "source": "/cazalla-intercultural",
+      "destination": "/historias/cazalla-intercultural",
+      "permanent": true
+    },
+    {
+      "source": "/cine-social-soplalebeche",
+      "destination": "/historias/cine-social-soplalebeche",
+      "permanent": true
+    },
+    {
+      "source": "/ciudad-tres-vidas-homenaje-ara-guler",
+      "destination": "/historias/ciudad-tres-vidas-homenaje-ara-guler",
+      "permanent": true
+    },
+    {
+      "source": "/coimbra-portugal",
+      "destination": "/historias/coimbra-portugal",
+      "permanent": true
+    },
+    {
+      "source": "/colaboracion-sol-lorca",
+      "destination": "/historias/colaboracion-sol-lorca",
+      "permanent": true
+    },
+    {
+      "source": "/colombia",
+      "destination": "/historias/colombia",
+      "permanent": true
+    },
+    {
+      "source": "/cuaderno-viaje-ruta-norte-espana",
+      "destination": "/historias/cuaderno-viaje-ruta-norte-espana",
+      "permanent": true
+    },
+    {
+      "source": "/cuaderno-viajes-2009-2012",
+      "destination": "/historias/cuaderno-viajes-2009-2012",
+      "permanent": true
+    },
+    {
+      "source": "/cuadernos-viaje-marruecos-desierto",
+      "destination": "/historias/cuadernos-viaje-marruecos-desierto",
+      "permanent": true
+    },
+    {
+      "source": "/cuadernos-viaje-marruecos-marrakech",
+      "destination": "/historias/cuadernos-viaje-marruecos-marrakech",
+      "permanent": true
+    },
+    {
+      "source": "/cuadernos-viaje",
+      "destination": "/historias/cuadernos-viaje",
+      "permanent": true
+    },
+    {
+      "source": "/cuarentena-madrid",
+      "destination": "/historias/cuarentena-madrid",
+      "permanent": true
+    },
+    {
+      "source": "/demetrius-demetrio",
+      "destination": "/historias/demetrius-demetrio",
+      "permanent": true
+    },
+    {
+      "source": "/dibujos-marruecos-marrakech",
+      "destination": "/historias/dibujos-marruecos-marrakech",
+      "permanent": true
+    },
+    {
+      "source": "/excepcionalidad-de-lo-cotidiano",
+      "destination": "/historias/excepcionalidad-de-lo-cotidiano",
+      "permanent": true
+    },
+    {
+      "source": "/filipinas-pais-gente-siempre-sonrie",
+      "destination": "/historias/filipinas-pais-gente-siempre-sonrie",
+      "permanent": true
+    },
+    {
+      "source": "/futbol-cervezas-maletas-aeropuerto",
+      "destination": "/historias/futbol-cervezas-maletas-aeropuerto",
+      "permanent": true
+    },
+    {
+      "source": "/gran-via-de-madrid",
+      "destination": "/historias/gran-via-de-madrid",
+      "permanent": true
+    },
+    {
+      "source": "/hablar-de-viajes",
+      "destination": "/historias/hablar-de-viajes",
+      "permanent": true
+    },
+    {
+      "source": "/historias-nordeste-brasil",
+      "destination": "/historias/historias-nordeste-brasil",
+      "permanent": true
+    },
+    {
+      "source": "/homenaje-fiesta-muerte-mexico",
+      "destination": "/historias/homenaje-fiesta-muerte-mexico",
+      "permanent": true
+    },
+    {
+      "source": "/inspiracion-cuadernos-de-viaje",
+      "destination": "/historias/inspiracion-cuadernos-de-viaje",
+      "permanent": true
+    },
+    {
+      "source": "/isla-sierra-tramontana",
+      "destination": "/historias/isla-sierra-tramontana",
+      "permanent": true
+    },
+    {
+      "source": "/isla-tinos-grecia",
+      "destination": "/historias/isla-tinos-grecia",
+      "permanent": true
+    },
+    {
+      "source": "/joao-pessoa-ciudad-donde-nace-sol",
+      "destination": "/historias/joao-pessoa-ciudad-donde-nace-sol",
+      "permanent": true
+    },
+    {
+      "source": "/jovenes-belgrado-tienen-ganas-futuro",
+      "destination": "/historias/jovenes-belgrado-tienen-ganas-futuro",
+      "permanent": true
+    },
+    {
+      "source": "/jurandy-hombre-del-saxo",
+      "destination": "/historias/jurandy-hombre-del-saxo",
+      "permanent": true
+    },
+    {
+      "source": "/largo-do-intendente-lisboa",
+      "destination": "/historias/largo-do-intendente-lisboa",
+      "permanent": true
+    },
+    {
+      "source": "/lee-miller-glamour-trincheras",
+      "destination": "/historias/lee-miller-glamour-trincheras",
+      "permanent": true
+    },
+    {
+      "source": "/letur-pueblo-agua",
+      "destination": "/historias/letur-pueblo-agua",
+      "permanent": true
+    },
+    {
+      "source": "/libros-para-preparar-un-viaje",
+      "destination": "/historias/libros-para-preparar-un-viaje",
+      "permanent": true
+    },
+    {
+      "source": "/malaga",
+      "destination": "/historias/malaga",
+      "permanent": true
+    },
+    {
+      "source": "/malawi-africa",
+      "destination": "/historias/malawi-africa",
+      "permanent": true
+    },
+    {
+      "source": "/malawi-karonga-dinosaurios-bicicletas",
+      "destination": "/historias/malawi-karonga-dinosaurios-bicicletas",
+      "permanent": true
+    },
+    {
+      "source": "/marceddi-pueblo-donde-peces-vuelan",
+      "destination": "/historias/marceddi-pueblo-donde-peces-vuelan",
+      "permanent": true
+    },
+    {
+      "source": "/marcha-dignidad-playa-tarajal",
+      "destination": "/historias/marcha-dignidad-playa-tarajal",
+      "permanent": true
+    },
+    {
+      "source": "/marruecos-turismo-sostenible",
+      "destination": "/historias/marruecos-turismo-sostenible",
+      "permanent": true
+    },
+    {
+      "source": "/mini-biografia",
+      "destination": "/historias/mini-biografia",
+      "permanent": true
+    },
+    {
+      "source": "/miradas",
+      "destination": "/historias/miradas",
+      "permanent": true
+    },
+    {
+      "source": "/nino-entre-ninos",
+      "destination": "/historias/nino-entre-ninos",
+      "permanent": true
+    },
+    {
+      "source": "/oporto-porto",
+      "destination": "/historias/oporto-porto",
+      "permanent": true
+    },
+    {
+      "source": "/patronas-esperanza-frontera",
+      "destination": "/historias/patronas-esperanza-frontera",
+      "permanent": true
+    },
+    {
+      "source": "/planificando-viaje",
+      "destination": "/historias/planificando-viaje",
+      "permanent": true
+    },
+    {
+      "source": "/portugal",
+      "destination": "/historias/portugal",
+      "permanent": true
+    },
+    {
+      "source": "/premio-periodismo-manos-unidas",
+      "destination": "/historias/premio-periodismo-manos-unidas",
+      "permanent": true
+    },
+    {
+      "source": "/preparando-un-viaje-a-tanzania-y-malawi",
+      "destination": "/historias/preparando-un-viaje-a-tanzania-y-malawi",
+      "permanent": true
+    },
+    {
+      "source": "/preparativos-viaje-destino-brasil",
+      "destination": "/historias/preparativos-viaje-destino-brasil",
+      "permanent": true
+    },
+    {
+      "source": "/primavera-confinada-en-casa",
+      "destination": "/historias/primavera-confinada-en-casa",
+      "permanent": true
+    },
+    {
+      "source": "/puerto-de-gallinas-mejor-playa-brasil",
+      "destination": "/historias/puerto-de-gallinas-mejor-playa-brasil",
+      "permanent": true
+    },
+    {
+      "source": "/recife-ciudad-contrastes",
+      "destination": "/historias/recife-ciudad-contrastes",
+      "permanent": true
+    },
+    {
+      "source": "/recorriendo-isla-conejos-carreteras-secundarias-2",
+      "destination": "/historias/recorriendo-isla-conejos-carreteras-secundarias-2",
+      "permanent": true
+    },
+    {
+      "source": "/recorriendo-isla-conejos-por-carreteras-secundarias-3",
+      "destination": "/historias/recorriendo-isla-conejos-por-carreteras-secundarias-3",
+      "permanent": true
+    },
+    {
+      "source": "/recorriendo-la-isla-conejos-carreteras-secundarias-1",
+      "destination": "/historias/recorriendo-la-isla-conejos-carreteras-secundarias-1",
+      "permanent": true
+    },
+    {
+      "source": "/refugiados-clima-mito-realidad",
+      "destination": "/historias/refugiados-clima-mito-realidad",
+      "permanent": true
+    },
+    {
+      "source": "/reggio-calabria-italia",
+      "destination": "/historias/reggio-calabria-italia",
+      "permanent": true
+    },
+    {
+      "source": "/relato-viaje-tren",
+      "destination": "/historias/relato-viaje-tren",
+      "permanent": true
+    },
+    {
+      "source": "/resumen-ano-2016",
+      "destination": "/historias/resumen-ano-2016",
+      "permanent": true
+    },
+    {
+      "source": "/rutinas-de-viaje",
+      "destination": "/historias/rutinas-de-viaje",
+      "permanent": true
+    },
+    {
+      "source": "/santo-antonio-fiestas-lisboa",
+      "destination": "/historias/santo-antonio-fiestas-lisboa",
+      "permanent": true
+    },
+    {
+      "source": "/snippets-serbia",
+      "destination": "/historias/snippets-serbia",
+      "permanent": true
+    },
+    {
+      "source": "/soplalebeche-importancia-nombre",
+      "destination": "/historias/soplalebeche-importancia-nombre",
+      "permanent": true
+    },
+    {
+      "source": "/taracea-granada",
+      "destination": "/historias/taracea-granada",
+      "permanent": true
+    },
+    {
+      "source": "/tenho-saudade-brasil",
+      "destination": "/historias/tenho-saudade-brasil",
+      "permanent": true
+    }
+  ]
+}
