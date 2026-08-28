@@ -57,7 +57,7 @@ const navLinks = [
         {transparentHeader ? (
           <>
             <a href="/" class="justify-self-start"><Logo variant="white" /></a>
-            <nav class="justify-self-center flex items-center gap-1 text-sm font-medium text-white border border-white/30 rounded-full px-2 py-2 backdrop-blur-sm">
+            <nav class="hidden md:flex justify-self-center items-center gap-1 text-sm font-medium text-white border border-white/30 rounded-full px-2 py-2 backdrop-blur-sm">
               {navLinks.map((link) => (
                 <a
                   href={link.href}
@@ -69,20 +69,25 @@ const navLinks = [
                 </a>
               ))}
             </nav>
-            <a
-              href="https://testeha.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="justify-self-end flex items-center gap-2 text-xs font-medium text-white border border-white/30 rounded-full px-4 py-2.5 hover:bg-white/10 whitespace-nowrap"
-            >
-              <span class="w-1.5 h-1.5 rounded-full bg-white inline-block"></span>
-              Un proyecto de Testeha Estudio
-            </a>
+            <div class="justify-self-end flex items-center gap-3">
+              <a
+                href="https://testeha.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hidden md:flex items-center gap-2 text-xs font-medium text-white border border-white/30 rounded-full px-4 py-2.5 hover:bg-white/10 whitespace-nowrap"
+              >
+                <span class="w-1.5 h-1.5 rounded-full bg-white inline-block"></span>
+                Un proyecto de Testeha Estudio
+              </a>
+              <button id="mobile-menu-btn" class="md:hidden w-10 h-10 flex items-center justify-center text-white" aria-label="Abrir menú">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7" /><line x1="4" y1="12" x2="20" y2="12" /><line x1="4" y1="17" x2="20" y2="17" /></svg>
+              </button>
+            </div>
           </>
         ) : (
           <>
             <a href="/" class="justify-self-start"><Logo /></a>
-            <nav class="justify-self-center flex items-center gap-1 text-sm font-medium text-slate-700 border border-mediterraneo-800/15 rounded-full px-2 py-2">
+            <nav class="hidden md:flex justify-self-center items-center gap-1 text-sm font-medium text-slate-700 border border-mediterraneo-800/15 rounded-full px-2 py-2">
               {navLinks.map((link) => (
                 <a
                   href={link.href}
@@ -96,19 +101,46 @@ const navLinks = [
                 </a>
               ))}
             </nav>
-            <a
-              href="https://testeha.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="justify-self-end flex items-center gap-2 text-xs font-medium text-mediterraneo-800 border border-mediterraneo-800/15 rounded-full px-4 py-2.5 hover:bg-mediterraneo-50 whitespace-nowrap"
-            >
-              <span class="w-1.5 h-1.5 rounded-full bg-mediterraneo-800 inline-block"></span>
-              Un proyecto de Testeha Estudio
-            </a>
+            <div class="justify-self-end flex items-center gap-3">
+              <a
+                href="https://testeha.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hidden md:flex items-center gap-2 text-xs font-medium text-mediterraneo-800 border border-mediterraneo-800/15 rounded-full px-4 py-2.5 hover:bg-mediterraneo-50 whitespace-nowrap"
+              >
+                <span class="w-1.5 h-1.5 rounded-full bg-mediterraneo-800 inline-block"></span>
+                Un proyecto de Testeha Estudio
+              </a>
+              <button id="mobile-menu-btn" class="md:hidden w-10 h-10 flex items-center justify-center text-mediterraneo-800" aria-label="Abrir menú">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7" /><line x1="4" y1="12" x2="20" y2="12" /><line x1="4" y1="17" x2="20" y2="17" /></svg>
+              </button>
+            </div>
           </>
         )}
       </div>
     </header>
+
+    <div id="mobile-menu" class="fixed inset-0 z-[60] bg-mediterraneo-800 hidden flex-col items-center justify-center gap-8">
+      <button id="mobile-menu-close" class="absolute top-6 right-6 text-white w-10 h-10 flex items-center justify-center" aria-label="Cerrar menú">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="6" y1="6" x2="18" y2="18" /><line x1="6" y1="18" x2="18" y2="6" /></svg>
+      </button>
+      <nav class="flex flex-col items-center gap-7">
+        {navLinks.map((link) => (
+          <a href={link.href} class="mobile-nav-link font-voice text-3xl text-white hover:text-arena-100 transition-colors">
+            {link.label}
+          </a>
+        ))}
+      </nav>
+      <a
+        href="https://testeha.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="mt-6 flex items-center gap-2 text-xs font-medium text-mediterraneo-100 border border-white/25 rounded-full px-4 py-2.5 hover:bg-white/10"
+      >
+        <span class="w-1.5 h-1.5 rounded-full bg-mediterraneo-100 inline-block"></span>
+        Un proyecto de Testeha Estudio
+      </a>
+    </div>
 
     <div id="page-content" class="max-w-6xl mx-auto px-6" style={transparentHeader ? '' : 'padding-top: 120px;'}>
       <main>
@@ -190,9 +222,9 @@ const navLinks = [
             </a>
           </div>
         </div>
-        <div class="border-t border-white/15 pt-4 flex flex-wrap justify-between items-center gap-3 text-xs text-mediterraneo-200">
+        <div class="border-t border-white/15 pt-4 flex flex-col md:flex-row md:flex-wrap justify-between items-start md:items-center gap-3 text-xs text-mediterraneo-200">
           <span>© 2026 Soplalebeche — Diseño y desarrollo web <a href="https://testeha.com" target="_blank" rel="noopener noreferrer" class="hover:text-white underline">Testeha Estudio</a></span>
-          <div class="flex gap-4">
+          <div class="flex flex-col md:flex-row gap-2 md:gap-4">
             <a href="/aviso-legal" class="hover:text-white">Aviso Legal</a>
             <a href="/politica-privacidad" class="hover:text-white">Política de Privacidad</a>
             <a href="/politica-cookies" class="hover:text-white">Política de Cookies</a>
@@ -351,6 +383,27 @@ const navLinks = [
       }
       window.addEventListener('scroll', updateHeaderBg, { passive: true });
       updateHeaderBg();
+
+      // ---- Menú móvil (hamburguesa) ----
+      const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const mobileMenuClose = document.getElementById('mobile-menu-close');
+
+      function abrirMenuMovil() {
+        mobileMenu?.classList.remove('hidden');
+        mobileMenu?.classList.add('flex');
+        document.body.style.overflow = 'hidden';
+      }
+      function cerrarMenuMovil() {
+        mobileMenu?.classList.add('hidden');
+        mobileMenu?.classList.remove('flex');
+        document.body.style.overflow = '';
+      }
+      mobileMenuBtn?.addEventListener('click', abrirMenuMovil);
+      mobileMenuClose?.addEventListener('click', cerrarMenuMovil);
+      document.querySelectorAll('.mobile-nav-link').forEach((link) => {
+        link.addEventListener('click', cerrarMenuMovil);
+      });
 
       // ---- Banner de cookies + carga condicional de Google Analytics ----
       const GA_ID = 'G-77MX4PCXQT';

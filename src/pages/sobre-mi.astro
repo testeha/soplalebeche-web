@@ -8,27 +8,26 @@ const { Content } = await render(page);
 ---
 
 <Layout title="Sobre mí" description="Me llamo Rocío Periago, y soy la autora de este blog. Viajera y curiosa, me encanta conocer otras culturas, hablar con la gente y contar historias.">
-  <h1 class="font-voice text-4xl text-mediterraneo-800 mb-8">Sobre mí</h1>
+  <h1 class="font-voice text-3xl md:text-4xl text-mediterraneo-800 mb-4 md:mb-8">Sobre mí</h1>
 
-  <figure class="mb-10">
+  <figure class="mb-5 md:mb-10">
     <img
       src="/images/paginas/sobremi_rocioperiago_soplalebeche.webp"
       alt="Rocío Periago"
-      class="w-full rounded-3xl object-cover"
-      style="aspect-ratio: 21/9;"
+      class="w-full rounded-3xl object-cover aspect-[4/3] md:aspect-[21/9]"
     />
     <figcaption class="text-xs text-slate-400 mt-2">Terreros (Almería) © Rocío Periago</figcaption>
   </figure>
 
-  <div class="grid md:grid-cols-[220px_1fr] gap-12">
+  <div class="grid md:grid-cols-[220px_1fr] gap-6 md:gap-12">
     <aside class="md:sticky md:top-32 self-start flex flex-col items-center md:items-start text-center md:text-left order-1">
       <img
         src="/images/mini-rocio.jpg"
         alt="Rocío Periago"
-        class="w-[160px] h-[160px] rounded-2xl object-contain bg-mediterraneo-50 mb-4"
+        class="w-[110px] h-[110px] md:w-[160px] md:h-[160px] rounded-2xl object-contain bg-mediterraneo-50 mb-3 md:mb-4"
       />
       <p class="font-voice text-lg text-mediterraneo-800 mb-1">Rocío Periago</p>
-      <p class="text-xs text-slate-400 mb-4">Autora de Soplalebeche</p>
+      <p class="text-xs text-slate-400 mb-3 md:mb-4">Autora de Soplalebeche</p>
       <div class="flex items-center gap-3">
         <a
           href="https://www.linkedin.com/in/rocioperiago"

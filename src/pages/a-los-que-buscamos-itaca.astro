@@ -4,7 +4,7 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="A los que buscamos Ítaca" description="Un relato personal, con el poema de Cavafis" transparentHeader={true}>
   <article class="max-w-2xl mx-auto">
-    <div class="relative left-1/2 -translate-x-1/2 w-screen overflow-hidden" style="height: 100vh;">
+    <div class="relative left-1/2 -translate-x-1/2 w-screen overflow-hidden" style="height: 82vh;">
       <img
         src="https://www.soplalebeche.com/wp-content/uploads/2016/07/itaca_portada.jpg"
         alt="A los que buscamos Ítaca"
@@ -14,9 +14,14 @@ import Layout from '../layouts/Layout.astro';
       <div class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-black/45 to-transparent"></div>
 
       <div class="absolute inset-0 flex items-end">
-        <div class="max-w-6xl mx-auto px-6 w-full pb-24">
+        <div class="max-w-6xl mx-auto px-6 w-full pb-20">
           <div class="max-w-2xl">
-            <h1 class="font-voice text-4xl text-white leading-tight">A los que buscamos Ítaca</h1>
+            <h1 class="font-voice text-3xl md:text-4xl text-white leading-tight mb-4">A los que buscamos Ítaca</h1>
+            <p class="font-voice text-base leading-relaxed text-white/90">
+              <strong>Somos muchos los que estamos buscando nuevas oportunidades, buscando nuestras Ítacas&#8230;
+              si realmente quieres dedicarte a algo, tienes que intentarlo, porque las experiencias, los retos
+              y la vida se encuentran a lo largo del camino.</strong>
+            </p>
           </div>
         </div>
       </div>
@@ -33,13 +38,7 @@ import Layout from '../layouts/Layout.astro';
     </div>
 
     <div id="itaca-contenido" class="pt-10">
-      <p class="font-voice text-lg leading-relaxed text-slate-800 mb-10">
-        <strong>Somos muchos los que estamos buscando nuevas oportunidades, buscando nuestras Ítacas&#8230;
-        si realmente quieres dedicarte a algo, tienes que intentarlo, porque las experiencias, los retos
-        y la vida se encuentran a lo largo del camino.</strong>
-      </p>
-
-      <div class="grid grid-cols-2 gap-10 mb-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 mb-8">
         <p class="font-voice italic text-base leading-loose text-mediterraneo-800 whitespace-pre-line">
 Cuando te encuentres de camino a Ítaca,
 desea que sea largo el camino,

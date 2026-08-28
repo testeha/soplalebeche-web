@@ -64,13 +64,13 @@ const fechaFormateada = new Date(post.data.pubDate).toLocaleDateString('es-ES', 
 <Layout title={seoTitle} description={seoDescription} transparentHeader={tieneFoto}>
   <article class="max-w-2xl mx-auto">
     {tieneFoto ? (
-      <div class="relative left-1/2 -translate-x-1/2 w-screen overflow-hidden" style="height: 100vh;">
+      <div class="relative left-1/2 -translate-x-1/2 w-screen overflow-hidden" style="height: 82vh;">
         <img src={post.data.featuredImage} alt={post.data.title} class="parallax-img" />
         <div class="absolute inset-0 bg-gradient-to-t from-mediterraneo-900/90 via-mediterraneo-900/20 to-mediterraneo-900/45"></div>
         <div class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-black/45 to-transparent"></div>
 
         <div class="absolute inset-0 flex items-end">
-          <div class="max-w-6xl mx-auto px-6 w-full pb-24">
+          <div class="max-w-6xl mx-auto px-6 w-full pb-20 md:pb-24">
             <div class="max-w-2xl">
               <p class="text-xs font-bold uppercase tracking-wider text-arena-100 mb-3">
                 {post.data.categories.map((cat: string, i: number) => (
@@ -80,7 +80,7 @@ const fechaFormateada = new Date(post.data.pubDate).toLocaleDateString('es-ES', 
                   </>
                 ))}
               </p>
-              <h1 class="font-voice text-4xl text-white mb-3 leading-tight">{post.data.title}</h1>
+              <h1 class="font-voice text-3xl md:text-4xl text-white mb-3 leading-tight">{post.data.title}</h1>
               <p class="text-mediterraneo-100 text-sm">{post.data.author} · {fechaFormateada}</p>
             </div>
           </div>
@@ -106,7 +106,7 @@ const fechaFormateada = new Date(post.data.pubDate).toLocaleDateString('es-ES', 
             </>
           ))}
         </p>
-        <h1 class="font-voice text-4xl text-mediterraneo-800 mb-3 leading-tight">{post.data.title}</h1>
+        <h1 class="font-voice text-3xl md:text-4xl text-mediterraneo-800 mb-3 leading-tight">{post.data.title}</h1>
         <p class="text-sm text-slate-400">{post.data.author} · {fechaFormateada}</p>
       </div>
     )}
@@ -149,7 +149,7 @@ const fechaFormateada = new Date(post.data.pubDate).toLocaleDateString('es-ES', 
       {relatedPosts.length > 0 && (
         <div class="mt-14 pt-10 border-t border-mediterraneo-800/10">
           <h2 class="font-voice text-2xl text-mediterraneo-800 mb-6">Artículos relacionados</h2>
-          <div class="grid grid-cols-2 gap-5">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
             {relatedPosts.map((rp) => (
               <a href={`/historias/${rp.data.slug}`} class="bg-white border border-mediterraneo-800/10 rounded-2xl overflow-hidden">
                 {rp.data.featuredImage ? (

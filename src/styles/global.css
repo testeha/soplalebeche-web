@@ -170,16 +170,31 @@ html {
 .map-wrap svg .highlight,
 .map-wrap svg .highlight path{ fill:var(--color-mediterraneo-600) !important; }
 
+@media (max-width: 767px){
+  .map-wrap{
+    aspect-ratio: unset;
+    height: 46vh;
+  }
+}
+
 .pin{
   position:absolute;
-  width:12px;
-  height:12px;
+  width:28px;
+  height:28px;
   transform:translate(-50%,-50%);
   z-index:5;
+  background:none;
+  border:none;
+  padding:0;
+  cursor:pointer;
 }
 .pin-dot{
   position:absolute;
-  inset:0;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:12px;
+  height:12px;
   background:var(--color-arena-100);
   border:2px solid var(--color-crema-50);
   border-radius:50%;
@@ -188,7 +203,11 @@ html {
 }
 .pin-pulse{
   position:absolute;
-  inset:-6px;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:12px;
+  height:12px;
   border-radius:50%;
   background:var(--color-arena-100);
   opacity:.55;
@@ -259,6 +278,58 @@ html {
   padding:2px 7px;
   border-radius:999px;
   margin-bottom:6px;
+}
+
+/* Tarjeta de info del mapa (pensada para móvil, sin hover) */
+.mapa-info-card{
+  margin-top:16px;
+  background:var(--color-mediterraneo-800);
+  border-radius:16px;
+  padding:18px 20px;
+}
+.mapa-info-card.hidden{ display:none; }
+.mapa-info-card .draft-tag{
+  display:inline-block;
+  font-size:9px;
+  font-weight:700;
+  text-transform:uppercase;
+  color:var(--color-arena-400);
+  background:var(--color-arena-50);
+  padding:2px 7px;
+  border-radius:999px;
+  margin-bottom:8px;
+}
+.mapa-info-card .draft-tag.hidden{ display:none; }
+.mapa-info-cat{
+  font-family:'Inter', sans-serif;
+  font-size:10.5px;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.05em;
+  color:var(--color-arena-100);
+  margin:0 0 6px;
+}
+.mapa-info-titulo{
+  font-family:'Newsreader', serif;
+  font-size:17px;
+  line-height:1.35;
+  color:#fff;
+  margin:0 0 10px;
+}
+.mapa-info-cta{
+  font-family:'Inter', sans-serif;
+  font-size:12.5px;
+  font-weight:600;
+  color:var(--color-mediterraneo-100);
+  text-decoration:none;
+}
+.mapa-info-cta:hover{ text-decoration:underline; }
+
+@media (max-width:767px){
+  .tooltip{ display:none; }
+}
+@media (min-width:768px){
+  .mapa-info-card{ display:none; }
 }
 
 /* Mini-mapa + panel de datos del país dentro de cada crónica */
@@ -472,7 +543,7 @@ html {
 .article-body blockquote::before{
   content: "\201C";
   position: absolute;
-  top: 8px;
+  top: 26px;
   left: 32px;
   font-family: 'Newsreader', serif;
   font-style: normal;

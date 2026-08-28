@@ -1,7 +1,12 @@
 ---
-import worldMapSvg from '../data/world-map.svg?raw';
+import worldMapSvgRaw from '../data/world-map.svg?raw';
 import { paises } from '../data/paises';
 import { getCollection } from 'astro:content';
+
+// Forzamos que el SVG "recorte" en vez de dejar huecos en blanco cuando el
+// contenedor tiene una proporción distinta a la del propio mapa (así, en
+// móvil, podemos hacerlo más alto sin que aparezcan franjas vacías).
+const worldMapSvg = worldMapSvgRaw.replace('<svg', '<svg preserveAspectRatio="xMidYMid slice"');
 
 const posts = await getCollection('posts');
 
@@ -26,7 +31,17 @@ const pines = paises
 <div class="map-wrap">
   <Fragment set:html={worldMapSvg} />
   {pines.map((p) => (
-    <div class="pin" style={`left:${p.left}%; top:${p.top}%;`}>
+    <button
+      class="pin"
+      style={`left:${p.left}%; top:${p.top}%;`}
+      data-categoria={p.post!.data.categories[0]}
+      data-pais={p.nombre}
+      data-ciudad={p.ciudad || ''}
+      data-titulo={p.post!.data.title}
+      data-slug={p.post!.data.slug}
+      data-borrador={p.post!.data.draft ? '1' : '0'}
+      aria-label={`Ver crónica de ${p.nombre}`}
+    >
       <div class="pin-pulse"></div>
       <div class="pin-dot"></div>
       <div class="tooltip">
@@ -35,6 +50,36 @@ const pines = paises
         <p class="titulo">{p.post!.data.title}</p>
         <a class="cta" href={`/historias/${p.post!.data.slug}`}>Leer crónica →</a>
       </div>
-    </div>
+    </button>
   ))}
 </div>
+
+<!-- Tarjeta de información compartida: se rellena al tocar un pin (pensada para móvil, sin hover) -->
+<div id="mapa-info-card" class="mapa-info-card hidden">
+  <span id="mapa-info-draft" class="draft-tag hidden">Borrador</span>
+  <p id="mapa-info-cat" class="mapa-info-cat"></p>
+  <p id="mapa-info-titulo" class="mapa-info-titulo"></p>
+  <a id="mapa-info-cta" href="#" class="mapa-info-cta">Leer crónica →</a>
+</div>
+
+<script>
+  const pins = document.querySelectorAll<HTMLButtonElement>('.pin');
+  const card = document.getElementById('mapa-info-card');
+  const cardDraft = document.getElementById('mapa-info-draft');
+  const cardCat = document.getElementById('mapa-info-cat');
+  const cardTitulo = document.getElementById('mapa-info-titulo');
+  const cardCta = document.getElementById('mapa-info-cta') as HTMLAnchorElement;
+
+  pins.forEach((pin) => {
+    pin.addEventListener('click', (e) => {
+      e.preventDefault();
+      const { categoria, pais, ciudad, titulo, slug, borrador } = pin.dataset;
+      if (cardCat) cardCat.textContent = `${categoria} · ${pais}${ciudad ? ` · ${ciudad}` : ''}`;
+      if (cardTitulo) cardTitulo.textContent = titulo || '';
+      if (cardCta) cardCta.href = `/historias/${slug}`;
+      cardDraft?.classList.toggle('hidden', borrador !== '1');
+      card?.classList.remove('hidden');
+      card?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+  });
+</script>
