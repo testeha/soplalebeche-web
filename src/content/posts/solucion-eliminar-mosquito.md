@@ -10,7 +10,7 @@ tags:
 - Brasil
 - mujer
 - Zika
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/03/adrianamelo_7-2.jpg
+featuredImage: /images/uploads/2017/03/adrianamelo_7-2.webp
 seoTitle: '"La solución pasa por el eliminar al mosquito", cuenta Adriana Melo'
 seoDescription: Entrevista a Adriana Melo, la médico brasileña que descubrió la relación
   entre el virus zika y la microcefalia en los bebés.

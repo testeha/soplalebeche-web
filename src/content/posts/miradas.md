@@ -6,7 +6,7 @@ author: Rocío Periago
 categories:
 - Fotografía
 draft: false
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2010/02/Foto1_1.jpg
+featuredImage: /images/uploads/2010/02/Foto1_1.webp
 seoTitle: Rostros. Personas. Imágenes. Miradas que hablan sin usar palabras
 seoDescription: '"De eso se trata. De coincidir con gente que te haga ver cosas que
   tú no ves. Que te enseñen a mirar con otros ojos." Mario Benedetti'
@@ -26,6 +26,6 @@ Mario Benedetti
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2010/02/Foto2_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2010/02/Foto-6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2010/02/Foto-7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2010/02/Foto3_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/10/Foto8.jpg)
+![](/images/uploads/2010/02/Foto2_1.webp) ![](/images/uploads/2010/02/Foto-6.webp) ![](/images/uploads/2010/02/Foto-7.webp) ![](/images/uploads/2010/02/Foto3_1.webp) ![](/images/uploads/2017/10/Foto8.webp)
 
 </div>

@@ -6,7 +6,7 @@ author: Rocío Periago
 categories:
 - Con nombre propio
 draft: false
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20151109_portada.jpg
+featuredImage: /images/uploads/2016/07/20151109_portada.webp
 seoTitle: Mini Biografia. Cuatro párrafos para contarte un poco de mi
 seoDescription: Sintentizar no es lo mío. Me encanta escuchar, hablar y enrollarme
   escribiendo. Aquí intento contarte en unos párrafos un poquito de mi. Una minibiografía

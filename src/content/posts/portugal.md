@@ -13,7 +13,7 @@ tags:
 - Portalegre
 - Portugal
 - Sagres
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20100409_portada.jpg
+featuredImage: /images/uploads/2016/07/20100409_portada.webp
 seoTitle: Viaje a Castelo de Vide, un pequeño pueblo de Portugal
 seoDescription: Castelo de Vide es un pequeño pueblo de Portugal situado en la región
   del Alto Alenteho, en el Conselho de Portalegre, cerca de la frontera con España.
@@ -34,7 +34,7 @@ Es una región muy húmeda y verde, y en general muy tranquila. Por la noche hay
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20100409-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20100409-8.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20100409-6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20100409-5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20100409-3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20100409-2.jpg)
+![](/images/uploads/2016/07/20100409-1.webp) ![](/images/uploads/2016/07/20100409-8.webp) ![](/images/uploads/2016/07/20100409-6.webp) ![](/images/uploads/2016/07/20100409-5.webp) ![](/images/uploads/2016/07/20100409-3.webp) ![](/images/uploads/2016/07/20100409-2.webp)
 
 </div>
 

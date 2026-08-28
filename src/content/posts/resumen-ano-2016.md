@@ -14,7 +14,7 @@ tags:
 - Portugal
 - Recife
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/12/20161231_portada.jpg
+featuredImage: /images/uploads/2016/12/20161231_portada.webp
 seoTitle: De todo un poco. Un resumen del año 2016 y deseos para el 2017
 seoDescription: Ahora que acaba el año es cuando se hacen esas listas, balances y
   propósitos para el año próximo... este es mi resumen de las cosas buenas del 2016
@@ -40,7 +40,7 @@ Rocío
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/12/20161231_portada.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/12/20161231_olinda.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/12/20161231_Londres.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/12/20161231_lisboa_torrebelem.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/12/20161231_lisboa.jpg)
+![](/images/uploads/2016/12/20161231_portada.webp) ![](/images/uploads/2016/12/20161231_olinda.webp) ![](/images/uploads/2016/12/20161231_Londres.webp) ![](/images/uploads/2016/12/20161231_lisboa_torrebelem.webp) ![](/images/uploads/2016/12/20161231_lisboa.webp)
 
 </div>
 

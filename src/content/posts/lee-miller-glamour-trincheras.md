@@ -14,7 +14,7 @@ tags:
 - periodismo
 - UE
 - Vogue
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/02/20160219_portada.jpg
+featuredImage: /images/uploads/2016/02/20160219_portada.webp
 seoTitle: Del glamour a las trincheras - Rocío Periago
 seoDescription: Soplalebeche, un blog de viajes y buenas historias con nombre de viento
   del sur
@@ -51,6 +51,6 @@ Murió en 1977 víctima de un cáncer. “Interesante mujer, pero nadie sale inm
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/02/20160219_4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/02/20160219_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/02/20160219_1.jpg)
+![](/images/uploads/2016/02/20160219_4.webp) ![](/images/uploads/2016/02/20160219_2.webp) ![](/images/uploads/2016/02/20160219_1.webp)
 
 </div>

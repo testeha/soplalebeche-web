@@ -14,7 +14,7 @@ tags:
 - Mindelo
 - Praia
 - San Vicente
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20100215_portada.jpg
+featuredImage: /images/uploads/2016/07/20100215_portada.webp
 seoTitle: Viaje a Cabo Verde. Isla de Sao Vicente y Cesaria Évora
 seoDescription: Cabo Verde es un país africano formado por un archipiélago de islas
   en el Océano Atlántico. Antigua colonia portuguesa tiene aún vestigios de esa cultura
@@ -31,7 +31,7 @@ La población de Cabo Verde es mayoritariamente mestiza. Mezcla por un lado de l
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2010/02/20100215-3-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2010/02/20100215-4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2010/02/20100215-5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2010/02/20100215-7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2010/02/20100215-9.jpg)
+![](/images/uploads/2010/02/20100215-3-1.webp) ![](/images/uploads/2010/02/20100215-4.webp) ![](/images/uploads/2010/02/20100215-5.webp) ![](/images/uploads/2010/02/20100215-7.webp) ![](/images/uploads/2010/02/20100215-9.webp)
 
 </div>
 
@@ -41,12 +41,12 @@ Tiene el encanto de la calma y la tranquilidad de un país tropical. Todo va con
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2010/02/20100215-11.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2010/02/20100215-10.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2010/02/20100215-9.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2010/02/20100215-8.jpg)
+![](/images/uploads/2010/02/20100215-11.webp) ![](/images/uploads/2010/02/20100215-10.webp) ![](/images/uploads/2010/02/20100215-9.webp) ![](/images/uploads/2010/02/20100215-8.webp)
 
 </div>
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20100215-12.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2010/02/20100215-6.jpg)
+![](/images/uploads/2016/07/20100215-12.webp) ![](/images/uploads/2010/02/20100215-6.webp)
 
 </div>

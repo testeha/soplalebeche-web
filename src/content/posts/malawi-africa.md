@@ -12,7 +12,7 @@ tags:
 - Cultura
 - Lago Malawi
 - mochileros
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2019/09/lake-malawi-1.jpg
+featuredImage: /images/uploads/2019/09/lake-malawi-1.webp
 seoTitle: Malawi, el corazón cálido de África
 seoDescription: Malawi es un país africano desconocido para la mayoría, pero que tiene
   mucho que ofrecer a nivel humano, cultural y de recursos naturales.
@@ -23,7 +23,7 @@ excerpt: Hasta hace no mucho tiempo, desconocía por completo este país african
 Hasta hace no mucho tiempo, desconocía por completo este país africano, que solo salía en los medios por ser el lugar de origen de las hijas de Madonna o por las visitas oficiales de Harry y Meghan Markle. Pequeño y alargado, Malawi pasa por completo inadvertido en el mapa y mucho más en el panorama internacional, al que se está abriendo tímidamente en los últimos años. Durante [julio y agosto de 2019](/historias/preparando-un-viaje-a-tanzania-y-malawi) he estado recorriéndolo sin prisa y siempre en transporte público, entrando por el norte en la frontera con Tanzania y parando, entre otros lugares, en **[Karonga](/historias/malawi-karonga-dinosaurios-bicicletas), Mzuzu, Nkhata Bay, Lilongwe y Dedza**. Estas son algunas pinceladas para aproximarnos a este país. 
 **Malawi tiene fama de ser un país pacífico y estable** (es conocido como *The Warm Heart of Africa*). Sin embargo, como en muchos otros lugares, los casos de corrupción y abusos de poder son frecuentes. Fue protectorado y colonia británica hasta 1964, aunque después sufrió unos años de represión y dictadura bajo el mandato de Hasting Kamuzu Banda, y no fue hasta 1993 que se adoptó el pluripartidismo. En los últimos años se han repartido el poder entre **Bingu wa Mutharika**, que ganó las elecciones en 2004, **Joyce Banda**, su vicepresidenta, que gobernó el país entre 2012 y 2014 al fallecimiento de este, y **Peter Mutharika,** hermano del primero y que desde 2014 está en el poder. A raíz de las acusaciones de fraude electoral en las últimas elecciones (mayo 2019) hay un proceso judicial abierto y frecuentes huelgas y manifestaciones pidiendo la dimisión de la persona responsable del recuento electoral.
 
-![mapa_malawi](https://www.soplalebeche.com/wp-content/uploads/2019/10/mapa_malawi-250x300.jpg)
+![mapa_malawi](/images/uploads/2019/10/mapa_malawi-250x300.webp)
 *Mapa de Malawi*
 
  
@@ -31,7 +31,7 @@ La bandera de Malawi es negra, roja y verde en franjas horizontales, con medio s
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2019/10/bandera_malawi-1.png) ![](https://www.soplalebeche.com/wp-content/uploads/2019/10/bandera_malawi_201012.png)
+![](/images/uploads/2019/10/bandera_malawi-1.webp) ![](/images/uploads/2019/10/bandera_malawi_201012.webp)
 
 </div>
 
@@ -43,7 +43,7 @@ El **inglés y el chichewa** son las lenguas oficiales. La moneda es el **kwacha
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2019/10/Malawi_11.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/10/Malawi_10.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/10/Malawi_6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/10/Malawi_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/10/Malawi_8.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/09/lake-malawi_2-1.jpg)
+![](/images/uploads/2019/10/Malawi_11.webp) ![](/images/uploads/2019/10/Malawi_10.webp) ![](/images/uploads/2019/10/Malawi_6.webp) ![](/images/uploads/2019/10/Malawi_5.webp) ![](/images/uploads/2019/10/Malawi_8.webp) ![](/images/uploads/2019/09/lake-malawi_2-1.webp)
 
 </div>
 
@@ -53,7 +53,7 @@ A pesar de que hay numerosos aspectos a mejorar, también hay muchos proyectos e
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2019/10/Malawi_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/10/Malawi.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/09/Mzuzu-y-Nkhata-Bay_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/10/Malawi_4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/10/Malawi_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/10/Malawi_9.jpg)
+![](/images/uploads/2019/10/Malawi_1.webp) ![](/images/uploads/2019/10/Malawi.webp) ![](/images/uploads/2019/09/Mzuzu-y-Nkhata-Bay_5.webp) ![](/images/uploads/2019/10/Malawi_4.webp) ![](/images/uploads/2019/10/Malawi_2.webp) ![](/images/uploads/2019/10/Malawi_9.webp)
 
 </div>
 
@@ -66,6 +66,6 @@ A nivel de infraestructuras aún tiene muchas cosas que mejorar, pero **para qui
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2019/10/Malawi_7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/10/Malawi_3.jpg)
+![](/images/uploads/2019/10/Malawi_7.webp) ![](/images/uploads/2019/10/Malawi_3.webp)
 
 </div>

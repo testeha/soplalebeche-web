@@ -14,7 +14,7 @@ tags:
 - Timanfaya
 - Viajar
 - Volcanes
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/04/lanzarote_3.jpg
+featuredImage: /images/uploads/2018/04/lanzarote_3.webp
 seoTitle: Recorriendo la isla de los conejos por carreteras secundarias (2)
 seoDescription: Descubrir Lanzarote es también descubrir a Cesar Manrique, un hombre
   clave sin el que no se puede entender la isla actual.
@@ -44,6 +44,6 @@ La iglesia está abierta y aunque no hay ninguna celebración hay tres coches ap
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2018/04/lanzarote_4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/04/lanzarote_6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/04/Lanzarote_12.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/04/lanzarote.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/04/Lanzarote_20.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/04/lanzarote_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/04/lanzarote_2.jpg)
+![](/images/uploads/2018/04/lanzarote_4.webp) ![](/images/uploads/2018/04/lanzarote_6.webp) ![](/images/uploads/2018/04/Lanzarote_12.webp) ![](/images/uploads/2018/04/lanzarote.webp) ![](/images/uploads/2018/04/Lanzarote_20.webp) ![](/images/uploads/2018/04/lanzarote_1.webp) ![](/images/uploads/2018/04/lanzarote_2.webp)
 
 </div>

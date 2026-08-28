@@ -13,7 +13,7 @@ tags:
 - Mediterráneo
 - Sierra de Tramontana
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/07/20170715_SierraTramontana_15.jpg
+featuredImage: /images/uploads/2017/07/20170715_SierraTramontana_15.webp
 seoTitle: La Sierra de Tramontana.Descubriendo una isla dentro de una isla
 seoDescription: Cuando la observo sobre un mapa, parece una larga cicatriz que recorre
   la isla, siempre mirando a poniente.Una isla real y otra imaginaria comparten mapa
@@ -56,6 +56,6 @@ Viajar sin prisas. Tener la sensación de que el tiempo se detiene y medir las d
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2017/07/20170715_SierraTramontana_16-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/07/20170715_SierraTramontana_18.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/07/20170715_SierraTramontana_10.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/07/20170715_SierraTramontana_17.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/07/20170715_SierraTramontana_14.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/07/20170715_SierraTramontana_0.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/07/20170715_SierraTramontana_3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/07/20170715_SierraTramontana_12.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/07/20170715_SierraTramontana_7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/07/20170715_SierraTramontana_9.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/07/20170715_SierraTramontana_13.jpg)
+![](/images/uploads/2017/07/20170715_SierraTramontana_16-1.webp) ![](/images/uploads/2017/07/20170715_SierraTramontana_18.webp) ![](/images/uploads/2017/07/20170715_SierraTramontana_10.webp) ![](/images/uploads/2017/07/20170715_SierraTramontana_17.webp) ![](/images/uploads/2017/07/20170715_SierraTramontana_14.webp) ![](/images/uploads/2017/07/20170715_SierraTramontana_0.webp) ![](/images/uploads/2017/07/20170715_SierraTramontana_3.webp) ![](/images/uploads/2017/07/20170715_SierraTramontana_12.webp) ![](/images/uploads/2017/07/20170715_SierraTramontana_7.webp) ![](/images/uploads/2017/07/20170715_SierraTramontana_9.webp) ![](/images/uploads/2017/07/20170715_SierraTramontana_13.webp)
 
 </div>

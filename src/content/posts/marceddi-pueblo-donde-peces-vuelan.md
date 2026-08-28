@@ -13,7 +13,7 @@ tags:
 - Italia
 - Mediterráneo
 - Pescadores
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/02/Marceddi_3.jpg
+featuredImage: /images/uploads/2018/02/Marceddi_3.webp
 seoTitle: Marceddi, el pueblo donde los peces vuelan
 seoDescription: Marceddi es una pequeña aldea de pescadores situada en la costa oeste
   de Cerdeña,  una mancha italiana, verde y montañosa enmedio del Mediterráneo.
@@ -58,6 +58,6 @@ La patrona del pueblo es la Madonna de Bonaria (La Virgen del Buen Aire), porque
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2018/02/Marceddi_4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/02/Marceddi_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/02/Marceddi_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/02/Marceddi_6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/02/Marceddi-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/02/Marceddi_5.jpg)
+![](/images/uploads/2018/02/Marceddi_4.webp) ![](/images/uploads/2018/02/Marceddi_1.webp) ![](/images/uploads/2018/02/Marceddi_2.webp) ![](/images/uploads/2018/02/Marceddi_6.webp) ![](/images/uploads/2018/02/Marceddi-1.webp) ![](/images/uploads/2018/02/Marceddi_5.webp)
 
 </div>

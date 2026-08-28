@@ -13,7 +13,7 @@ tags:
 - Europa
 - Turquía
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/12/balat_istanbul_2.jpg
+featuredImage: /images/uploads/2018/12/balat_istanbul_2.webp
 seoTitle: Balat. El barrio judío/ortodoxo de la ciudad de Estambul
 seoDescription: Situado en el Cuerno de Oro, es una de las zonas más antiguas de la
   ciudad, que todavía mantiene parte de sus murallas. Hoy la diversidad recorre sus
@@ -48,7 +48,7 @@ En apenas una calle de diferencia conviven dos realidades diversas y complejas: 
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2018/12/balat_istanbul_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/12/balat_istanbul_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/12/balat_istanbul_8.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/12/balat_istanbul_7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/12/balat_istanbul_4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/12/balat_istanbul_3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/12/balat_istanbul_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/12/balat_istanbul.jpg)
+![](/images/uploads/2018/12/balat_istanbul_5.webp) ![](/images/uploads/2018/12/balat_istanbul_1.webp) ![](/images/uploads/2018/12/balat_istanbul_8.webp) ![](/images/uploads/2018/12/balat_istanbul_7.webp) ![](/images/uploads/2018/12/balat_istanbul_4.webp) ![](/images/uploads/2018/12/balat_istanbul_3.webp) ![](/images/uploads/2018/12/balat_istanbul_2.webp) ![](/images/uploads/2018/12/balat_istanbul.webp)
 
 </div>
 
@@ -58,6 +58,6 @@ Suena como una saeta o un quejío flamenco. **Un signo más de la mezcla de cult
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2018/12/balat_istanbul_6.jpg)
+![](/images/uploads/2018/12/balat_istanbul_6.webp)
 
 </div>

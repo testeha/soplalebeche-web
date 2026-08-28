@@ -12,7 +12,7 @@ tags:
 - España
 - Europa
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/12/cuaderno-de-viaje_campings-del-norte-2018.png
+featuredImage: /images/uploads/2018/12/cuaderno-de-viaje_campings-del-norte-2018.webp
 seoTitle: Cuaderno de Viaje. Ruta en coche por el norte de España
 seoDescription: Cuaderno de viaje de una ruta en coche por el norte de España (Castilla
   y León, Cantabria, Pais Vasco) realizada en el verano de 2018.

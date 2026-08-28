@@ -11,7 +11,7 @@ tags:
 - Europa
 - tren
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/06/20170603_viajetren.jpg
+featuredImage: /images/uploads/2017/06/20170603_viajetren.webp
 seoTitle: Relato de un viaje en tren atravesando Castilla la Mancha
 seoDescription: Estoy sentada en el tren. Los kilómetros interminables de La Mancha
   se suceden por la ventanilla. Campos de cultivo, alguna casa, árboles...

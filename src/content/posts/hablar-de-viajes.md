@@ -10,7 +10,7 @@ tags:
 - Cuarentena
 - Reflexiones viajeras
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2020/04/Sardinia-viajes.png
+featuredImage: /images/uploads/2020/04/Sardinia-viajes.webp
 seoTitle: Hablar de viajes cuando no se puede salir ni viajar
 seoDescription: Hablar de viajes. Una reflexión para cuando pase todo esto. Porque
   aunque ahora estemos encerrados, en algún momento volveremos a viajar.

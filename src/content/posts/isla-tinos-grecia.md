@@ -15,7 +15,7 @@ tags:
 - Isla
 - Mikonos
 - Tinos
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20120902_portada.jpg
+featuredImage: /images/uploads/2016/07/20120902_portada.webp
 seoTitle: Viaje a las Cicladas. Viaje a la Isla de Tinos. Grecia
 seoDescription: Las Cícladas son un grupo de islas en Grecia cercanas a la costa turca.
   La isla de Tinos es la principal, pero a la misma vez la más tranquila de ellas
@@ -30,7 +30,7 @@ Llegué a Grecia en avión, haciendo la ruta Barcelona-Atenas. Una vez en la cap
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20120902-13.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20120902-14.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20120902-15.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20120902-16.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20120902-17.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20120902-19.jpg)
+![](/images/uploads/2016/07/20120902-13.webp) ![](/images/uploads/2016/07/20120902-14.webp) ![](/images/uploads/2016/07/20120902-15.webp) ![](/images/uploads/2016/07/20120902-16.webp) ![](/images/uploads/2016/07/20120902-17.webp) ![](/images/uploads/2016/07/20120902-19.webp)
 
 </div>
 
@@ -46,7 +46,7 @@ Unos cuatro kilómetros más abajo se encuentra la zona del puerto, con un par d
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20120902-12.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20120902-10.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20120902-4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20120902-3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20120902-2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20120902-1.jpg)
+![](/images/uploads/2016/07/20120902-12.webp) ![](/images/uploads/2016/07/20120902-10.webp) ![](/images/uploads/2016/07/20120902-4.webp) ![](/images/uploads/2016/07/20120902-3.webp) ![](/images/uploads/2016/07/20120902-2.webp) ![](/images/uploads/2016/07/20120902-1.webp)
 
 </div>
 
@@ -61,6 +61,6 @@ Pasear por *Monastirakis*, *Plaka*, poder estar en la Plaza Sintagma. No para ve
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2017/02/2012_panormos_grecia.jpg)
+![](/images/uploads/2017/02/2012_panormos_grecia.webp)
 
 </div>

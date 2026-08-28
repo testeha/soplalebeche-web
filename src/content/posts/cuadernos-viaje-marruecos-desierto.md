@@ -13,7 +13,7 @@ tags:
 - desierto
 - Marruecos
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/02/20170224_Marruecos_desierto_slide-1.jpg
+featuredImage: /images/uploads/2017/02/20170224_Marruecos_desierto_slide-1.webp
 seoTitle: 'Cuadernos de viaje por Marruecos: Camino del desierto'
 seoDescription: Salimos de Marrakech, cruzar el Atlas, Ait Ben Addou y las kasbahs,
   las Gargantas del Dades y de Tudra, Ouzarzate... hasta las dunas de Merzouga
@@ -55,6 +55,6 @@ Creo que jamás he visto tantas estrellas, y curiosamente en esta zona, aunque e
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/06/soplalebeche_home_inicio.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170224_Marruecos_desierto8-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170224_Marruecos_desierto4-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170224_Marruecos_desierto2-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170224_Marruecos_desierto-2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170224_Marruecos_desierto0.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170224_marruecos_desierto-4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170224_Marruecos_desierto9-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170224_marruecos_desierto-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170224_Marruecos_desierto7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170224_Marruecos_desierto6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170224_Marruecos_desierto5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170224_Marruecos_desierto12.jpg)
+![](/images/uploads/2016/06/soplalebeche_home_inicio.webp) ![](/images/uploads/2017/02/20170224_Marruecos_desierto8-1.webp) ![](/images/uploads/2017/02/20170224_Marruecos_desierto4-1.webp) ![](/images/uploads/2017/02/20170224_Marruecos_desierto2-1.webp) ![](/images/uploads/2017/02/20170224_Marruecos_desierto-2.webp) ![](/images/uploads/2017/02/20170224_Marruecos_desierto0.webp) ![](/images/uploads/2017/02/20170224_marruecos_desierto-4.webp) ![](/images/uploads/2017/02/20170224_Marruecos_desierto9-1.webp) ![](/images/uploads/2017/02/20170224_marruecos_desierto-1.webp) ![](/images/uploads/2017/02/20170224_Marruecos_desierto7.webp) ![](/images/uploads/2017/02/20170224_Marruecos_desierto6.webp) ![](/images/uploads/2017/02/20170224_Marruecos_desierto5.webp) ![](/images/uploads/2017/02/20170224_Marruecos_desierto12.webp)
 
 </div>

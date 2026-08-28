@@ -11,7 +11,7 @@ tags:
 - Cuarentena
 - España
 - Europa
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/06/Soplalebeche_cuarentena.jpg
+featuredImage: /images/uploads/2017/06/Soplalebeche_cuarentena.webp
 seoTitle: Cuarentena en Madrid. Incertidumbre y creatividad en el confinamiento
 seoDescription: Una breve reflexión personal sobre la cotidianeidad de estar encerrados
   en casa intentando frenar la expansión del coronavirus en Madrid

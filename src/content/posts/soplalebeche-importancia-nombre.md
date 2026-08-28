@@ -11,7 +11,7 @@ tags:
 - Mediterráneo
 - periodismo
 - viajar y escribir
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/03/20170303_Soplalebeche-nombre.jpg
+featuredImage: /images/uploads/2017/03/20170303_Soplalebeche-nombre.webp
 seoTitle: ¿Soplaqué? La importancia de elegir un nombre para tu blog
 seoDescription: 'Una pregunta muy frecuente que me hacen es ¿cual es el nombre del
   blog? ¿soplaqué? Invariablemente, la segunda pregunta viene seguida: ¿y eso qué
@@ -89,6 +89,6 @@ Recuerdo también el día que descubrí que el lebeche existía en Italia (¡all
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2017/03/20170303_soplalebeche_nombre_3-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/03/20170303_soplalebeche_nombre_6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/03/20170303_soplalebeche_nombre_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/03/20170303_soplalebeche_nombre_2.jpg)
+![](/images/uploads/2017/03/20170303_soplalebeche_nombre_3-1.webp) ![](/images/uploads/2017/03/20170303_soplalebeche_nombre_6.webp) ![](/images/uploads/2017/03/20170303_soplalebeche_nombre_5.webp) ![](/images/uploads/2017/03/20170303_soplalebeche_nombre_2.webp)
 
 </div>

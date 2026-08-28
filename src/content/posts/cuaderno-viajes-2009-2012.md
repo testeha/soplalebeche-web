@@ -13,7 +13,7 @@ tags:
 - Cuadernos de Viaje
 - Europa
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/12/CdV-Inicio-2009.png
+featuredImage: /images/uploads/2018/12/CdV-Inicio-2009.webp
 seoTitle: Cuaderno de Viajes. Inicios con el interrail 2009 hasta 2012
 seoDescription: Cuaderno de viajes realizado durante los años 2009 a 2012 por diferentes
   países europeos, uno africano y otro del continente americano.

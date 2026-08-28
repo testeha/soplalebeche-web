@@ -11,7 +11,7 @@ tags:
 - Medio Ambiente
 - Mediterráneo
 - Reflexiones viajeras
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/03/20170303_soplalebeche_nombre_2.jpg
+featuredImage: /images/uploads/2017/03/20170303_soplalebeche_nombre_2.webp
 seoTitle: A veces, sueño que sueño y puedo recordar mis sueños
 seoDescription: ¿Quién no ha tenido un sueño que al despertarse le ha dejado un buen
   recuerdo y ganas de que sean realidad? Este es uno de los míos más frecuentes
@@ -40,6 +40,6 @@ pi-pi, pi-pi, pi-pi
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2020/06/2017-08-10-006.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2020/06/2017-08-10-007.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/03/20170303_soplalebeche_nombre_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/2012_panormos_grecia.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/07/20170715_SierraTramontana_16-1.jpg)
+![](/images/uploads/2020/06/2017-08-10-006.webp) ![](/images/uploads/2020/06/2017-08-10-007.webp) ![](/images/uploads/2017/03/20170303_soplalebeche_nombre_5.webp) ![](/images/uploads/2017/02/2012_panormos_grecia.webp) ![](/images/uploads/2017/07/20170715_SierraTramontana_16-1.webp)
 
 </div>

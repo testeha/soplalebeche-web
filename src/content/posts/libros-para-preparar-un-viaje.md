@@ -11,7 +11,7 @@ tags:
 - libros
 - periodismo
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/07/biblioteca-soplalebeche.png
+featuredImage: /images/uploads/2017/07/biblioteca-soplalebeche.webp
 seoTitle: Preparativos para un viaje. Libros y lecturas que me han gustado
 seoDescription: Para preparar un viaje, me gusta leer qué han escrito otras personas
   sobre ese lugar. Estas son algunas de mis recomendaciones para quienes busquen lecturas

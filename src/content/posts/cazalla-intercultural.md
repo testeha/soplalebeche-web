@@ -14,7 +14,7 @@ tags:
 - juventud
 - UE
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2014/12/lorca_cazallaintercultural_00.png
+featuredImage: /images/uploads/2014/12/lorca_cazallaintercultural_00.webp
 seoTitle: Cazalla Intercultural. ¿Quién dijo que en Lorca no hay nada? - Rocío Periago
 seoDescription: 'Cazalla Intercultural: 10 años en Lorca que han dado para muchos
   proyectos, ayudando a derribar prejuicios, fronteras, abriendo mentes.'
@@ -32,4 +32,4 @@ Gracias [Cazalla Intercultural](http://www.cazalla-intercultural.org "accede a l
 Por alimentar mis ganas de contar lo que iba conociendo. Por el miedo que me dejé olvidado en algún aeropuerto lejano. Por incitar mi creatividad y curiosidad por el mundo. Por hacerme perder el miedo a hablar en público en otros idiomas. Por mostrarme una realidad muy diferente a la mía y hacerme reflexionar y querer involucrarme en ella, por las cervezas y risas compartidas en tantas ocasiones ....porque esto es adictivo, es una manera de vivir, de entender el mundo.
 > **Que sean no 10 años más, sino toda la vida haciendo lo que más nos gusta.**
 
-[![](https://www.soplalebeche.com/wp-content/uploads/2014/12/lorca_cazallaintercultural.jpg)](https://www.soplalebeche.com/wp-content/uploads/2014/12/lorca_cazallaintercultural.jpg)
+[![](/images/uploads/2014/12/lorca_cazallaintercultural.webp)](/images/uploads/2014/12/lorca_cazallaintercultural.webp)

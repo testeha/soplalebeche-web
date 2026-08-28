@@ -13,7 +13,7 @@ tags:
 - inmigración
 - Lisboa
 - Portugal
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/07/Intendente_4.jpg
+featuredImage: /images/uploads/2018/07/Intendente_4.webp
 seoTitle: Un rincón para perderse en la ciudad de Lisboa. Largo do Intendente
 seoDescription: Largo do Intendente es una plaza en Lisboa junto a la Rua do Benfermoso,
   donde está todos los indios y bangladesíes con sus negocios.
@@ -36,6 +36,6 @@ Hay algo muy curioso en Lisboa: las señoras asomadas a los balcones. A cualquie
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2018/07/Intendente.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/07/Intendente_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/07/Intendente_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/07/Intendente_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/07/Intendente_7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/07/Intendente_6.jpg)
+![](/images/uploads/2018/07/Intendente.webp) ![](/images/uploads/2018/07/Intendente_1.webp) ![](/images/uploads/2018/07/Intendente_2.webp) ![](/images/uploads/2018/07/Intendente_5.webp) ![](/images/uploads/2018/07/Intendente_7.webp) ![](/images/uploads/2018/07/Intendente_6.webp)
 
 </div>

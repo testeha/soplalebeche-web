@@ -5,7 +5,7 @@ pubDate: '2017-03-03'
 author: Rocío Periago
 categories: []
 draft: true
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/03/PequenosProfetas_3.jpg
+featuredImage: /images/uploads/2017/03/PequenosProfetas_3.webp
 seoTitle: De las calles de Recife (Pernambuco, Brasil) a los fogones
 seoDescription: La historia de un proyecto de gastronomía social que cultiva sus propios
   alimentos y crea con ellos platos de alta cocina para los meninos da rúa.

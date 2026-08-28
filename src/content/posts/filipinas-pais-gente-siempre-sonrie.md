@@ -11,7 +11,7 @@ tags:
 - Asia
 - Filipinas
 - Manila
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/01/Tagatay-Lago-Taal-Volcán-52.jpg
+featuredImage: /images/uploads/2017/01/Tagatay-Lago-Taal-Volcán-52.webp
 seoTitle: Filipinas, donde curiosamente la gente siempre sonríe
 seoDescription: Aquí la sonrisa no resulta forzada, es más otra forma de relacionarse
   a la que no estoy acostumbrada, otra manera de contactar que llama la atención.
@@ -45,6 +45,6 @@ Alquilar una casita en White Beach, y descubrir los espectáculos de travestis y
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/07/itaca_portada.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/01/filipinas-collage-3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/01/filipinas-collage-2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/01/filipinas-collage-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20150316_manila.jpg)
+![](/images/uploads/2016/07/itaca_portada.webp) ![](/images/uploads/2017/01/filipinas-collage-3.webp) ![](/images/uploads/2017/01/filipinas-collage-2.webp) ![](/images/uploads/2017/01/filipinas-collage-1.webp) ![](/images/uploads/2016/07/20150316_manila.webp)
 
 </div>

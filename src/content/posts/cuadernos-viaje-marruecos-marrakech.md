@@ -15,7 +15,7 @@ tags:
 - Marruecos
 - Música
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/02/soplalebeche_13.jpg
+featuredImage: /images/uploads/2017/02/soplalebeche_13.webp
 seoTitle: 'Cuadernos de Viaje por Marruecos: Conociendo Marrakech'
 seoDescription: Marrakech es una ciudad para vivirla con los sentidos, ¿te apuntas?
   Pasea por la Plaza Jemaa El Fna,las callejuelas del zoco y disfruta de su mapa sonoro
@@ -51,6 +51,6 @@ Descubrir Marrakech es sumergirte en un ambiente que parece medieval o anclado e
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2017/02/Soplalebeche_12.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/Soplalebeche_11.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/Soplalebeche_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/Soplalebeche_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/Soplalebeche_10.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/Soplalebeche_8.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/Soplalebeche_7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/Soplalebeche_6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/Soplalebeche_4.jpg)
+![](/images/uploads/2017/02/Soplalebeche_12.webp) ![](/images/uploads/2017/02/Soplalebeche_11.webp) ![](/images/uploads/2017/02/Soplalebeche_2.webp) ![](/images/uploads/2017/02/Soplalebeche_5.webp) ![](/images/uploads/2017/02/Soplalebeche_10.webp) ![](/images/uploads/2017/02/Soplalebeche_8.webp) ![](/images/uploads/2017/02/Soplalebeche_7.webp) ![](/images/uploads/2017/02/Soplalebeche_6.webp) ![](/images/uploads/2017/02/Soplalebeche_4.webp)
 
 </div>

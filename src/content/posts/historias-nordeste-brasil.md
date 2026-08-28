@@ -17,7 +17,7 @@ tags:
 - Paraiba
 - periodismo
 - Recife
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/03/PequenosProfetas_3.jpg
+featuredImage: /images/uploads/2017/03/PequenosProfetas_3.webp
 seoTitle: Buscando historias en el nordeste de Brasil
 seoDescription: 'Historias de Brasil: Adriana Melo, que descubrió la relación entre
   el zika y la microcefalia o un proyecto social que enseña a cocinar a los niños
@@ -46,6 +46,6 @@ Estas dos historias las conté en [EL PAIS-Planeta Futuro](http://elpais.com/elp
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2017/04/Brasil-3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/04/Brasil-2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/04/Brasil-1.jpg)
+![](/images/uploads/2017/04/Brasil-3.webp) ![](/images/uploads/2017/04/Brasil-2.webp) ![](/images/uploads/2017/04/Brasil-1.webp)
 
 </div>

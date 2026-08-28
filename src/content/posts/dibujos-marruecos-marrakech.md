@@ -12,7 +12,7 @@ tags:
 - Africa
 - Cuadernos de Viaje
 - Marruecos
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/03/dibujos-marruecos1.jpg
+featuredImage: /images/uploads/2017/03/dibujos-marruecos1.webp
 seoTitle: Dibujos de un viaje desde Marrakech a las dunas de Erg Chebbi
 seoDescription: Como todo cuaderno de viaje que se precie, también hay dibujos del
   viaje a Marruecos. Viajar con un cuaderno y dibujar en los tiempos muertos da mucho
@@ -49,6 +49,6 @@ Estos son algunos dibujos que hice de Marruecos, hechos en su mayoría en los tr
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2017/02/CuadernoViaje_Marruecos_3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/03/dibujos-marruecos_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/CuadernoViaje_Marruecos_8-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/CuadernoViaje_Marruecos_6-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/CuadernoViaje_Marruecos_1-e1490540747509.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/CuadernoViaje_Marruecos_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/CuadernoViaje_Marruecos_7-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/CuadernoViaje_Marruecos_5-1.jpg)
+![](/images/uploads/2017/02/CuadernoViaje_Marruecos_3.webp) ![](/images/uploads/2017/03/dibujos-marruecos_2.webp) ![](/images/uploads/2017/02/CuadernoViaje_Marruecos_8-1.webp) ![](/images/uploads/2017/02/CuadernoViaje_Marruecos_6-1.webp) ![](/images/uploads/2017/02/CuadernoViaje_Marruecos_1-e1490540747509.webp) ![](/images/uploads/2017/02/CuadernoViaje_Marruecos_2.webp) ![](/images/uploads/2017/02/CuadernoViaje_Marruecos_7-1.webp) ![](/images/uploads/2017/02/CuadernoViaje_Marruecos_5-1.webp)
 
 </div>

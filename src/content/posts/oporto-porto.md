@@ -14,7 +14,7 @@ tags:
 - Rio Duero
 - Ryanair
 - Vinho porto
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20130423_portada.jpg
+featuredImage: /images/uploads/2016/07/20130423_portada.webp
 seoTitle: Descubriendo Oporto, una ciudad a los pies del río Douro
 seoDescription: Oporto es una ciudad portuguesa situada al norte del país, donde desemboca
   el río Duero. Es conocida por sus vinos y por su arquitectura
@@ -42,7 +42,7 @@ Portugal tiene fama de barato, y en cuanto a comida se refiere, si nos alejamos 
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20130423_7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20130423_portada.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20130423_6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20130423_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20130423_4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20130423_3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20130423_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20130423_1.jpg)
+![](/images/uploads/2016/07/20130423_7.webp) ![](/images/uploads/2016/07/20130423_portada.webp) ![](/images/uploads/2016/07/20130423_6.webp) ![](/images/uploads/2016/07/20130423_5.webp) ![](/images/uploads/2016/07/20130423_4.webp) ![](/images/uploads/2016/07/20130423_3.webp) ![](/images/uploads/2016/07/20130423_2.webp) ![](/images/uploads/2016/07/20130423_1.webp)
 
 </div>
 

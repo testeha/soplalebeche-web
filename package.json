@@ -16,5 +16,8 @@
     "astro": "^7.1.6",
     "leaflet": "^1.9.4",
     "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.4"
   }
 }

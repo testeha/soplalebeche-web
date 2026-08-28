@@ -13,7 +13,7 @@ tags:
 - Estambul
 - fotografia
 - Turquía
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/12/Istanbul_Ara-Guler_1.jpg
+featuredImage: /images/uploads/2018/12/Istanbul_Ara-Guler_1.webp
 seoTitle: La ciudad de las tres vidas. Estambul y el fotógrafo Ara Guler
 seoDescription: Nadie como el fotógrafo turco Ara Guler supo captar la nostalgia y
   ambiente de Estambul en los años 50 y 60 del pasado siglo
@@ -42,6 +42,6 @@ En mi búsqueda de las huellas de Guler, veo que la ciudad que lo hizo grande lo
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2018/12/Istanbul_Ara-Guler_3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/12/Istanbul_Ara-Guler_9.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/12/Istanbul_Ara-Guler_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/12/Istanbul_Ara-Guler_7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/12/Istanbul_Ara-Guler_6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/12/Istanbul_Ara-Guler_4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/12/Istanbul_Ara-Guler_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/12/Istanbul_Ara-Guler.jpg)
+![](/images/uploads/2018/12/Istanbul_Ara-Guler_3.webp) ![](/images/uploads/2018/12/Istanbul_Ara-Guler_9.webp) ![](/images/uploads/2018/12/Istanbul_Ara-Guler_5.webp) ![](/images/uploads/2018/12/Istanbul_Ara-Guler_7.webp) ![](/images/uploads/2018/12/Istanbul_Ara-Guler_6.webp) ![](/images/uploads/2018/12/Istanbul_Ara-Guler_4.webp) ![](/images/uploads/2018/12/Istanbul_Ara-Guler_2.webp) ![](/images/uploads/2018/12/Istanbul_Ara-Guler.webp)
 
 </div>

@@ -12,7 +12,7 @@ tags:
 - libros
 - periodismo
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/08/20160808_1.jpg
+featuredImage: /images/uploads/2016/08/20160808_1.webp
 seoTitle: 'Planificando un viaje. Preparando el próximo destino: Brasil'
 seoDescription: Un viaje de este tipo se ceba de lecturas, de tarjetas postales, de
   mapas, de fotos, de personas que irrumpen con noticias...

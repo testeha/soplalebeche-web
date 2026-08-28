@@ -14,7 +14,7 @@ tags:
 - Cartagena de Indias
 - Colombia
 - Tayrona
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20111112_portada1.jpg
+featuredImage: /images/uploads/2016/07/20111112_portada1.webp
 seoTitle: Viaje a Colombia. El riesgo es que te quieras quedar - Rocío Periago
 seoDescription: Colombia es un país sudamericano que tiene desde zonas de playas paradisíacas,
   a desiertos, montañas continentales o bosques amazónicos
@@ -35,7 +35,7 @@ Colombia está dividida en departamentos (regiones). En el norte, en el departa
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20111112-13.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20111112-12.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20111112-11.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20111112-10.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20111112-9.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20111112-8.jpg)
+![](/images/uploads/2016/07/20111112-13.webp) ![](/images/uploads/2016/07/20111112-12.webp) ![](/images/uploads/2016/07/20111112-11.webp) ![](/images/uploads/2016/07/20111112-10.webp) ![](/images/uploads/2016/07/20111112-9.webp) ![](/images/uploads/2016/07/20111112-8.webp)
 
 </div>
 
@@ -48,7 +48,7 @@ Lo llamativo del país, es la hospitalidad y alegría de sus gentes, en contrast
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20111112-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20111112-7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20111112-6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20111112-5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20111112-4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20111112-3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20111112-2.jpg)
+![](/images/uploads/2016/07/20111112-1.webp) ![](/images/uploads/2016/07/20111112-7.webp) ![](/images/uploads/2016/07/20111112-6.webp) ![](/images/uploads/2016/07/20111112-5.webp) ![](/images/uploads/2016/07/20111112-4.webp) ![](/images/uploads/2016/07/20111112-3.webp) ![](/images/uploads/2016/07/20111112-2.webp)
 
 </div>
 

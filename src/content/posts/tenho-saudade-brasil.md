@@ -16,7 +16,7 @@ tags:
 - pernambuco
 - Recife
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/11/20161112_tenho_saudade_portada.jpg
+featuredImage: /images/uploads/2016/11/20161112_tenho_saudade_portada.webp
 seoTitle: Tenho saudade de Brasil... resumen de un viaje al nordeste brasileño
 seoDescription: 100 fotos (y un video) que cuentan el viaje por João Pessoa, Cabedelos,
   Campina Grande, Bananeiras (Paraiba) y Recife (Pernambuco) en septiembre de 2016

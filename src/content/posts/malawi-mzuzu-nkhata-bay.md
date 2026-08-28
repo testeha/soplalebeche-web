@@ -11,7 +11,7 @@ tags:
 - Africa
 - Malawi
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2019/09/lake-malawi-1.jpg
+featuredImage: /images/uploads/2019/09/lake-malawi-1.webp
 seoTitle: Recorriendo Malawi. Mzuzu, Nkhata Bay y el lago Malawi
 seoDescription: El lago Malawi es el tercer lago más grande de África y una fuente
   de pesca y de turismo. Nkhata Bay es uno de sus enclaves turísticos más conocidos.
@@ -37,6 +37,6 @@ La mirada no abarca los límites del lago: por mucho que me esfuerce, solo veo a
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2019/09/Mzuzu-y-Nkhata-Bay-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/09/Esau_Mzuzu.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/09/Mzuzu-y-Nkhata-Bay_1-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/09/Mzuzu-y-Nkhata-Bay_8.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/09/Mzuzu-y-Nkhata-Bay_7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/09/lake-malawi_2-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/09/Mzuzu-y-Nkhata-Bay_2-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/09/Mzuzu-y-Nkhata-Bay_3-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/09/Mzuzu-y-Nkhata-Bay_4-1.jpg)
+![](/images/uploads/2019/09/Mzuzu-y-Nkhata-Bay-1.webp) ![](/images/uploads/2019/09/Esau_Mzuzu.webp) ![](/images/uploads/2019/09/Mzuzu-y-Nkhata-Bay_1-1.webp) ![](/images/uploads/2019/09/Mzuzu-y-Nkhata-Bay_8.webp) ![](/images/uploads/2019/09/Mzuzu-y-Nkhata-Bay_7.webp) ![](/images/uploads/2019/09/lake-malawi_2-1.webp) ![](/images/uploads/2019/09/Mzuzu-y-Nkhata-Bay_2-1.webp) ![](/images/uploads/2019/09/Mzuzu-y-Nkhata-Bay_3-1.webp) ![](/images/uploads/2019/09/Mzuzu-y-Nkhata-Bay_4-1.webp)
 
 </div>

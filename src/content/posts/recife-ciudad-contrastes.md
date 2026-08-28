@@ -16,7 +16,7 @@ tags:
 - pernambuco
 - Porto Galinhas
 - Recife
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/09/20160925_recife_portada.jpg
+featuredImage: /images/uploads/2016/09/20160925_recife_portada.webp
 seoTitle: Recife, ciudad del nordeste brasileño llena de contrastes
 seoDescription: Recife es la ciudad más grande de todo el nordeste brasileño, con
   una población de casi 4 millones de personas en su región metropolitana
@@ -38,7 +38,7 @@ Un gran porcentaje de la población es negra o mestiza, herederos de los antiguo
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160925_recife_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160925_recife_8.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160925_recife_4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160925_recife_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160925_recife_1-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160925_recife_3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160925_recife-10.jpg)
+![](/images/uploads/2016/09/20160925_recife_2.webp) ![](/images/uploads/2016/09/20160925_recife_8.webp) ![](/images/uploads/2016/09/20160925_recife_4.webp) ![](/images/uploads/2016/09/20160925_recife_5.webp) ![](/images/uploads/2016/09/20160925_recife_1-1.webp) ![](/images/uploads/2016/09/20160925_recife_3.webp) ![](/images/uploads/2016/09/20160925_recife-10.webp)
 
 </div>
 
@@ -60,7 +60,7 @@ Es en estas barriadas donde vive la mayoría de los habitantes de Recife. Muchas
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160925_recife_10.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160925_recife_7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160925_recife_6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160925_recife_14.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160925_recife_13.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160925_recife-11.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160925_recife_12.jpg)
+![](/images/uploads/2016/09/20160925_recife_10.webp) ![](/images/uploads/2016/09/20160925_recife_7.webp) ![](/images/uploads/2016/09/20160925_recife_6.webp) ![](/images/uploads/2016/09/20160925_recife_14.webp) ![](/images/uploads/2016/09/20160925_recife_13.webp) ![](/images/uploads/2016/09/20160925_recife-11.webp) ![](/images/uploads/2016/09/20160925_recife_12.webp)
 
 </div>
 

@@ -14,7 +14,7 @@ tags:
 - jabones
 - Madrid
 - mujer
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/01/20160102_portada.jpg
+featuredImage: /images/uploads/2016/01/20160102_portada.webp
 seoTitle: Carmen, pastelera de jabones. Una maestra de la cosmética natural
 seoDescription: Carmen empezó haciendo pasteles para criar a sus hijos en Guatemala...pero
   la vida le llevó a acabar en Madrid haciendo jabones artesanales.
@@ -58,6 +58,6 @@ Cuando Carmen recuerda Guatemala lo hace con cariño. Con melancolía por volver
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/01/20160102_carmen-jabones-3-e1488558908560.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/01/20160102_carmen-jabones1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/01/20160102_carmen-jabones-2-e1488558861591.jpg)
+![](/images/uploads/2016/01/20160102_carmen-jabones-3-e1488558908560.webp) ![](/images/uploads/2016/01/20160102_carmen-jabones1.webp) ![](/images/uploads/2016/01/20160102_carmen-jabones-2-e1488558861591.webp)
 
 </div>

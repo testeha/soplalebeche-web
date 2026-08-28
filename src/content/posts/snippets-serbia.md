@@ -14,7 +14,7 @@ tags:
 - mujer
 - Serbia
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/02/Snippets-of-Serbia_3.jpg
+featuredImage: /images/uploads/2018/02/Snippets-of-Serbia_3.webp
 seoTitle: Cuadernos de viaje. Reseña de Snippets of Serbia
 seoDescription: “Snippets of Serbia” es un libro de ilustraciones sobre un viaje a
   Serbia hechas por Emma Fick, una ilustradora americana
@@ -28,7 +28,7 @@ Me encanta porque **con una mirada curiosa y con dibujos minuciosos, Emma va mos
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2018/02/Snippets-of-Serbia-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/02/Snippets-of-Serbia_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/02/Snippets-of-Serbia_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/02/Snippets-of-Serbia_3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/02/Snippets-of-Serbia_4.jpg)
+![](/images/uploads/2018/02/Snippets-of-Serbia-1.webp) ![](/images/uploads/2018/02/Snippets-of-Serbia_1.webp) ![](/images/uploads/2018/02/Snippets-of-Serbia_2.webp) ![](/images/uploads/2018/02/Snippets-of-Serbia_3.webp) ![](/images/uploads/2018/02/Snippets-of-Serbia_4.webp)
 
 </div>
 

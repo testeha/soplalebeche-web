@@ -11,7 +11,7 @@ tags:
 - Cultura
 - derechos humanos
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2013/12/portada_blogsoplalebeche.jpg
+featuredImage: /images/uploads/2013/12/portada_blogsoplalebeche.webp
 seoTitle: Cine social y viajero en Soplalebeche. Recomendaciones inspiradoras
 seoDescription: Una recomendación de cine social y viajero. Películas/cortos de temática
   social, pero también de inspiración viajera. Un poco la esencia de este blog.
@@ -53,6 +53,6 @@ Cuenta la historia de **[Las Patronas](/historias/patronas-esperanza-frontera)**
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2017/02/foto_blog.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/08/20160824_preparativos_brasil.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20150211-6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2020/05/caminos_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2020/05/IMG_1100.jpg)
+![](/images/uploads/2017/02/foto_blog.webp) ![](/images/uploads/2016/08/20160824_preparativos_brasil.webp) ![](/images/uploads/2016/07/20150211-6.webp) ![](/images/uploads/2020/05/caminos_1.webp) ![](/images/uploads/2020/05/IMG_1100.webp)
 
 </div>

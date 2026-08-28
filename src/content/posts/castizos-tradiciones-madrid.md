@@ -14,7 +14,7 @@ tags:
 - Madrid
 - San Isidro
 - tradiciones
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20160701_portada.jpg
+featuredImage: /images/uploads/2016/07/20160701_portada.webp
 seoTitle: Los castizos, guardianes de las tradiciones de Madrid - Rocío Periago
 seoDescription: Soplalebeche, un blog de viajes y buenas historias con nombre de viento
   del sur
@@ -37,7 +37,7 @@ Conforme hablamos, me va desgranando el **calendario anual de fiestas y celebrac
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20160701-8.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20160701-6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20160701-5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20160701-4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20160701-3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20160701-2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20160701-1.jpg)
+![](/images/uploads/2016/07/20160701-8.webp) ![](/images/uploads/2016/07/20160701-6.webp) ![](/images/uploads/2016/07/20160701-5.webp) ![](/images/uploads/2016/07/20160701-4.webp) ![](/images/uploads/2016/07/20160701-3.webp) ![](/images/uploads/2016/07/20160701-2.webp) ![](/images/uploads/2016/07/20160701-1.webp)
 
 </div>
 
@@ -56,6 +56,6 @@ Antonio muestra orgulloso las fotos en que sale bailando un chotis con su mujer,
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20160701-7.jpg)
+![](/images/uploads/2016/07/20160701-7.webp)
 
 </div>

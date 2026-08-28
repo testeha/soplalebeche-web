@@ -13,7 +13,7 @@ tags:
 - Madrid
 - mujer
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/10/20171026_Rutinas-de-viaje.jpg
+featuredImage: /images/uploads/2017/10/20171026_Rutinas-de-viaje.webp
 seoTitle: Rutinas de viaje - Rocío Periago
 excerpt: Agosto 2017. Las calles están vacías, alumbradas tenuamente por la luz amarilla
   de las farolas. La ciudad aún duerme, pero yo hace rato que me desvelé. Me…

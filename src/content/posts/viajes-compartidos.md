@@ -5,7 +5,7 @@ pubDate: '2015-10-01'
 author: Rocío Periago
 categories: []
 draft: true
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20151001_portada.jpg
+featuredImage: /images/uploads/2016/07/20151001_portada.webp
 excerpt: Compartiendo confidencias sobre rincones de ciudades, de conciertos o planes
   de verano con las vacaciones recién estrenadas, dormitando con ese sol que…
 ---

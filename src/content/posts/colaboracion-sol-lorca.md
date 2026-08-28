@@ -10,7 +10,7 @@ tags:
 - jóvenes
 - Lorca
 - periodismo
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2014/04/colaboracion_elsoldelorca.jpg
+featuredImage: /images/uploads/2014/04/colaboracion_elsoldelorca.webp
 seoTitle: Colaboración con el Sol de Lorca. "Una ciudad, muchas realidades"
 seoDescription: Contenta por este nuevo proyecto que acaba de empezar... "Una ciudad,
   muchas realidades" colaborando con el periódico digital El Sol de Lorca

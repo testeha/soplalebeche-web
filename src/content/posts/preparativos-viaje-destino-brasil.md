@@ -15,7 +15,7 @@ tags:
 - Recife
 - Salvador de Bahía
 - Zika
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/08/20160808_1.jpg
+featuredImage: /images/uploads/2016/08/20160808_1.webp
 seoTitle: 'Preparativos de un viaje. Destino: el nordeste de Brasil'
 seoDescription: ¿Cómo preparar un viaje de varias semanas a un destino como Brasil?
   ¿Planificarlo todo o improvisar? ¿Qué hacer con las enfermedades tropicales?

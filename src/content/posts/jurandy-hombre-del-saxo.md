@@ -16,7 +16,7 @@ tags:
 - Lampião
 - Maria Bonita
 - Paraiba
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/09/20160913_jacare_portada.jpg
+featuredImage: /images/uploads/2016/09/20160913_jacare_portada.webp
 seoTitle: Jurandy do sax. El hombre del saxo del río Paraíba
 seoDescription: Jurandy es un hombre que ininterrumpidamente, desde el año 2000 todos
   los días toca el Bolero de Ravel a la puesta del sol con su saxofón.
@@ -36,7 +36,7 @@ Me dicen que jacaré significa cocodrilo, pero que el nombre de la zona proviene
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160913_jacare_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160913_jacare_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160913_jacare_3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160913_jacare_4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160913_jacare_6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160913_jacare_1.jpg)
+![](/images/uploads/2016/09/20160913_jacare_5.webp) ![](/images/uploads/2016/09/20160913_jacare_2.webp) ![](/images/uploads/2016/09/20160913_jacare_3.webp) ![](/images/uploads/2016/09/20160913_jacare_4.webp) ![](/images/uploads/2016/09/20160913_jacare_6.webp) ![](/images/uploads/2016/09/20160913_jacare_1.webp)
 
 </div>
 

@@ -14,7 +14,7 @@ tags:
 - Europa
 - rural
 - Tierra de Campos
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/08/foto-3.jpg
+featuredImage: /images/uploads/2018/08/foto-3.webp
 seoTitle: Las Catedrales de Tierra de Campos, la realidad de la España vacía.
 seoDescription: 'Tres pueblos en la provincia de Palencia, que no llegan a 800 habitantes,
   esconden las Catedrales de Tierra de Campos: Amusco, Támara de Campos y Santoyo'
@@ -56,6 +56,6 @@ En la puerta del templo hay un cartel indicando que se avise al párroco en la c
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2018/08/foto-7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/08/foto-6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/08/foto-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/08/foto-2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/08/foto-4.jpg)
+![](/images/uploads/2018/08/foto-7.webp) ![](/images/uploads/2018/08/foto-6.webp) ![](/images/uploads/2018/08/foto-1.webp) ![](/images/uploads/2018/08/foto-2.webp) ![](/images/uploads/2018/08/foto-4.webp)
 
 </div>

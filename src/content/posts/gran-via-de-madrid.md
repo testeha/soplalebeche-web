@@ -11,7 +11,7 @@ draft: false
 tags:
 - ciudades
 - Madrid
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2019/06/IMG_20190522_203807_175.jpg
+featuredImage: /images/uploads/2019/06/IMG_20190522_203807_175.webp
 seoTitle: La Gran Vía de Madrid. Coordenadas 40º25’12.1’’N 3º42’04.7’’W.
 seoDescription: Estas son las coordenadas de la Gran Vía de Madrid. Una calle transitada
   por miles de personas cada día, a cada hora. Una calle que no duerme.
@@ -89,6 +89,6 @@ Es tarde. Los trabajadores de las tiendas de ropa sacan el cartón y las bolsas 
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2019/06/gran-via_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/06/gran-via_7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/06/gran-via.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/06/IMG_20190522_203716_374.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/06/IMG_20190522_203833_554.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/06/gran-via_6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/06/gran-via_8.jpg)
+![](/images/uploads/2019/06/gran-via_5.webp) ![](/images/uploads/2019/06/gran-via_7.webp) ![](/images/uploads/2019/06/gran-via.webp) ![](/images/uploads/2019/06/IMG_20190522_203716_374.webp) ![](/images/uploads/2019/06/IMG_20190522_203833_554.webp) ![](/images/uploads/2019/06/gran-via_6.webp) ![](/images/uploads/2019/06/gran-via_8.webp)
 
 </div>

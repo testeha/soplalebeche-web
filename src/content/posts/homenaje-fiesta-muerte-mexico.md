@@ -13,7 +13,7 @@ tags:
 - fiesta
 - Mexico
 - periodismo
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20151103_portada.jpg
+featuredImage: /images/uploads/2016/07/20151103_portada.webp
 seoTitle: México. Tradiciones. Homenaje y fiesta a los que se fueron
 seoDescription: En Mexico la muerte no asusta, es más una fiesta compartida por todos.
   Soplalebeche, un blog de viajes y buenas historias con nombre de viento del sur.
@@ -46,7 +46,7 @@ Algunas de las actividades previstas para el mes de noviembre 2015 sobre el Día
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2015/11/20151103_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2015/11/20151103_4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2015/11/20151103_3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2015/11/20151103_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2015/11/20151103_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2015/11/20151103.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20151103_portada.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20150709_mexico.jpg)
+![](/images/uploads/2015/11/20151103_5.webp) ![](/images/uploads/2015/11/20151103_4.webp) ![](/images/uploads/2015/11/20151103_3.webp) ![](/images/uploads/2015/11/20151103_2.webp) ![](/images/uploads/2015/11/20151103_1.webp) ![](/images/uploads/2015/11/20151103.webp) ![](/images/uploads/2016/07/20151103_portada.webp) ![](/images/uploads/2016/07/20150709_mexico.webp)
 
 </div>
 

@@ -10,7 +10,7 @@ tags:
 - España
 - Madrid
 - Reflexiones viajeras
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2021/01/WhatsApp-Image-2021-01-10-at-17.34.07.jpeg
+featuredImage: /images/uploads/2021/01/WhatsApp-Image-2021-01-10-at-17.34.07.webp
 seoTitle: La excepcionalidad de lo cotidiano. Filomena y la nieve en Madrid
 seoDescription: 'La nieve ha supuesto descubrir algo obvio: que Madrid existe más
   allá de la Gran Vía, Cibeles o la Puerta del Sol. Huir de los lugares comunes.'
@@ -42,6 +42,6 @@ La nieve tiene la peculiaridad de hacer de lo cotidiano la excepción: ¿en qué
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2021/01/WhatsApp-Image-2021-01-10-at-12.31.48.jpeg) ![](https://www.soplalebeche.com/wp-content/uploads/2021/01/WhatsApp-Image-2021-01-10-at-12.31.49.jpeg) ![](https://www.soplalebeche.com/wp-content/uploads/2021/01/WhatsApp-Image-2021-01-10-at-17.34.19.jpeg) ![](https://www.soplalebeche.com/wp-content/uploads/2021/01/WhatsApp-Image-2021-01-10-at-17.34.08.jpeg) ![](https://www.soplalebeche.com/wp-content/uploads/2021/01/WhatsApp-Image-2021-01-10-at-17.34.11.jpeg)
+![](/images/uploads/2021/01/WhatsApp-Image-2021-01-10-at-12.31.48.webp) ![](/images/uploads/2021/01/WhatsApp-Image-2021-01-10-at-12.31.49.webp) ![](/images/uploads/2021/01/WhatsApp-Image-2021-01-10-at-17.34.19.webp) ![](/images/uploads/2021/01/WhatsApp-Image-2021-01-10-at-17.34.08.webp) ![](/images/uploads/2021/01/WhatsApp-Image-2021-01-10-at-17.34.11.webp)
 
 </div>

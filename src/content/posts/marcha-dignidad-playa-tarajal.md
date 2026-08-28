@@ -15,7 +15,7 @@ tags:
 - inmigración
 - Marruecos
 - Tarajal
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20150211_portada.jpg
+featuredImage: /images/uploads/2016/07/20150211_portada.webp
 seoTitle: Marcha por la dignidad en la playa del Tarajal (Ceuta)
 seoDescription: En Febrero de 2014, 15 inmigrantes murieron intentando llegar a nado
   a territorio español desde Marruecos a la playa del Tarajal en Ceuta
@@ -39,7 +39,7 @@ En un principio parecíamos un grupo de locos. Un escaso centenar de personas co
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20150211-4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20150211-3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20150211-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20150211-2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20150211-6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20150211-5.jpg)
+![](/images/uploads/2016/07/20150211-4.webp) ![](/images/uploads/2016/07/20150211-3.webp) ![](/images/uploads/2016/07/20150211-1.webp) ![](/images/uploads/2016/07/20150211-2.webp) ![](/images/uploads/2016/07/20150211-6.webp) ![](/images/uploads/2016/07/20150211-5.webp)
 
 </div>
 

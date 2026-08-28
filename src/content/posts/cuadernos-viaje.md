@@ -14,7 +14,7 @@ tags:
 - España
 - libros
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/11/20161121_portada.jpg
+featuredImage: /images/uploads/2016/11/20161121_portada.webp
 seoTitle: Cuadernos de viaje. Creatividad e imaginación para recordar un viaje
 seoDescription: Hacer cuadernos de cada viaje que hago se ha convertido en una especie
   de tradición. Guardo etiquetas, dibujos...y voy creando mi propio diario del viaje
@@ -101,7 +101,7 @@ Cada uno tiene sus manías cuando viaja, y a mí me encanta ir guardando pequeñ
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/11/20161121_Cuadernos_Viaje-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/11/20161121_Cuadernos_Viaje-2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/11/20161121_Cuadernos_Viaje-4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/11/20161121_Cuadernos_Viaje-3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/11/20161121_Cuadernos_Viaje-5.jpg)
+![](/images/uploads/2016/11/20161121_Cuadernos_Viaje-1.webp) ![](/images/uploads/2016/11/20161121_Cuadernos_Viaje-2.webp) ![](/images/uploads/2016/11/20161121_Cuadernos_Viaje-4.webp) ![](/images/uploads/2016/11/20161121_Cuadernos_Viaje-3.webp) ![](/images/uploads/2016/11/20161121_Cuadernos_Viaje-5.webp)
 
 </div>
 

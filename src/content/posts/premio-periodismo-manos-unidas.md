@@ -12,7 +12,7 @@ tags:
 - periodismo
 - premio manos unidas
 - Recife
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/07/201706_premio-manos-unidas.jpg
+featuredImage: /images/uploads/2017/07/201706_premio-manos-unidas.webp
 seoTitle: De las calles de Recife a los fogones, Premio Manos Unidas de periodismo
 seoDescription: Mi trabajo "De las calles de Recife a los fogones" fue premiado a
   finales de junio con el segundo premio de periodismo de Manos Unidas

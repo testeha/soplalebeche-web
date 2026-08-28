@@ -15,7 +15,7 @@ tags:
 - inmigración
 - Mexico
 - mujer
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20150907_portada.jpg
+featuredImage: /images/uploads/2016/07/20150907_portada.webp
 seoTitle: En la frontera. Las Patronas. La esperanza de los que nada tienen
 seoDescription: Las patronas. Un grupo de mujeres que alimentan a los inmigrantes
   que cruzan la frontera de Mexico con Estados Unidos a bordo de un tren llamado "La
@@ -67,6 +67,6 @@ Películas y cortos con la temática de fronteras e inmigración irregular **[aq
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20150907_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/20150907_1.jpg)
+![](/images/uploads/2016/07/20150907_2.webp) ![](/images/uploads/2016/07/20150907_1.webp)
 
 </div>

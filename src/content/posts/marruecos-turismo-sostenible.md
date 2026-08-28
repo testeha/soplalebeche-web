@@ -13,7 +13,7 @@ tags:
 - Marruecos
 - Medio Ambiente
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/02/20170214_slide.jpg
+featuredImage: /images/uploads/2017/02/20170214_slide.webp
 seoTitle: Marruecos, ¿existe realmente un turismo sostenible? - Rocío Periago
 seoDescription: Marruecos parece que se ha sumado al carro de los destinos turísticos
   sostenibles, ¿pero es realmente viable un turismo de masas?
@@ -73,6 +73,6 @@ Uno de ellos, Jamal, contaba que no recibían ayuda de ningún tipo, que ellos l
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170224_marruecos_desierto1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170214_Marruecos-Sostenible-9.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170214_Marruecos-Sostenible-7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170214_Marruecos-Sostenible-4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170214_Marruecos-Sostenible-6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170214_Marruecos-Sostenible-5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170214_Marruecos-Sostenible-8.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/02/20170214_Marruecos-Sostenible-10.jpg)
+![](/images/uploads/2017/02/20170224_marruecos_desierto1.webp) ![](/images/uploads/2017/02/20170214_Marruecos-Sostenible-9.webp) ![](/images/uploads/2017/02/20170214_Marruecos-Sostenible-7.webp) ![](/images/uploads/2017/02/20170214_Marruecos-Sostenible-4.webp) ![](/images/uploads/2017/02/20170214_Marruecos-Sostenible-6.webp) ![](/images/uploads/2017/02/20170214_Marruecos-Sostenible-5.webp) ![](/images/uploads/2017/02/20170214_Marruecos-Sostenible-8.webp) ![](/images/uploads/2017/02/20170214_Marruecos-Sostenible-10.webp)
 
 </div>

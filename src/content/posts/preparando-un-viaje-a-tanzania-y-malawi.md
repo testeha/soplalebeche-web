@@ -11,7 +11,7 @@ tags:
 - Africa
 - mujer
 - periodismo
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2019/05/11mapa-general-zona-sur.png
+featuredImage: /images/uploads/2019/05/11mapa-general-zona-sur.webp
 seoTitle: Preparando un viaje a Tanzania y Malawi. África en el horizonte
 seoDescription: ¿Cómo preparar un viaje fuera de los mapas y recorridos habituales?
   ¿Cómo llegar a un lugar al que poca gente sabe ubicar en un mapa?
@@ -36,6 +36,6 @@ Información de Tanzania hay mucha, sobre todo referida al Kilimanjaro, los nume
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2019/05/mapa-general-zona-sur.png) ![](https://www.soplalebeche.com/wp-content/uploads/2019/05/mapa-esquema-pais.gif) ![](https://www.soplalebeche.com/wp-content/uploads/2019/10/mapa_malawi.jpg)
+![](/images/uploads/2019/05/mapa-general-zona-sur.webp) ![](https://www.soplalebeche.com/wp-content/uploads/2019/05/mapa-esquema-pais.gif) ![](/images/uploads/2019/10/mapa_malawi.webp)
 
 </div>

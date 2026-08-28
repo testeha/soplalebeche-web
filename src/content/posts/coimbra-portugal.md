@@ -13,7 +13,7 @@ tags:
 - Lisboa
 - Portugal
 - tren
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/06/Coimbra_1.jpg
+featuredImage: /images/uploads/2017/06/Coimbra_1.webp
 seoTitle: 'El penúltimo tren de Chamartín: dirección Coimbra'
 seoDescription: Coimbra es cercana como esa vecina de toda la vida. A ratos me recuerda
   a Granada y a ratos percibo su nostalgia y se me hace difícil describir esta ciudad.
@@ -51,6 +51,6 @@ La cotidianeidad en una pequeña ciudad portuguesa.
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2020/01/Coimbra_11.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/06/Coimbra_7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/06/Coimbra_9.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/06/Coimbra_8.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/06/Coimbra_6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/06/Coimbra_3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/06/Coimbra_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/06/Coimbra_4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/06/Coimbra.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/06/Coimbra_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/06/Coimbra_10.jpg)
+![](/images/uploads/2020/01/Coimbra_11.webp) ![](/images/uploads/2017/06/Coimbra_7.webp) ![](/images/uploads/2017/06/Coimbra_9.webp) ![](/images/uploads/2017/06/Coimbra_8.webp) ![](/images/uploads/2017/06/Coimbra_6.webp) ![](/images/uploads/2017/06/Coimbra_3.webp) ![](/images/uploads/2017/06/Coimbra_2.webp) ![](/images/uploads/2017/06/Coimbra_4.webp) ![](/images/uploads/2017/06/Coimbra.webp) ![](/images/uploads/2017/06/Coimbra_5.webp) ![](/images/uploads/2017/06/Coimbra_10.webp)
 
 </div>

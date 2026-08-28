@@ -12,7 +12,7 @@ tags:
 - Cultura
 - España
 - Málaga
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/12/20161227_Malaga_slide.jpg
+featuredImage: /images/uploads/2016/12/20161227_Malaga_slide.webp
 seoTitle: Málaga. Cuadernos de una escapada al sur de España - Rocío Periago
 seoDescription: Cuaderno de viaje de una breve visita a Málaga (Andalucía, España),
   con un cuaderno y un montón de lápices de colores
@@ -30,12 +30,12 @@ Muchos jubilados europeos se vienen a esta zona del **sur de Andalucía** a d
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/12/20161227_Malaga_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/12/20161227_Malaga_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/12/20161227_Malaga_3.jpg)
+![](/images/uploads/2016/12/20161227_Malaga_1.webp) ![](/images/uploads/2016/12/20161227_Malaga_2.webp) ![](/images/uploads/2016/12/20161227_Malaga_3.webp)
 
 </div>
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/12/20161226_Malaga_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/12/20161226_Malaga_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/12/20161226_Malaga.jpg)
+![](/images/uploads/2016/12/20161226_Malaga_2.webp) ![](/images/uploads/2016/12/20161226_Malaga_1.webp) ![](/images/uploads/2016/12/20161226_Malaga.webp)
 
 </div>

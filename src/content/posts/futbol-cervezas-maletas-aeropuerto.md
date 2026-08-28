@@ -12,7 +12,7 @@ tags:
 - Europa
 - Portugal
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/08/foto3.jpg
+featuredImage: /images/uploads/2018/08/foto3.webp
 seoTitle: Entre fútbol, cervezas y maletas en el aeropuerto
 seoDescription: Todos los aeropuertos me parecen igual de impersonales y asépticos,
   con muy pocas diferencias entre países y siempre bastante caros...salvo este
@@ -25,16 +25,16 @@ Estoy esperando en el aeropuerto de [Lisboa](/historias/santo-antonio-fiestas-li
 
 Sin embargo, en esta pequeña terminal de Lisboa hay algunas cosas que lo hacen especial: gente esperando su vuelo, algún café, tiendas varias… y una pantalla donde están pasando los partidos del Mundial de fútbol de Rusia. Está jugando Alemania-México y hay un grupo de alemanes que no paran de animar y gritar, como si estuvieran en el bar con los amigos. Portugal vive el fútbol, y sabe cómo hacerlo vivir, porque es el tema comodín en todas partes por estas fechas: los kioskos están empapelados con la cara de Cristiano Ronaldo, las marquesinas de autobuses lucen los colores de la bandera y la publicidad de una cerveza que patrocina a la selección, y en todos los bares no se habla de otra cosa.
 
-[![lisboa, futbol, portugal, europa, soplalebeche](https://www.soplalebeche.com/wp-content/uploads/2018/08/foto2.jpg)](https://www.soplalebeche.com/wp-content/uploads/2018/08/foto2.jpg)
+[![lisboa, futbol, portugal, europa, soplalebeche](/images/uploads/2018/08/foto2.webp)](/images/uploads/2018/08/foto2.webp)
 
 Esta tarde en la terminal hay una chica alemana sentada a mi lado que está viendo vestidos de fiesta en Instagram. Con un dedo va poniendo corazones a todas las publicaciones que le gustan, entre volantes y estampados de flores. Enfrente suyo, sentados en el suelo, tres chavales no le quitan ojo a la pantalla, absortos en los 22 jugadores corriendo sobre el césped.
 
-[![lisboa, futbol, portugal, europa, soplalebeche](https://www.soplalebeche.com/wp-content/uploads/2018/07/foto1.jpg)](https://www.soplalebeche.com/wp-content/uploads/2018/07/foto1.jpg)
+[![lisboa, futbol, portugal, europa, soplalebeche](/images/uploads/2018/07/foto1.webp)](/images/uploads/2018/07/foto1.webp)
 
 La sala de espera del aeropuerto se divide en dos. Los que están viendo el fútbol, que son la gran mayoría, sobre todo hombres, y los que no. Sin embargo, la T2 esconde más sorpresas. Hay una tienda de chucherías a granel, donde puedes comprar bolsas enormes de todo tipo de gominolas, un McDonalds y un restaurante donde venden cervezas en latas grandes y botellines, por lo que el ambiente es más de bar que la antesala para coger un avión. El precio es prohibitivo, pero una mesa de guiris ha dado cuenta de unas 20 de ellas.
 > **-¡¡¡Uyyyyy!!!**
 > **-Ha habido un casi gol por parte de México y la afición alemana respira aliviada.**
-> [![lisboa, futbol, portugal, europa, soplalebeche](https://www.soplalebeche.com/wp-content/uploads/2018/08/foto3.jpg)](https://www.soplalebeche.com/wp-content/uploads/2018/08/foto3.jpg)
+> [![lisboa, futbol, portugal, europa, soplalebeche](/images/uploads/2018/08/foto3.webp)](/images/uploads/2018/08/foto3.webp)
 
 En breve sale un vuelo para Ámsterdam. La compañía de bajo coste se está poniendo muy seria con la norma de permitir un solo bulto por pasajero y la fila de pasajeros está revolucionada. La gente empieza a abrir maletas, ponerse capas de ropa e intentar cerrar bolsos y mochilas.
 

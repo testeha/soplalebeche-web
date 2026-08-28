@@ -13,7 +13,7 @@ tags:
 - Lanzarote
 - Viajar
 - Volcanes
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/05/lanzarote-5.jpg
+featuredImage: /images/uploads/2016/05/lanzarote-5.webp
 seoTitle: Recorriendo la isla de los conejos por carreteras secundarias (3)
 seoDescription: En la isla de Lanzarote el pueblo de Haría es silencio y humedad por
   las noches. Solo el ruido de los pájaros que duermen en las palmeras
@@ -38,6 +38,6 @@ Como si fueran los señores de la isla.
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/05/lanzarote_4-2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/05/lanzarote-6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/05/lanzarote_3-2-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/05/lanzarote_2-3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/05/lanzarote_1-2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/05/lanzarote-7.jpg)
+![](/images/uploads/2016/05/lanzarote_4-2.webp) ![](/images/uploads/2016/05/lanzarote-6.webp) ![](/images/uploads/2016/05/lanzarote_3-2-1.webp) ![](/images/uploads/2016/05/lanzarote_2-3.webp) ![](/images/uploads/2016/05/lanzarote_1-2.webp) ![](/images/uploads/2018/05/lanzarote-7.webp)
 
 </div>

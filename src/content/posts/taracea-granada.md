@@ -13,7 +13,7 @@ tags:
 - Europa
 - Granada
 - Taracea
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/11/Taracea-.jpg
+featuredImage: /images/uploads/2017/11/Taracea-.webp
 seoTitle: La pérdida de los oficios. La taracea granaína - Rocío Periago
 seoDescription: José Morillo es uno de los pocos maestros de esta artesanía característica
   de Granada, posiblemente influenciada por los siglos de dominio musulmán
@@ -72,6 +72,6 @@ Es mucho más frecuente muchas compras de poca cantidad, que una compra de produ
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2017/11/Taracea-_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/11/Taracea-_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/11/Taracea-_6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/11/Taracea-_7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/11/Taracea-_4.jpg)
+![](/images/uploads/2017/11/Taracea-_1.webp) ![](/images/uploads/2017/11/Taracea-_2.webp) ![](/images/uploads/2017/11/Taracea-_6.webp) ![](/images/uploads/2017/11/Taracea-_7.webp) ![](/images/uploads/2017/11/Taracea-_4.webp)
 
 </div>

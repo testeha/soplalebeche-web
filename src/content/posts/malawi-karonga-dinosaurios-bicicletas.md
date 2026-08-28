@@ -13,7 +13,7 @@ tags:
 - frontera
 - Malawi
 - Museo
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2019/09/2019-07-18-025-copia.jpg
+featuredImage: /images/uploads/2019/09/2019-07-18-025-copia.webp
 seoTitle: Norte de Malawi. Karonga, dinosaurios y bicicletas
 seoDescription: Karonga es la sexta ciudad más grande de Malawi y se encuentra al
   norte del país. Tiene un curioso museo donde se pueden ver los restos de un dinosaurio.
@@ -49,6 +49,6 @@ Las bicicletas llenan la calles, levantando un polvo rojizo cuando pasan. En la 
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2019/09/Karonga.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/09/Karonga_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/09/Karonga_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2019/09/2019-07-18-029-copia.jpg)
+![](/images/uploads/2019/09/Karonga.webp) ![](/images/uploads/2019/09/Karonga_1.webp) ![](/images/uploads/2019/09/Karonga_2.webp) ![](/images/uploads/2019/09/2019-07-18-029-copia.webp)
 
 </div>

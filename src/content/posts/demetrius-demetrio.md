@@ -14,7 +14,7 @@ tags:
 - juventud
 - meninos da rua
 - Recife
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2017/05/20170505_demetriusDemetrio_5.jpg
+featuredImage: /images/uploads/2017/05/20170505_demetriusDemetrio_5.webp
 seoTitle: Demetrius Demetrio, un hombre sin miedo - Rocío Periago
 seoDescription: Educador, gastrónomo social... Demetrius es un hombre polifacético
   y curioso, que coordina y dirige la Comunidade Pequenos Profetas en Recife (Brasil)
@@ -52,6 +52,6 @@ Siempre con una actitud jovial y alegre, es capaz de huir de la negatividad y 
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2017/05/20170505_demetriusdemetrio_6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/05/20170505_demetriusDemetrio_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/05/20170505_demetriusDemetrio_4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/05/20170505_demetriusDemetrio_3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2017/05/20170505_demetriusDemetrio_2.jpg)
+![](/images/uploads/2017/05/20170505_demetriusdemetrio_6.webp) ![](/images/uploads/2017/05/20170505_demetriusDemetrio_1.webp) ![](/images/uploads/2017/05/20170505_demetriusDemetrio_4.webp) ![](/images/uploads/2017/05/20170505_demetriusDemetrio_3.webp) ![](/images/uploads/2017/05/20170505_demetriusDemetrio_2.webp)
 
 </div>

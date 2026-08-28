@@ -15,7 +15,7 @@ tags:
 - Medio Ambiente
 - Refugiados
 - UE
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2015/12/20151208_portada.jpg
+featuredImage: /images/uploads/2015/12/20151208_portada.webp
 seoTitle: Refugiados por el cambio climático, ¿mito o realidad?
 seoDescription: Aunque aún hay voces que lo discuten; el aumento de refugiados o agravamiento
   de las crisis humanitarias en la última década tiene un factor medioambiental
@@ -48,7 +48,7 @@ Es un aspecto positivo el que haya tanto mandatario internacional participando e
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2015/12/20151208_portada.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2015/12/20151208_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2015/12/20151208_6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2015/12/20151208_4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2015/12/20151208_3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2015/12/20151208_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2015/12/20151208_2.jpg)
+![](/images/uploads/2015/12/20151208_portada.webp) ![](/images/uploads/2015/12/20151208_5.webp) ![](/images/uploads/2015/12/20151208_6.webp) ![](/images/uploads/2015/12/20151208_4.webp) ![](/images/uploads/2015/12/20151208_3.webp) ![](/images/uploads/2015/12/20151208_1.webp) ![](/images/uploads/2015/12/20151208_2.webp)
 
 </div>
 

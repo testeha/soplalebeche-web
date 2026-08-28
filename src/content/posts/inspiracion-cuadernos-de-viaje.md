@@ -12,7 +12,7 @@ tags:
 - Cuadernos de Viaje
 - libros
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/Cuadernos5.jpg
+featuredImage: /images/uploads/2016/07/Cuadernos5.webp
 seoTitle: Inspiración para hacer cuadernos de viaje
 seoDescription: Los cuadernos de viaje son pequeños guiños para evitar el olvido,
   herramientas de trabajo para intentar compartir el momento vivido y luego poder
@@ -34,7 +34,7 @@ Este libro es una sorpresa que me encontré una vez en una biblioteca en Oviedo.
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/07/Cuadernos7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/Cuadernos6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/Cuadernos5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/Cuadernos4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/Cuadernos1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/Cuadernos3.jpg)
+![](/images/uploads/2016/07/Cuadernos7.webp) ![](/images/uploads/2016/07/Cuadernos6.webp) ![](/images/uploads/2016/07/Cuadernos5.webp) ![](/images/uploads/2016/07/Cuadernos4.webp) ![](/images/uploads/2016/07/Cuadernos1.webp) ![](/images/uploads/2016/07/Cuadernos3.webp)
 
 </div>
 
@@ -44,7 +44,7 @@ Este es más reciente. Lo vi por primera vez en la tienda del museo Thyssen en M
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/07/Exploradores1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/05/IMG_20180513_103723_674.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/Exploradores3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/Exploradores4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/Exploradores2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/07/Exploradores5.jpg)
+![](/images/uploads/2016/07/Exploradores1.webp) ![](/images/uploads/2018/05/IMG_20180513_103723_674.webp) ![](/images/uploads/2016/07/Exploradores3.webp) ![](/images/uploads/2016/07/Exploradores4.webp) ![](/images/uploads/2016/07/Exploradores2.webp) ![](/images/uploads/2016/07/Exploradores5.webp)
 
 </div>
 

@@ -14,7 +14,7 @@ tags:
 - juventud
 - periodismo
 - Serbia
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/01/Ejercicio-Color_RocioPeriago-8.jpg
+featuredImage: /images/uploads/2018/01/Ejercicio-Color_RocioPeriago-8.webp
 seoTitle: Los jóvenes en Belgrado tienen ganas de futuro
 seoDescription: En Serbia hay jóvenes escépticos que no acaban de creerse que Europa
   les va a beneficiar, pero también hay muchos involucrados en iniciativas sociales
@@ -42,6 +42,6 @@ Jóvenes que se organizan para formarse en algún tema que les interesa, para cu
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2018/01/Belgrado-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/01/Ejercicio-Color_RocioPeriago-2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/01/Ejercicio-Color_RocioPeriago-3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/01/Ejercicio-Color_RocioPeriago-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/01/Color_10.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/01/Color_12.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/01/Foto_color-3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/01/Foto_color-5.jpg)
+![](/images/uploads/2018/01/Belgrado-1.webp) ![](/images/uploads/2018/01/Ejercicio-Color_RocioPeriago-2.webp) ![](/images/uploads/2018/01/Ejercicio-Color_RocioPeriago-3.webp) ![](/images/uploads/2018/01/Ejercicio-Color_RocioPeriago-1.webp) ![](/images/uploads/2018/01/Color_10.webp) ![](/images/uploads/2018/01/Color_12.webp) ![](/images/uploads/2018/01/Foto_color-3.webp) ![](/images/uploads/2018/01/Foto_color-5.webp)
 
 </div>

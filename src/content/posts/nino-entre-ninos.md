@@ -12,7 +12,7 @@ tags:
 - Enrique Martínez Reguera
 - infancia
 - juventud
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/05/20160526_portada.jpg
+featuredImage: /images/uploads/2016/05/20160526_portada.webp
 seoTitle: Enrique Martinez Reguera. Un niño entre niños - Rocío Periago
 seoDescription: Soplalebeche, un blog de viajes y buenas historias con nombre de viento
   del sur

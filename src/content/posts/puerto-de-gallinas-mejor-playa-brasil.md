@@ -14,7 +14,7 @@ tags:
 - playa
 - Puerto de Gallinas
 - Recife
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/10/20161009_PortoGallinas_slide.jpg
+featuredImage: /images/uploads/2016/10/20161009_PortoGallinas_slide.webp
 seoTitle: Puerto de Gallinas, la mejor playa de Brasil. O eso dicen.
 seoDescription: Porto de Galinhas (Puerto de Gallinas) es una playa turística del
   estado de Pernambuco, conocida por sus piscinas naturales de agua transparente
@@ -47,7 +47,7 @@ El problema es la cantidad de gente que puede haber allí reunida. Desde que se 
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/10/20161009_PortoGallinas_6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/10/20161009_PortoGallinas_3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/10/20161009_PortoGallinas_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/10/20161009_PortoGallinas_8.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/10/20161009_PortoGallinas_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/10/20161009_PortoGallinas_7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/10/20161009_PortoGallinas_4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/10/20161009_PortoGallinas_1.jpg)
+![](/images/uploads/2016/10/20161009_PortoGallinas_6.webp) ![](/images/uploads/2016/10/20161009_PortoGallinas_3.webp) ![](/images/uploads/2016/10/20161009_PortoGallinas_5.webp) ![](/images/uploads/2016/10/20161009_PortoGallinas_8.webp) ![](/images/uploads/2016/10/20161009_PortoGallinas_2.webp) ![](/images/uploads/2016/10/20161009_PortoGallinas_7.webp) ![](/images/uploads/2016/10/20161009_PortoGallinas_4.webp) ![](/images/uploads/2016/10/20161009_PortoGallinas_1.webp)
 
 </div>
 

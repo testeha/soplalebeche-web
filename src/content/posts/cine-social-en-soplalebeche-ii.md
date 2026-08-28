@@ -7,7 +7,7 @@ categories: []
 draft: true
 tags:
 - Cine social
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20151120_portada.jpg
+featuredImage: /images/uploads/2016/07/20151120_portada.webp
 excerpt: No lo he hecho a posta, pero me he dado cuenta que la temática mayoritaria son
   las fronteras y migraciones. ¡Espero que os gusten!
 ---

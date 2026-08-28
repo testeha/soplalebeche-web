@@ -15,7 +15,7 @@ tags:
 - Paraiba
 - playa
 - sol
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/09/20160909_joao_pessoa_portada.jpg
+featuredImage: /images/uploads/2016/09/20160909_joao_pessoa_portada.webp
 seoTitle: Joao Pessoa, la ciudad donde nace el sol en el continente americano
 seoDescription: Joao Pessoa es una ciudad situada en el nordeste de Brasil, y es el
   punto más oriental y “cercano” a África del continente americano
@@ -42,7 +42,7 @@ João Pessoa tiene más de un millón de habitantes y su característica princip
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160909_joao_pessoa_7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160909_joao_pessoa_6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160909_joao_pessoa_8.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160909_joao_pessoa_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160909_joao_pessoa_10.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160909_joao_pessoa_9.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160909_joao_pessoa_12.jpg)
+![](/images/uploads/2016/09/20160909_joao_pessoa_7.webp) ![](/images/uploads/2016/09/20160909_joao_pessoa_6.webp) ![](/images/uploads/2016/09/20160909_joao_pessoa_8.webp) ![](/images/uploads/2016/09/20160909_joao_pessoa_5.webp) ![](/images/uploads/2016/09/20160909_joao_pessoa_10.webp) ![](/images/uploads/2016/09/20160909_joao_pessoa_9.webp) ![](/images/uploads/2016/09/20160909_joao_pessoa_12.webp)
 
 </div>
 
@@ -52,7 +52,7 @@ Aquí las calles son para los coches. Salvo por la mañana temprano, cuando cerc
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160909_joao_pessoa_3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160909_joao_pessoa_4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160909_joao_pessoa_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160909_joao_pessoa_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160909_joao_pessoa_11.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160909_joao_pessoa_14.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/09/20160909_joao_pessoa_13.jpg)
+![](/images/uploads/2016/09/20160909_joao_pessoa_3.webp) ![](/images/uploads/2016/09/20160909_joao_pessoa_4.webp) ![](/images/uploads/2016/09/20160909_joao_pessoa_2.webp) ![](/images/uploads/2016/09/20160909_joao_pessoa_1.webp) ![](/images/uploads/2016/09/20160909_joao_pessoa_11.webp) ![](/images/uploads/2016/09/20160909_joao_pessoa_14.webp) ![](/images/uploads/2016/09/20160909_joao_pessoa_13.webp)
 
 </div>
 

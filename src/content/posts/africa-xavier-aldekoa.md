@@ -18,7 +18,7 @@ tags:
 - Océano África
 - periodismo
 - Xavier Aldekoa
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20141211_portada.jpg
+featuredImage: /images/uploads/2016/07/20141211_portada.webp
 seoTitle: '"Océano África" de Xavier Aldekoa. Heredero de los grandes reporteros'
 seoDescription: Una reseña al libro "Océano África" de Xavier Aldekoa, un periodista
   español dispuesto a mostrar las diferentes facetas de este enorme continente

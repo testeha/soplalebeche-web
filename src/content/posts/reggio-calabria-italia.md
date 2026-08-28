@@ -16,7 +16,7 @@ tags:
 - Scilla
 - Sicilia
 - Villa San Giovanni
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20100416_portada.jpg
+featuredImage: /images/uploads/2016/07/20100416_portada.webp
 seoTitle: Erasmus en Reggio Calabria, hay vida en el sur de Italia
 seoDescription: Reggio Calabria es una ciudad del sur de Italia. Localizada en la
   región de Calabria, es conocida por su embutido, por sus playas y por el Aspromonte
@@ -39,7 +39,7 @@ Calabria, Sicilia y Catania siempre han sido regiones empobrecidas y muchos de s
 > 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2010/04/20100416-1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2010/04/20100416-2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2010/04/20100416-3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2010/04/20100416-4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2010/04/20100416-5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2010/04/20100416-7.jpg)
+![](/images/uploads/2010/04/20100416-1.webp) ![](/images/uploads/2010/04/20100416-2.webp) ![](/images/uploads/2010/04/20100416-3.webp) ![](/images/uploads/2010/04/20100416-4.webp) ![](/images/uploads/2010/04/20100416-5.webp) ![](/images/uploads/2010/04/20100416-7.webp)
 
 </div>
 

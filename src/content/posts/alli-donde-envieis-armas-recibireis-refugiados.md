@@ -5,7 +5,7 @@ pubDate: '2015-11-17'
 author: Rocío Periago
 categories: []
 draft: true
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20151117_portada.jpg
+featuredImage: /images/uploads/2016/07/20151117_portada.webp
 excerpt: Continuaba añadiendo la respuesta que le había propuesto uno de los comentarios
   y que, brillantemente representa una metáfora con la realidad en que…
 ---

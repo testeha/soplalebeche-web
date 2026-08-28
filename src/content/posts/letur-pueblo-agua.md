@@ -9,7 +9,7 @@ draft: false
 tags:
 - España
 - Reflexiones viajeras
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2021/07/Letur_6.jpg
+featuredImage: /images/uploads/2021/07/Letur_6.webp
 seoTitle: Apuntes de viaje por la Sierra del Segura. Letur, el pueblo de agua.
 seoDescription: 'Letur es el pueblo del agua: agua que corre, que salta, que bulle
   con su murmullo incesante. Por todos lados agua, que fluye, viva y sonora'
@@ -47,6 +47,6 @@ Letur, junio 2021
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2021/07/Letur_12.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2021/07/Letur_11.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2021/07/Letur_10.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2021/07/Letur_9.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2021/07/Letur_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2021/07/Letur_8.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2021/07/Letur.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2021/07/Letur_7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2021/07/Letur_3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2021/07/Letur_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2021/07/Letur_2.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2021/07/Letur_4.jpg)
+![](/images/uploads/2021/07/Letur_12.webp) ![](/images/uploads/2021/07/Letur_11.webp) ![](/images/uploads/2021/07/Letur_10.webp) ![](/images/uploads/2021/07/Letur_9.webp) ![](/images/uploads/2021/07/Letur_1.webp) ![](/images/uploads/2021/07/Letur_8.webp) ![](/images/uploads/2021/07/Letur.webp) ![](/images/uploads/2021/07/Letur_7.webp) ![](/images/uploads/2021/07/Letur_3.webp) ![](/images/uploads/2021/07/Letur_5.webp) ![](/images/uploads/2021/07/Letur_2.webp) ![](/images/uploads/2021/07/Letur_4.webp)
 
 </div>

@@ -10,7 +10,7 @@ tags:
 - Cuarentena
 - Reflexiones viajeras
 - Viajar
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2020/05/famara-lanzarote.jpg
+featuredImage: /images/uploads/2020/05/famara-lanzarote.webp
 seoTitle: Primavera confinada en casa. Libros y lecturas que me acompañan
 seoDescription: Recordaremos esta primavera confinada en casa como un paréntesis desde
   el que recordar qué es lo importante en la vida. ¿Los viajes? volverán, sin duda.
@@ -32,6 +32,6 @@ Seguramente su intención no tenía nada que ver con enfrentarnos a una pandemia
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2020/05/caminos.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2020/05/caminos_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2020/05/IMG_1100.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2020/05/IMG_1114.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2020/05/IMG_1123.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2020/05/IMG_1125.jpg)
+![](/images/uploads/2020/05/caminos.webp) ![](/images/uploads/2020/05/caminos_1.webp) ![](/images/uploads/2020/05/IMG_1100.webp) ![](/images/uploads/2020/05/IMG_1114.webp) ![](/images/uploads/2020/05/IMG_1123.webp) ![](/images/uploads/2020/05/IMG_1125.webp)
 
 </div>

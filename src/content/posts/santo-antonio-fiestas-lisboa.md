@@ -11,7 +11,7 @@ tags:
 - Fiestas populares
 - Lisboa
 - Portugal
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2018/07/Santo-Antonio_7.jpg
+featuredImage: /images/uploads/2018/07/Santo-Antonio_7.webp
 seoTitle: Santo Antonio, las fiestas de Lisboa
 seoDescription: Santo Antonio son las fiestas de Lisboa. Duran prácticamente todo
   el mes de junio, aunque el momento grande la noche del 12 al 13 de junio.
@@ -69,6 +69,6 @@ Esto es Lisboa. Una ciudad que durante esta semana vive para su Santo.
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2018/07/Santo-Antonio.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/07/Santo-Antonio_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/07/Santo-Antonio_6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/07/Santo-Antonio_8.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/07/Santo-Antonio_9.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/07/Santo-Antonio_10.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/07/Santo-Antonio_11.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/07/Intendente_3.jpg)
+![](/images/uploads/2018/07/Santo-Antonio.webp) ![](/images/uploads/2018/07/Santo-Antonio_1.webp) ![](/images/uploads/2018/07/Santo-Antonio_6.webp) ![](/images/uploads/2018/07/Santo-Antonio_8.webp) ![](/images/uploads/2018/07/Santo-Antonio_9.webp) ![](/images/uploads/2018/07/Santo-Antonio_10.webp) ![](/images/uploads/2018/07/Santo-Antonio_11.webp) ![](/images/uploads/2018/07/Intendente_3.webp)
 
 </div>

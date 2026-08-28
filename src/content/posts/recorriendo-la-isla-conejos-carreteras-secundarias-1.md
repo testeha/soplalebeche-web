@@ -14,7 +14,7 @@ tags:
 - Timanfaya
 - Viajar
 - Volcanes
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/01/DSC4298.jpg
+featuredImage: /images/uploads/2016/01/DSC4298.webp
 seoTitle: Recorriendo la isla de los conejos por carreteras secundarias (1)
 seoDescription: Lanzarote es la isla canaria más al norte y más cerca del continente
   africano.Su ritmo es tranquilo y calmado, aunque tiene más de 300 volcanes
@@ -44,6 +44,6 @@ Yaiza es el pueblo más tranquilo que conozco, pero la biblioteca está bastante
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2016/01/DSC4260.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/03/Lanzarote_10.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2018/03/Lanzarote_13.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/01/Lanzarote_1.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2016/01/Lanzarote.jpg)
+![](/images/uploads/2016/01/DSC4260.webp) ![](/images/uploads/2018/03/Lanzarote_10.webp) ![](/images/uploads/2018/03/Lanzarote_13.webp) ![](/images/uploads/2016/01/Lanzarote_1.webp) ![](/images/uploads/2016/01/Lanzarote.webp)
 
 </div>

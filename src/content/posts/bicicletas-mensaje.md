@@ -12,7 +12,7 @@ tags:
 - bicicletas
 - derechos humanos
 - Lorca
-featuredImage: https://www.soplalebeche.com/wp-content/uploads/2016/07/20150415_portada.jpg
+featuredImage: /images/uploads/2016/07/20150415_portada.webp
 seoTitle: Bicicletas con mensaje en los muros de las calles de Lorca
 seoDescription: En las calles de Lorca hay graffitis con las siluetas de unas bicicletas.
   La historia se remonta a la dictadura argentina en la ciudad de Rosario
@@ -35,6 +35,6 @@ Ojalá que las ciudades se construyan pensando en los ciudadanos y vayan evoluci
 
 <div class="gallery-grid">
 
-![](https://www.soplalebeche.com/wp-content/uploads/2015/04/20150415_3.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2015/04/20150415_7.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2015/04/20150415_6.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2015/04/20150415_4.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2015/04/20150415_5.jpg) ![](https://www.soplalebeche.com/wp-content/uploads/2015/04/20150415_1.jpg)
+![](/images/uploads/2015/04/20150415_3.webp) ![](/images/uploads/2015/04/20150415_7.webp) ![](/images/uploads/2015/04/20150415_6.webp) ![](/images/uploads/2015/04/20150415_4.webp) ![](/images/uploads/2015/04/20150415_5.webp) ![](/images/uploads/2015/04/20150415_1.webp)
 
 </div>
