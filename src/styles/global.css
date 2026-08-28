@@ -503,3 +503,10 @@ html {
   height: 2px;
   background: var(--color-arena-100);
 }
+.article-body ul{
+  list-style: disc;
+  padding-left: 1.5em;
+}
+.article-body ul li{
+  margin-bottom: 0.4em;
+}
