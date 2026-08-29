@@ -15,6 +15,7 @@ const {
 } = Astro.props;
 
 const pathname = Astro.url.pathname;
+const canonicalURL = new URL(pathname, Astro.site);
 function isActive(href: string) {
   if (href === '/') return pathname === '/';
   return pathname === href || pathname.startsWith(href + '/');
@@ -36,6 +37,7 @@ const navLinks = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
     <title>{title} · Soplalebeche</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
