@@ -68,6 +68,9 @@ const pines = paises
 
   pins.forEach((pin) => {
     pin.addEventListener('click', (e) => {
+      // Si el clic viene del propio enlace "Leer crónica" del tooltip, dejar que navegue con normalidad
+      if ((e.target as HTMLElement).closest('.cta')) return;
+
       e.preventDefault();
       const { categoria, pais, ciudad, titulo, slug } = pin.dataset;
       if (cardCat) cardCat.textContent = `${categoria} · ${pais}${ciudad ? ` · ${ciudad}` : ''}`;
