@@ -8,7 +8,7 @@ import { getCollection } from 'astro:content';
 // móvil, podemos hacerlo más alto sin que aparezcan franjas vacías).
 const worldMapSvg = worldMapSvgRaw.replace('<svg', '<svg preserveAspectRatio="xMidYMid slice"');
 
-const posts = await getCollection('posts');
+const posts = await getCollection('posts', ({ data }) => !data.draft);
 
 const pines = paises
   .map((pais) => {
@@ -39,13 +39,11 @@ const pines = paises
       data-ciudad={p.ciudad || ''}
       data-titulo={p.post!.data.title}
       data-slug={p.post!.data.slug}
-      data-borrador={p.post!.data.draft ? '1' : '0'}
       aria-label={`Ver crónica de ${p.nombre}`}
     >
       <div class="pin-pulse"></div>
       <div class="pin-dot"></div>
       <div class="tooltip">
-        {p.post!.data.draft && <span class="draft-tag">Borrador</span>}
         <p class="cat">{p.post!.data.categories[0]} · {p.nombre}{p.ciudad ? ` · ${p.ciudad}` : ''}</p>
         <p class="titulo">{p.post!.data.title}</p>
         <a class="cta" href={`/historias/${p.post!.data.slug}`}>Leer crónica →</a>
@@ -56,7 +54,6 @@ const pines = paises
 
 <!-- Tarjeta de información compartida: se rellena al tocar un pin (pensada para móvil, sin hover) -->
 <div id="mapa-info-card" class="mapa-info-card hidden">
-  <span id="mapa-info-draft" class="draft-tag hidden">Borrador</span>
   <p id="mapa-info-cat" class="mapa-info-cat"></p>
   <p id="mapa-info-titulo" class="mapa-info-titulo"></p>
   <a id="mapa-info-cta" href="#" class="mapa-info-cta">Leer crónica →</a>
@@ -65,7 +62,6 @@ const pines = paises
 <script>
   const pins = document.querySelectorAll<HTMLButtonElement>('.pin');
   const card = document.getElementById('mapa-info-card');
-  const cardDraft = document.getElementById('mapa-info-draft');
   const cardCat = document.getElementById('mapa-info-cat');
   const cardTitulo = document.getElementById('mapa-info-titulo');
   const cardCta = document.getElementById('mapa-info-cta') as HTMLAnchorElement;
@@ -73,11 +69,10 @@ const pines = paises
   pins.forEach((pin) => {
     pin.addEventListener('click', (e) => {
       e.preventDefault();
-      const { categoria, pais, ciudad, titulo, slug, borrador } = pin.dataset;
+      const { categoria, pais, ciudad, titulo, slug } = pin.dataset;
       if (cardCat) cardCat.textContent = `${categoria} · ${pais}${ciudad ? ` · ${ciudad}` : ''}`;
       if (cardTitulo) cardTitulo.textContent = titulo || '';
       if (cardCta) cardCta.href = `/historias/${slug}`;
-      cardDraft?.classList.toggle('hidden', borrador !== '1');
       card?.classList.remove('hidden');
       card?.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     });
