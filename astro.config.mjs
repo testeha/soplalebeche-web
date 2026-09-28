@@ -7,7 +7,15 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://soplalebeche.com',
-  integrations: [sitemap()],
+  integrations: [
+    sitemap({
+      // Solo crónicas y páginas fijas: fuera etiquetas, categorías y la página de gracias
+      filter: (page) =>
+        !page.includes('/historias/etiqueta/') &&
+        !page.includes('/historias/categoria/') &&
+        !page.includes('/gracias'),
+    }),
+  ],
   vite: {
     plugins: [tailwindcss()]
   }
