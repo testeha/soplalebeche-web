@@ -415,16 +415,26 @@ const navLinks = [
 
       function cargarGoogleAnalytics() {
         if (document.getElementById('ga-script')) return; // ya cargado
+
+        // 1) Cola global de órdenes que lee gtag.js.
+        //    IMPORTANTE: hay que guardar el objeto `arguments`, no un array
+        //    (...args). Si se guarda un array, gtag.js ignora las órdenes
+        //    y no envía ningún dato a Analytics.
+        const w = window as any;
+        w.dataLayer = w.dataLayer || [];
+        w.gtag = function () {
+          // eslint-disable-next-line prefer-rest-params
+          w.dataLayer.push(arguments);
+        };
+        w.gtag('js', new Date());
+        w.gtag('config', GA_ID);
+
+        // 2) Librería de Google (se carga después de dejar la cola preparada)
         const script1 = document.createElement('script');
         script1.id = 'ga-script';
         script1.async = true;
         script1.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
         document.head.appendChild(script1);
-
-        (window as any).dataLayer = (window as any).dataLayer || [];
-        function gtag(...args: unknown[]) { (window as any).dataLayer.push(args); }
-        gtag('js', new Date());
-        gtag('config', GA_ID);
       }
 
       const cookieBanner = document.getElementById('cookie-banner');
